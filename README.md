@@ -1,11 +1,23 @@
 #Sifteo Blickets
 
 ##Introduction
-This repo provides materials and detailed instructions for creating Sifteo "blickets" to accompany our [blog post](http://).
+This repo provides materials and instructions for creating Sifteo "blickets" to accompany our upcoming [blog post](http://).
 
 ##What are blickets?
+
 Describe Gopnik & Sobel (2000) Exp 1
-[Breadboard Blicket Detector](http://depts.washington.edu/idl/light_detail.htm)
+
+![][blicket_guts]
+![][blicket_detector]
+
+[blicket_guts]: http://depts.washington.edu/idl/images/blicket_internal_bottom.jpg
+[blicket_detector]: http://depts.washington.edu/idl/images/Blicket_top.jpg
+
+[Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)
+
+##What are Sifteo Blocks and how to they help?
+Brief description and links
+
 
 ###Materials
 ####Set 1: Four Identical Objeccts: 
@@ -46,9 +58,6 @@ Describe Gopnik & Sobel (2000) Exp 1
 ![][screen_shot]
 
 [screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true
-
-##What are Sifteo Blocks?
-Brief description and links
 
 ##Basics
 0. Preinstallation (check on dependencies e.g., clang, c++, etc.)
