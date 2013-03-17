@@ -1,11 +1,21 @@
-head	1.56;
+head	1.58;
 access;
 symbols;
 locks
-	j:1.56; strict;
+	j:1.58; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.58
+date	2013.03.17.06.01.35;	author j;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2013.03.17.05.51.45;	author j;	state Exp;
+branches;
+next	1.56;
 
 1.56
 date	2013.03.17.05.47.54;	author j;	state Exp;
@@ -293,7 +303,7 @@ desc
 @
 
 
-1.56
+1.58
 log
 @vim
 @
@@ -315,12 +325,12 @@ Describe Gopnik & Sobel (2000) Exp 1
 
 [Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)
 
-##What are Sifteo Blocks and how to they help?
+##What are Sifteo Blocks and how do they help?
 Brief description and links
 
 
 ###Materials
-####Set 1: Four Identical Objeccts: 
+####Set 1: Four Identical Objects: 
 ![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
 
 
@@ -376,6 +386,28 @@ Brief description and links
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.57
+log
+@vim
+@
+text
+@d18 1
+a18 1
+##What are Sifteo Blocks and how to they help?
+@
+
+
+1.56
+log
+@vim
+@
+text
+@d23 1
+a23 1
+####Set 1: Four Identical Objeccts: 
 @
 
 

@@ -15,12 +15,12 @@ Describe Gopnik & Sobel (2000) Exp 1
 
 [Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)
 
-##What are Sifteo Blocks and how to they help?
+##What are Sifteo Blocks and how do they help?
 Brief description and links
 
 
 ###Materials
-####Set 1: Four Identical Objeccts: 
+####Set 1: Four Identical Objects: 
 ![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
 
 
