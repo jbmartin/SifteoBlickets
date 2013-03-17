@@ -1,0 +1,30 @@
+head	1.1;
+access;
+symbols;
+locks
+	j:1.1; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.1
+date	2013.03.17.20.01.15;	author j;	state Exp;
+branches;
+next	;
+
+
+desc
+@vim
+@
+
+
+1.1
+log
+@vim
+@
+text
+@---
+title: This will be used as the title-tag of the page head
+---
+
+@
