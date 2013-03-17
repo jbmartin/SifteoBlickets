@@ -1,11 +1,24 @@
 #Sifteo Blickets
 
-##Introduction
-This repo provides materials and instructions for creating Sifteo "blickets" to accompany our upcoming [blog post](http://).
+ This repository provides instructions, materials, and code for creating Sifteo "blickets." Sifteo blocks not required (see simulator section below).
 
 ##What are blickets?
 
-Describe Gopnik & Sobel (2000) Exp 1
+Exactly!
+There's no such thing as a blicket; it's neologism created by psychologist to avoid people from having preconceived notions about what it is/isn't or what it can/can't do.
+Empty (aka blank) terms are an important tool for studying learning and reasoning because they reduce or remove prior knowledge, allowing researchers to interpret their findings as a (more or less) direct result of their manipulation(s).
+Alternatively, if researchers were to ask participants to reason about things they already have strong beliefs about or experience with (e.g., adults and politics or children and toys), it's not clear how much affect a 15 minute experiment would have on getting them to change such beliefs.
+
+**blicket** (n. *plural* blickets)
+
+1. (*philosophy*) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
+
+Blickets have been used extensively for studying how people, mainly children, learn and reason about causality. 
+These studies use a blicket detector (shown below) to identify blickets.
+The experimenter places objects (usually wooden blocks of various shapes and colors) on top of the blicket detector.
+If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune (You can build your own! [Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it.
+The detector is set off by a hidden switch toggled by the experimenter's foot.
 
 ![][blicket_guts]
 ![][blicket_detector]
@@ -13,16 +26,18 @@ Describe Gopnik & Sobel (2000) Exp 1
 [blicket_guts]: http://depts.washington.edu/idl/images/blicket_internal_bottom.jpg
 [blicket_detector]: http://depts.washington.edu/idl/images/Blicket_top.jpg
 
-[Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)
-
-##What are Sifteo Blocks and how do they help?
-Brief description and links
-
+Blickets were first used in a seminal developmental study conducted by Gopnik & Sobel (2000).
+They looked at how the causal properties of objects (e.g., making a blicket detector flash and play music) shape toddlers conceptual knowledge.
+Previously, most developmental research focused on how perceptual features (color, shape, etc.) influence categorization.
+This was largely due to many prominent psychologist, including Piaget, theorizing that young children were unable to understand, and therefore, categorize objects based on causal properties.
+To test this theory, Gopnik and Sobel pitted perceptual features against causal ones in a simple, yet elegant, category learning paradigm.
 
 ###Materials
-####Set 1: Four Identical Objects: 
-![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
 
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using using Adobe Illustrator. These materials are freely available under the [asset folder](https://github.com/jbmartin/SifteoBlickets/tree/master/assets) of this git repo.
+
+####Set 1: Four Identical Objects:
+![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
 
 ####Set 2: Same Color Different Shape:
 ![][green_rect]  ![][green_sq]  ![][green_rounded_rect] ![][green_oval]
@@ -58,6 +73,9 @@ Brief description and links
 ![][screen_shot]
 
 [screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true
+
+##How do Sifteo blocks help?
+Brief description and links
 
 ##Basics
 0. Preinstallation (check on dependencies e.g., clang, c++, etc.)

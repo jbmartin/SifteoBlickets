@@ -1,11 +1,616 @@
-head	1.58;
+head	1.179;
 access;
 symbols;
 locks
-	j:1.58; strict;
+	j:1.179; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.179
+date	2013.03.17.19.42.40;	author j;	state Exp;
+branches;
+next	1.178;
+
+1.178
+date	2013.03.17.19.42.11;	author j;	state Exp;
+branches;
+next	1.177;
+
+1.177
+date	2013.03.17.19.41.52;	author j;	state Exp;
+branches;
+next	1.176;
+
+1.176
+date	2013.03.17.19.41.35;	author j;	state Exp;
+branches;
+next	1.175;
+
+1.175
+date	2013.03.17.19.40.32;	author j;	state Exp;
+branches;
+next	1.174;
+
+1.174
+date	2013.03.17.19.39.44;	author j;	state Exp;
+branches;
+next	1.173;
+
+1.173
+date	2013.03.17.19.39.24;	author j;	state Exp;
+branches;
+next	1.172;
+
+1.172
+date	2013.03.17.19.37.20;	author j;	state Exp;
+branches;
+next	1.171;
+
+1.171
+date	2013.03.17.19.36.58;	author j;	state Exp;
+branches;
+next	1.170;
+
+1.170
+date	2013.03.17.19.36.11;	author j;	state Exp;
+branches;
+next	1.169;
+
+1.169
+date	2013.03.17.19.32.57;	author j;	state Exp;
+branches;
+next	1.168;
+
+1.168
+date	2013.03.17.19.29.36;	author j;	state Exp;
+branches;
+next	1.167;
+
+1.167
+date	2013.03.17.19.28.46;	author j;	state Exp;
+branches;
+next	1.166;
+
+1.166
+date	2013.03.17.19.28.08;	author j;	state Exp;
+branches;
+next	1.165;
+
+1.165
+date	2013.03.17.19.27.06;	author j;	state Exp;
+branches;
+next	1.164;
+
+1.164
+date	2013.03.17.19.26.25;	author j;	state Exp;
+branches;
+next	1.163;
+
+1.163
+date	2013.03.17.19.23.04;	author j;	state Exp;
+branches;
+next	1.162;
+
+1.162
+date	2013.03.17.19.22.50;	author j;	state Exp;
+branches;
+next	1.161;
+
+1.161
+date	2013.03.17.19.22.06;	author j;	state Exp;
+branches;
+next	1.160;
+
+1.160
+date	2013.03.17.19.21.28;	author j;	state Exp;
+branches;
+next	1.159;
+
+1.159
+date	2013.03.17.19.16.55;	author j;	state Exp;
+branches;
+next	1.158;
+
+1.158
+date	2013.03.17.19.16.34;	author j;	state Exp;
+branches;
+next	1.157;
+
+1.157
+date	2013.03.17.19.15.17;	author j;	state Exp;
+branches;
+next	1.156;
+
+1.156
+date	2013.03.17.19.14.47;	author j;	state Exp;
+branches;
+next	1.155;
+
+1.155
+date	2013.03.17.19.14.42;	author j;	state Exp;
+branches;
+next	1.154;
+
+1.154
+date	2013.03.17.19.14.34;	author j;	state Exp;
+branches;
+next	1.153;
+
+1.153
+date	2013.03.17.19.13.38;	author j;	state Exp;
+branches;
+next	1.152;
+
+1.152
+date	2013.03.17.19.13.10;	author j;	state Exp;
+branches;
+next	1.151;
+
+1.151
+date	2013.03.17.19.13.07;	author j;	state Exp;
+branches;
+next	1.150;
+
+1.150
+date	2013.03.17.19.12.47;	author j;	state Exp;
+branches;
+next	1.149;
+
+1.149
+date	2013.03.17.19.12.13;	author j;	state Exp;
+branches;
+next	1.148;
+
+1.148
+date	2013.03.17.19.11.47;	author j;	state Exp;
+branches;
+next	1.147;
+
+1.147
+date	2013.03.17.19.10.49;	author j;	state Exp;
+branches;
+next	1.146;
+
+1.146
+date	2013.03.17.19.10.28;	author j;	state Exp;
+branches;
+next	1.145;
+
+1.145
+date	2013.03.17.19.10.20;	author j;	state Exp;
+branches;
+next	1.144;
+
+1.144
+date	2013.03.17.19.09.54;	author j;	state Exp;
+branches;
+next	1.143;
+
+1.143
+date	2013.03.17.19.08.26;	author j;	state Exp;
+branches;
+next	1.142;
+
+1.142
+date	2013.03.17.19.08.14;	author j;	state Exp;
+branches;
+next	1.141;
+
+1.141
+date	2013.03.17.19.05.31;	author j;	state Exp;
+branches;
+next	1.140;
+
+1.140
+date	2013.03.17.19.04.11;	author j;	state Exp;
+branches;
+next	1.139;
+
+1.139
+date	2013.03.17.19.04.04;	author j;	state Exp;
+branches;
+next	1.138;
+
+1.138
+date	2013.03.17.19.01.53;	author j;	state Exp;
+branches;
+next	1.137;
+
+1.137
+date	2013.03.17.19.01.39;	author j;	state Exp;
+branches;
+next	1.136;
+
+1.136
+date	2013.03.17.19.01.23;	author j;	state Exp;
+branches;
+next	1.135;
+
+1.135
+date	2013.03.17.18.57.27;	author j;	state Exp;
+branches;
+next	1.134;
+
+1.134
+date	2013.03.17.18.56.47;	author j;	state Exp;
+branches;
+next	1.133;
+
+1.133
+date	2013.03.17.18.56.40;	author j;	state Exp;
+branches;
+next	1.132;
+
+1.132
+date	2013.03.17.18.55.42;	author j;	state Exp;
+branches;
+next	1.131;
+
+1.131
+date	2013.03.17.18.55.33;	author j;	state Exp;
+branches;
+next	1.130;
+
+1.130
+date	2013.03.17.18.54.48;	author j;	state Exp;
+branches;
+next	1.129;
+
+1.129
+date	2013.03.17.18.54.37;	author j;	state Exp;
+branches;
+next	1.128;
+
+1.128
+date	2013.03.17.18.53.20;	author j;	state Exp;
+branches;
+next	1.127;
+
+1.127
+date	2013.03.17.18.52.55;	author j;	state Exp;
+branches;
+next	1.126;
+
+1.126
+date	2013.03.17.18.52.35;	author j;	state Exp;
+branches;
+next	1.125;
+
+1.125
+date	2013.03.17.18.52.07;	author j;	state Exp;
+branches;
+next	1.124;
+
+1.124
+date	2013.03.17.18.51.51;	author j;	state Exp;
+branches;
+next	1.123;
+
+1.123
+date	2013.03.17.18.51.01;	author j;	state Exp;
+branches;
+next	1.122;
+
+1.122
+date	2013.03.17.18.49.56;	author j;	state Exp;
+branches;
+next	1.121;
+
+1.121
+date	2013.03.17.18.49.34;	author j;	state Exp;
+branches;
+next	1.120;
+
+1.120
+date	2013.03.17.18.49.14;	author j;	state Exp;
+branches;
+next	1.119;
+
+1.119
+date	2013.03.17.18.48.34;	author j;	state Exp;
+branches;
+next	1.118;
+
+1.118
+date	2013.03.17.18.37.56;	author j;	state Exp;
+branches;
+next	1.117;
+
+1.117
+date	2013.03.17.18.37.00;	author j;	state Exp;
+branches;
+next	1.116;
+
+1.116
+date	2013.03.17.18.36.13;	author j;	state Exp;
+branches;
+next	1.115;
+
+1.115
+date	2013.03.17.18.35.19;	author j;	state Exp;
+branches;
+next	1.114;
+
+1.114
+date	2013.03.17.18.35.12;	author j;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2013.03.17.18.34.35;	author j;	state Exp;
+branches;
+next	1.112;
+
+1.112
+date	2013.03.17.18.33.42;	author j;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2013.03.17.18.33.35;	author j;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2013.03.17.18.33.17;	author j;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2013.03.17.18.32.44;	author j;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2013.03.17.18.32.06;	author j;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2013.03.17.18.31.37;	author j;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2013.03.17.18.31.14;	author j;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2013.03.17.18.28.32;	author j;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2013.03.17.18.27.26;	author j;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2013.03.17.18.27.05;	author j;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2013.03.17.18.22.47;	author j;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2013.03.17.18.22.01;	author j;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2013.03.17.18.20.59;	author j;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2013.03.17.18.20.50;	author j;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2013.03.17.18.20.26;	author j;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2013.03.17.18.20.20;	author j;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2013.03.17.18.19.54;	author j;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2013.03.17.18.19.42;	author j;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2013.03.17.18.19.26;	author j;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2013.03.17.18.18.54;	author j;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2013.03.17.18.16.41;	author j;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2013.03.17.18.16.29;	author j;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2013.03.17.18.15.50;	author j;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2013.03.17.18.15.18;	author j;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2013.03.17.18.15.14;	author j;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2013.03.17.18.14.33;	author j;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2013.03.17.18.13.19;	author j;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2013.03.17.18.13.08;	author j;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2013.03.17.18.12.33;	author j;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2013.03.17.18.09.47;	author j;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2013.03.17.18.07.18;	author j;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2013.03.17.18.06.45;	author j;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2013.03.17.18.05.32;	author j;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2013.03.17.18.05.27;	author j;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2013.03.17.18.05.12;	author j;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2013.03.17.18.04.42;	author j;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2013.03.17.18.04.07;	author j;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2013.03.17.18.00.54;	author j;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2013.03.17.18.00.05;	author j;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2013.03.17.17.59.26;	author j;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2013.03.17.17.59.14;	author j;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2013.03.17.17.58.12;	author j;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2013.03.17.17.57.23;	author j;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2013.03.17.17.57.15;	author j;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2013.03.17.17.57.04;	author j;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2013.03.17.17.50.16;	author j;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2013.03.17.17.48.58;	author j;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2013.03.17.17.47.08;	author j;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2013.03.17.17.41.36;	author j;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2013.03.17.17.41.25;	author j;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2013.03.17.17.41.14;	author j;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2013.03.17.17.40.45;	author j;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2013.03.17.17.40.09;	author j;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2013.03.17.17.38.33;	author j;	state Exp;
+branches;
+next	1.58;
 
 1.58
 date	2013.03.17.06.01.35;	author j;	state Exp;
@@ -303,19 +908,32 @@ desc
 @
 
 
-1.58
+1.179
 log
 @vim
 @
 text
 @#Sifteo Blickets
 
-##Introduction
-This repo provides materials and instructions for creating Sifteo "blickets" to accompany our upcoming [blog post](http://).
+ This repository provides instructions, materials, and code for creating Sifteo "blickets." Sifteo blocks not required (see simulator section below).
 
 ##What are blickets?
 
-Describe Gopnik & Sobel (2000) Exp 1
+Exactly!
+There's no such thing as a blicket; it's neologism created by psychologist to avoid people from having preconceived notions about what it is/isn't or what it can/can't do.
+Empty (aka blank) terms are an important tool for studying learning and reasoning because they reduce or remove prior knowledge, allowing researchers to interpret their findings as a (more or less) direct result of their manipulation(s).
+Alternatively, if researchers were to ask participants to reason about things they already have strong beliefs about or experience with (e.g., adults and politics or children and toys), it's not clear how much affect a 15 minute experiment would have on getting them to change such beliefs.
+
+**blicket** (n. *plural* blickets)
+
+1. (*philosophy*) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
+
+Blickets have been used extensively for studying how people, mainly children, learn and reason about causality. 
+These studies use a blicket detector (shown below) to identify blickets.
+The experimenter places objects (usually wooden blocks of various shapes and colors) on top of the blicket detector.
+If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune (You can build your own! [Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it.
+The detector is set off by a hidden switch toggled by the experimenter's foot.
 
 ![][blicket_guts]
 ![][blicket_detector]
@@ -323,16 +941,18 @@ Describe Gopnik & Sobel (2000) Exp 1
 [blicket_guts]: http://depts.washington.edu/idl/images/blicket_internal_bottom.jpg
 [blicket_detector]: http://depts.washington.edu/idl/images/Blicket_top.jpg
 
-[Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)
-
-##What are Sifteo Blocks and how do they help?
-Brief description and links
-
+Blickets were first used in a seminal developmental study conducted by Gopnik & Sobel (2000).
+They looked at how the causal properties of objects (e.g., making a blicket detector flash and play music) shape toddlers conceptual knowledge.
+Previously, most developmental research focused on how perceptual features (color, shape, etc.) influence categorization.
+This was largely due to many prominent psychologist, including Piaget, theorizing that young children were unable to understand, and therefore, categorize objects based on causal properties.
+To test this theory, Gopnik and Sobel pitted perceptual features against causal ones in a simple, yet elegant, category learning paradigm.
 
 ###Materials
-####Set 1: Four Identical Objects: 
-![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
 
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using using Adobe Illustrator. These materials are freely available under the [asset folder](https://github.com/jbmartin/SifteoBlickets/tree/master/assets) of this git repo.
+
+####Set 1: Four Identical Objects:
+![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
 
 ####Set 2: Same Color Different Shape:
 ![][green_rect]  ![][green_sq]  ![][green_rounded_rect] ![][green_oval]
@@ -369,6 +989,9 @@ Brief description and links
 
 [screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true
 
+##How do Sifteo blocks help?
+Brief description and links
+
 ##Basics
 0. Preinstallation (check on dependencies e.g., clang, c++, etc.)
 1. Install the SDK from Sifteo
@@ -386,6 +1009,1382 @@ Brief description and links
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.178
+log
+@vim
+@
+text
+@a41 1
+
+@
+
+
+1.177
+log
+@vim
+@
+text
+@d37 1
+a37 1
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using using Adobe Illustrator. These materials are freely available under the [asset folder](https://github.com/jbmartin/SifteoBlickets/tree/master/assets) of this repo.
+@
+
+
+1.176
+log
+@vim
+@
+text
+@d37 1
+a37 1
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using using Adobe Illustrator. These materials are freely available under the [asset folder]() of this repo.
+@
+
+
+1.175
+log
+@vim
+@
+text
+@a34 2
+
+
+d37 1
+a37 1
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using using Adobe Illustrator. These materials are freely available under the asset folder of this repo.
+@
+
+
+1.174
+log
+@vim
+@
+text
+@d39 1
+a39 1
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using using Adobe Illustrator. These are freely available under the asset folder of this repo.
+@
+
+
+1.173
+log
+@vim
+@
+text
+@d39 1
+a39 1
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using using Adobe Illustrator. These are available under the asset folder of this repo.
+@
+
+
+1.172
+log
+@vim
+@
+text
+@d39 1
+a39 1
+To pit various perceptual features, such as color and shape, against causal ones, seven sets of four objects were constructed. Below are the images we created using Adobe Illustrator that reproduce the basic structure and appearance of materials used by Gopnik and Sobel (2000).
+@
+
+
+1.171
+log
+@vim
+@
+text
+@d39 1
+a39 1
+To pit various perceptual features against causal ones, seven sets of four objects were constructed. Below are the images we created using Adobe Illustrator that reproduce the basic structure and appearance of materials used by Gopnik and Sobel (2000).
+@
+
+
+1.170
+log
+@vim
+@
+text
+@d39 2
+a40 1
+To pit various perceptual features against causal ones, seven sets of four objects were constructed. Below are images we created using Adobe Illustrator that reproduce the structure and appearice of materials of Gopnik and Sobel (2000).
+@
+
+
+1.169
+log
+@vim
+@
+text
+@d38 2
+@
+
+
+1.168
+log
+@vim
+@
+text
+@d32 1
+a32 1
+This was largely due to many prominent psychologist, including Piaget, theorizing that young children were unable to categorize objects based on causal properties.
+@
+
+
+1.167
+log
+@vim
+@
+text
+@d32 1
+a32 1
+Largely because many prominent psychologist (including Piaget) theorized that young children were unable to categorize objects based on causal properties.
+@
+
+
+1.166
+log
+@vim
+@
+text
+@d33 1
+a33 1
+To test this theory, Gopnik and Sobel pitted perceptual features against causal ones.
+@
+
+
+1.165
+log
+@vim
+@
+text
+@d31 1
+a31 1
+Previously, most developmental research focused on how perceptual features influence categorization.
+d33 1
+@
+
+
+1.164
+log
+@vim
+@
+text
+@d32 1
+a32 1
+Largely because many prominent psychologist (including Piaget) theorized that young children couldn't categorize objects based on causal properties.
+@
+
+
+1.163
+log
+@vim
+@
+text
+@d19 1
+a19 1
+If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune (Build your own! [Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.162
+log
+@vim
+@
+text
+@d32 1
+a32 1
+Largely because many prominent psychologist (including Piaget) theorized that children couldn't categorize objects based on causal properties.
+@
+
+
+1.161
+log
+@vim
+@
+text
+@d32 1
+a32 1
+Many psychologist (including Piaget) theorized that children couldn't categorize objects based on causal properties.
+@
+
+
+1.160
+log
+@vim
+@
+text
+@d29 1
+a29 1
+Blickets were first used in a seminal developmental study by Gopnik & Sobel (2000).
+@
+
+
+1.159
+log
+@vim
+@
+text
+@d30 3
+a32 2
+They looked at how the causal properties of an object (e.g., making a blicket detector flash and play music) shape toddlers conceptual knowledge.
+That is, do toddlers categorize objects based on ).
+@
+
+
+1.158
+log
+@vim
+@
+text
+@d3 1
+a3 1
+ This repository provides instructions, materials, and code for creating Sifteo "blickets." Sifteo blocks not required.
+@
+
+
+1.157
+log
+@vim
+@
+text
+@d3 1
+a3 1
+ This repository provides instructions, materials, and code for creating Sifteo "blickets."
+@
+
+
+1.156
+log
+@vim
+@
+text
+@d30 1
+a30 1
+They looked at how causal properties (e.g., making a blicket detector flash and play music) shape toddlers conceptual knowledge.
+@
+
+
+1.155
+log
+@vim
+@
+text
+@d30 1
+a30 1
+They looked at how causal properties (e.g,. making a blicket detector flash and play music) shape toddlers conceptual knowledge.
+@
+
+
+1.154
+log
+@vim
+@
+text
+@d30 1
+a30 1
+They looked at how causal properties (making a blicket detector flash and play music) shape toddlers conceptual knowledge.
+@
+
+
+1.153
+log
+@vim
+@
+text
+@d30 1
+a30 1
+They looked at how causal properties (setting of a blicket detector) shape toddlers conceptual knowledge.
+@
+
+
+1.152
+log
+@vim
+@
+text
+@d16 1
+a16 1
+Blickets have been used extensively for over a decade as a tool for studying how people, mainly children, learn and reason about causality. 
+@
+
+
+1.151
+log
+@vim
+@
+text
+@d10 1
+a10 1
+Alternatively, if researchers were to ask participants to reason about things they already have strong beliefs about or experience with (e.g., adults and politics or children and toys), it's not clear how much affect a 15 minute experiment would have on getting them to change such beliefs. 
+@
+
+
+1.150
+log
+@vim
+@
+text
+@d10 1
+a10 1
+Alternatively, if researchers were to ask participants to reason about things they already have strong beliefs about or experience with (e.g., adults and politics or children and toys), it's not clear how much affect a 15 minute experiment would have on getting them to change such a belief. 
+@
+
+
+1.149
+log
+@vim
+@
+text
+@d10 1
+a10 1
+Alternatively, if researchers ask participants to reason about things they already have strong beliefs about or experience with (e.g., adults and politics or children and toys), it's not clear how much affect a 15 minute experiment would have on getting them to change such a belief. 
+@
+
+
+1.148
+log
+@vim
+@
+text
+@d3 1
+a3 1
+ This repository provides instructions for creating Sifteo "blickets."
+@
+
+
+1.147
+log
+@vim
+@
+text
+@d3 1
+a3 1
+ This repo provides instructions for creating Sifteo "blickets."
+d30 2
+a31 1
+They looked at how causal properties (setting of a blicket detector) shaped toddlers conceptual knowledge (i.e., do they categorize objects based on ).
+@
+
+
+1.146
+log
+@vim
+@
+text
+@d30 1
+a30 1
+They wanted to understand how causal properties (setting of a blicket detector) shaped toddlers conceptual knowledge (i.e., do they categorize objects based on ).
+@
+
+
+1.145
+log
+@vim
+@
+text
+@d29 1
+a29 1
+Blickets were first used in a seminal study by Gopnik & Sobel (2000).
+@
+
+
+1.144
+log
+@vim
+@
+text
+@d29 1
+a29 1
+The seminal blicket study was conducted by Gopnik & Sobel (2000).
+@
+
+
+1.143
+log
+@vim
+@
+text
+@d21 1
+a21 1
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter's foot.
+d30 1
+a30 1
+They wanted to understand how causal properties (setting of a blicket detector) shaped toddlers conceptual knowledge. 
+@
+
+
+1.142
+log
+@vim
+@
+text
+@a22 3
+The seminal blicket study was conducted by Gopnik & Sobel (2000).
+They wanted to understand how causal properties (setting of a blicket detector) shaped toddlers conceptual knowledge. 
+
+d29 2
+a30 1
+
+@
+
+
+1.141
+log
+@vim
+@
+text
+@d23 2
+a24 1
+The seminal blicket study was conducted by Gopnik & Sobel (2000). 
+@
+
+
+1.140
+log
+@vim
+@
+text
+@d21 1
+a21 1
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter .
+@
+
+
+1.139
+log
+@vim
+@
+text
+@d19 1
+a19 1
+If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune (Build your own! [Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)) .
+@
+
+
+1.138
+log
+@vim
+@
+text
+@d19 1
+a19 1
+If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune.
+d21 1
+a21 1
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter (Build your own! [Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.137
+log
+@vim
+@
+text
+@d8 1
+a8 1
+There's no such thing as a blicket; it's neologism created by psychologist to prevent people from having preconceived notions about what it is/isn't or what it can/can't do.
+@
+
+
+1.136
+log
+@vim
+@
+text
+@d3 1
+a3 1
+ As described in our [blog post](), this repo provides instructions for creating Sifteo "blickets."
+@
+
+
+1.135
+log
+@vim
+@
+text
+@d3 2
+a4 1
+This repo provides instructions for creating Sifteo "blickets," as described in our [blog post]().
+@
+
+
+1.134
+log
+@vim
+@
+text
+@d3 1
+a3 1
+This repo provides instructions for creating Sifteo "blickets" described in our [blog post]().
+d22 1
+a22 1
+The seminal blicket study was conducted by Gopnik & Sobel (2000).
+@
+
+
+1.133
+log
+@vim
+@
+text
+@d20 1
+a20 1
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter (Build your own! [traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.132
+log
+@vim
+@
+text
+@d20 1
+a20 1
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter (You can even build your own! [traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.131
+log
+@vim
+@
+text
+@d20 1
+a20 1
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter (You could build your own! [traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.130
+log
+@vim
+@
+text
+@d20 1
+a20 1
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter (Build your own! [traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.129
+log
+@vim
+@
+text
+@d20 1
+a20 1
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter (Build your own! [traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm).
+@
+
+
+1.128
+log
+@vim
+@
+text
+@d19 2
+a20 2
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it. 
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter.
+a29 1
+[Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)
+@
+
+
+1.127
+log
+@vim
+@
+text
+@d20 1
+a20 1
+Traditionally, The detector is set off by a hidden switch toggled by the experimenter.
+@
+
+
+1.126
+log
+@vim
+@
+text
+@d20 1
+a20 1
+Traditionally, the detector is set off by a hidden switch toggled by the experimenter.
+d22 1
+a22 1
+The seminal study was conducted by Gopnik & Sobel (2000).
+@
+
+
+1.125
+log
+@vim
+@
+text
+@d19 2
+a20 1
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it. The detector is set off by a hidden switch toggled by the experimenter.
+@
+
+
+1.124
+log
+@vim
+@
+text
+@d19 1
+a19 1
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it. Surreptitiously, the detector is set off by a hidden switch toggled by the experimenter.
+@
+
+
+1.123
+log
+@vim
+@
+text
+@d19 1
+a19 1
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it. Traditionally, the detector is set off by a hidden switch toggled by the experimenter surreptitiously.
+@
+
+
+1.122
+log
+@vim
+@
+text
+@d19 1
+a19 1
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it. Traditionally, the detector is set off by a hidden switch toggled by the experimenter.
+@
+
+
+1.121
+log
+@vim
+@
+text
+@d19 1
+a19 1
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it. Traditionally, the detector is set off by a hidden switch triggered by the experimenter.
+@
+
+
+1.120
+log
+@vim
+@
+text
+@d19 1
+a19 1
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it. Because of this, the detector is set off by a hidden switch triggered by the experimenter.
+@
+
+
+1.119
+log
+@vim
+@
+text
+@d19 2
+a20 1
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it.
+@
+
+
+1.118
+log
+@vim
+@
+text
+@d19 1
+@
+
+
+1.117
+log
+@vim
+@
+text
+@d16 1
+a16 1
+These studies use a blicket detector (shown below on the right) to identify blickets.
+@
+
+
+1.116
+log
+@vim
+@
+text
+@d17 1
+a17 1
+The experimenter places objects on top of the blicket detector.
+@
+
+
+1.115
+log
+@vim
+@
+text
+@d17 2
+a18 2
+The experimenter places objects are placed on top of the blicket detector.
+If the object is a blicket, predetermined by the experimenter, the blicket detector flashes and plays a short tune.
+@
+
+
+1.114
+log
+@vim
+@
+text
+@a10 2
+Wikionary defines a blicket as
+
+@
+
+
+1.113
+log
+@vim
+@
+text
+@d10 1
+@
+
+
+1.112
+log
+@vim
+@
+text
+@d30 1
+a30 2
+##How do Sifteo blocks help?
+Brief description and links
+d73 3
+@
+
+
+1.111
+log
+@vim
+@
+text
+@d19 1
+a19 1
+If the object is a blicket, as predetermined by the experimenter, the blicket detector flashes and plays a short tune.
+@
+
+
+1.110
+log
+@vim
+@
+text
+@d19 1
+a19 1
+If the object is a blickets (as determined by the experimenter), the blicket detector flashes and plays a short tune.
+@
+
+
+1.109
+log
+@vim
+@
+text
+@d19 1
+a19 1
+If they are in fact blickets, the blicket detector flashes and plays a short tune.
+@
+
+
+1.108
+log
+@vim
+@
+text
+@d18 2
+a19 1
+Objects are placed on top of the blicket detector, if they are in fact blickets, the blicket detector flashes and plays a short tune.
+@
+
+
+1.107
+log
+@vim
+@
+text
+@d17 1
+a17 1
+These studies use a blicket detector (shown below) to identify blickets.
+@
+
+
+1.106
+log
+@vim
+@
+text
+@d16 1
+a16 1
+Blickets have been used extensively for over a decade as a tool for studying how people, mainly children, reason about causality. 
+@
+
+
+1.105
+log
+@vim
+@
+text
+@d16 3
+a18 1
+Blickets have been used extensively for over a decade as a tool for studying how people, mainly children, reason about causality.
+@
+
+
+1.104
+log
+@vim
+@
+text
+@a4 4
+**blicket** (n. *plural* blickets)
+
+1. (*philosophy*) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
+
+d9 6
+a14 1
+Alternatively, if researchers ask participants to reason about things they already have strong beliefs about or experience with (e.g., adults and politics or children and toys), it's not clear how much affect a 15 minute experiment would have on getting them to change such a belief.
+@
+
+
+1.103
+log
+@vim
+@
+text
+@d13 1
+a13 1
+Alternatively, if researchers ask participants to reason about things they already have strong beliefs about or experience with (e.g., adults and politics or children and toys), it's not clear how much affect a 20-30 minute experiment would have on getting them to change such a belief.
+@
+
+
+1.102
+log
+@vim
+@
+text
+@d13 1
+a13 1
+Alternatively, if researchers ask participants to reason about things they already have strong beliefs about or experience with (e.g., adults and politics or children and toys), it's not clear how much affect a 10 minute experiment would have on getting them to change such a belief.
+d16 1
+a16 1
+Describe Gopnik & Sobel (2000) Exp 1
+@
+
+
+1.101
+log
+@vim
+@
+text
+@d13 1
+a13 1
+Alternatively, if researchers ask participants to reason about things they already have strong beliefs about or experience with (toys, children; religion, adults), it's not clear how much affect a 10 minute experiment would have on getting them to change such a belief.
+@
+
+
+1.100
+log
+@vim
+@
+text
+@d13 1
+a13 1
+Alternatively, if researchers ask participants to reason about things they already have strong beliefs about or experience with, it's not clear how much affect a 10 minute experiment would have on getting them to change such a belief.
+@
+
+
+1.99
+log
+@vim
+@
+text
+@d7 1
+a7 1
+1. (*philosophy*) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception. ([wikitonary](http://en.wiktionary.org/wiki/blicket))
+@
+
+
+1.98
+log
+@vim
+@
+text
+@d7 1
+a7 1
+1. (*philosophy*) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception. [wikitonary](http://en.wiktionary.org/wiki/blicket) 
+@
+
+
+1.97
+log
+@vim
+@
+text
+@d7 1
+a7 1
+1. (*philosophy*) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception.[wikitonary](http://en.wiktionary.org/wiki/blicket) 
+@
+
+
+1.96
+log
+@vim
+@
+text
+@d7 1
+a7 1
+1. (*philosophy*) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception.
+a13 1
+Formally, [wikitonary](http://en.wiktionary.org/wiki/blicket) defines it as:
+@
+
+
+1.95
+log
+@vim
+@
+text
+@d13 1
+a13 1
+Alternatively, if researchers ask participants to reason about things they have strong beliefs about or experience with, it's not clear how much affect a 10 minute experiment would have on getting them to change such a belief.
+@
+
+
+1.94
+log
+@vim
+@
+text
+@d13 1
+a13 1
+Alternatively, if the researcher asked participants to reason about things they have strong beliefs about or experience with, it's not clear how much affect a 10 minute experiment would have on getting them to change such a belief.
+@
+
+
+1.93
+log
+@vim
+@
+text
+@d13 1
+a13 1
+Alternatively, if the researcher asked participants to reason about things they have strong beliefs about, it's not clear how much affect a 10 minute experiment would have on getting them to change such a belief.
+@
+
+
+1.92
+log
+@vim
+@
+text
+@d13 1
+a13 1
+
+@
+
+
+1.91
+log
+@vim
+@
+text
+@d2 3
+a9 2
+This repo provides instructions for creating Sifteo "blickets" described in our [blog post]().
+##What are blickets?
+@
+
+
+1.90
+log
+@vim
+@
+text
+@d2 4
+d12 1
+a14 4
+**blicket** (n. *plural* blickets)
+
+1. (*philosophy*) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception.
+
+@
+
+
+1.89
+log
+@vim
+@
+text
+@d7 1
+a7 1
+Empty (aka blank) terms are an important tool for studying learning and reasoning because they remove or reduce prior knowledge, allowing the researcher to interpret any findings as a (more or less) direct result of their manipulation(s).
+@
+
+
+1.88
+log
+@vim
+@
+text
+@d7 1
+a7 1
+Empty (aka blank) terms are an important tool for studying learning and reasoning with because they remove or reduce prior knowledge, allowing the researcher to interpret any findings as a (more or less) direct result of their manipulation(s).
+@
+
+
+1.87
+log
+@vim
+@
+text
+@d7 1
+a7 1
+Empty (aka blank) terms are an important tool to study learning and reasoning with because they remove or reduce prior knowledge, allowing the researcher to interpret any findings as a (more or less) direct result of their manipulation(s).
+@
+
+
+1.86
+log
+@vim
+@
+text
+@d6 1
+a6 1
+There's no such thing as a blicket; it's neologism created to prevent people from having preconceived notions about what it is/isn't or what it can/can't do.
+@
+
+
+1.85
+log
+@vim
+@
+text
+@d7 1
+a7 1
+Empty (aka blank) terms are an important tool for studying learning and reasoning because they remove or reduce prior knowledge, allowing the researcher to interpret any findings as a (more or less) direct result of their manipulation(s).
+@
+
+
+1.84
+log
+@vim
+@
+text
+@d7 1
+a7 1
+Empty (aka blank) terms are an important tool for researching learning and reasoning because they remove or reduce prior knowledge, allowing the researcher to interpret any findings as a (more or less) direct result of their manipulation(s).
+@
+
+
+1.83
+log
+@vim
+@
+text
+@d7 1
+a7 1
+Empty (aka blank) terms are important tool in researching learning and reasoning because they remove or reduce prior knowledge, allowing the researcher to  
+@
+
+
+1.82
+log
+@vim
+@
+text
+@d7 2
+a8 1
+Empty (aka blank) terms are important Research in learning and reasoning Formally, [wikitonary](http://en.wiktionary.org/wiki/blicket) defines it as:
+@
+
+
+1.81
+log
+@vim
+@
+text
+@d7 1
+a7 1
+Empty (blank) terms are important Research in learning and reasoning Formally, [wikitonary](http://en.wiktionary.org/wiki/blicket) defines it as:
+@
+
+
+1.80
+log
+@vim
+@
+text
+@d6 2
+a7 1
+There's no such thing as a blicket; it's neologism created to prevent people from having preconceived notions about what it is/isn't or what it can/can't do. Research in learning and reasoning Formally, [wikitonary](http://en.wiktionary.org/wiki/blicket) defines it as:
+@
+
+
+1.79
+log
+@vim
+@
+text
+@d9 1
+@
+
+
+1.78
+log
+@vim
+@
+text
+@d8 1
+a8 4
+**blicket** (*plural* blickets)
+
+**Noun**
+
+@
+
+
+1.77
+log
+@vim
+@
+text
+@d11 1
+@
+
+
+1.76
+log
+@vim
+@
+text
+@d8 1
+a8 1
+**blicket** (**n.** *plural* blickets)
+d10 1
+@
+
+
+1.75
+log
+@vim
+@
+text
+@d6 1
+a6 1
+There's no such thing as a blicket; it's neologism created to prevent people from having preconceived notions about what it is/isn't or what it can/can't do. Formally, [wikitonary](http://en.wiktionary.org/wiki/blicket) defines it as:
+d8 1
+a8 1
+**blicket** (*plural* blickets)
+@
+
+
+1.74
+log
+@vim
+@
+text
+@d6 1
+a6 1
+There's no such thing as a blicket; it's neologism created to prevent people from having preconceived notions about what it is/isn't or what it can/can't do.
+@
+
+
+1.73
+log
+@vim
+@
+text
+@d6 1
+a6 1
+There's no such thing as a blicket; it's neologism created to prevent people from having preconceived notions about what it is or what it might do.
+@
+
+
+1.72
+log
+@vim
+@
+text
+@d9 2
+a10 1
+(*philosophy*) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception.
+@
+
+
+1.71
+log
+@vim
+@
+text
+@d8 2
+a9 2
+**blicket** (plural blickets)
+(philosophy) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception.
+@
+
+
+1.70
+log
+@vim
+@
+text
+@d8 1
+a8 1
+_blicket_ (plural blickets)
+@
+
+
+1.69
+log
+@vim
+@
+text
+@d8 1
+a8 1
+*blicket* (plural blickets)
+@
+
+
+1.68
+log
+@vim
+@
+text
+@d8 1
+a8 1
+blicket (plural blickets)
+@
+
+
+1.67
+log
+@vim
+@
+text
+@d7 4
+@
+
+
+1.66
+log
+@vim
+@
+text
+@d7 1
+a7 1
+Blickets have been used for over a decade as a method for studying how people, mainly children, reason about causes.
+@
+
+
+1.65
+log
+@vim
+@
+text
+@d6 1
+a6 1
+There's no such thing as a blicket, so using the so-called blank term blicket avoids any preconceved notion about what it is or might be.
+@
+
+
+1.64
+log
+@vim
+@
+text
+@d5 3
+a7 1
+
+@
+
+
+1.63
+log
+@vim
+@
+text
+@d3 1
+a3 1
+This repo provides the materials and instructions for creating Sifteo "blickets" described in our [blog post]().
+@
+
+
+1.62
+log
+@vim
+@
+text
+@d3 1
+a3 2
+##Introduction
+This provides the materials and instructions for creating Sifteo "blickets" described in our [blog post]().
+@
+
+
+1.61
+log
+@vim
+@
+text
+@d4 1
+a4 1
+This provides the materials and instructions for creating Sifteo "blickets."
+@
+
+
+1.60
+log
+@vim
+@
+text
+@d4 1
+a4 1
+This repo accompanies our [blog post](http://), providing materials and instructions to create Sifteo "blickets."
+@
+
+
+1.59
+log
+@vim
+@
+text
+@d4 1
+a4 2
+This repo provides materials and instructions for creating Sifteo "blickets" to accompany our upcoming [blog post](http://).
+
+@
+
+
+1.58
+log
+@vim
+@
+text
+@d18 1
+a18 1
+##What are Sifteo Blocks and how do they help?
+d23 1
+a23 1
+####Set 1: Four Identical Objects: 
 @
 
 
