@@ -34,7 +34,8 @@ To test this theory, Gopnik and Sobel pitted perceptual features against causal 
 
 ###Materials
 
-To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using Adobe Illustrator. These materials are freely available in the [asset folder](https://github.com/jbmartin/SifteoBlickets/tree/master/assets) of this git repository.
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks.
+Below is our attempt to recreate those objects using Adobe Illustrator. These materials are freely available in the [asset folder](https://github.com/jbmartin/SifteoBlickets/tree/master/assets) of this git repository.
 
 ####Set 1: Four Identical Objects:
 ![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]

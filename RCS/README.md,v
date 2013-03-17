@@ -1,11 +1,16 @@
-head	1.253;
+head	1.254;
 access;
 symbols;
 locks
-	j:1.253; strict;
+	j:1.254; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.254
+date	2013.03.17.23.44.30;	author j;	state Exp;
+branches;
+next	1.253;
 
 1.253
 date	2013.03.17.21.31.25;	author j;	state Exp;
@@ -1278,7 +1283,7 @@ desc
 @
 
 
-1.253
+1.254
 log
 @vim
 @
@@ -1319,7 +1324,8 @@ To test this theory, Gopnik and Sobel pitted perceptual features against causal 
 
 ###Materials
 
-To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using Adobe Illustrator. These materials are freely available in the [asset folder](https://github.com/jbmartin/SifteoBlickets/tree/master/assets) of this git repository.
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks.
+Below is our attempt to recreate those objects using Adobe Illustrator. These materials are freely available in the [asset folder](https://github.com/jbmartin/SifteoBlickets/tree/master/assets) of this git repository.
 
 ####Set 1: Four Identical Objects:
 ![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
@@ -1439,6 +1445,17 @@ Discuss
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.253
+log
+@vim
+@
+text
+@d37 2
+a38 1
+To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks. Below is our attempt to recreate those objects using Adobe Illustrator. These materials are freely available in the [asset folder](https://github.com/jbmartin/SifteoBlickets/tree/master/assets) of this git repository.
 @
 
 
