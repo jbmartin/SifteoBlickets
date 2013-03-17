@@ -44,8 +44,8 @@ static CubeSet nonBlicketCubes;
 
 static CubeID blicketDetector = 0;
 static CubeID blicket1 = 1;
-static CubeID blicket2 = 2;
-static CubeID nonBlicket1 = 3;
+static CubeID blicket2 = 3;
+static CubeID nonBlicket1 = 2;
 static CubeID nonBlicket2 = 4;
 
 // Set of 7 experimental conditions (see Gopnik & Sobel (2000))
@@ -54,9 +54,25 @@ AssetImage conditions[] = {Set1IdenticalObjects, Set2SameColorDifferentShape,
                            Set5SameShapeConflictsOnColor, Set6SameColorConflictsOnShape,
                            Set7ConflictsOnShapeAndColor};
 
-// TODO(Jay): Select condition by tilting or clicking the blicket detector.
-AssetImage condition = conditions[3];
+class Conditions {
+    int condition;
+    public:
+        void set_condition(int);
+        AssetImage get_condition();
+        int get_condition_number();
+        void next_condition();
+        Conditions();
+};
 
+void Conditions::set_condition(int condition_) { condition = condition_; };
+AssetImage Conditions::get_condition() { return conditions[condition]; };
+int Conditions::get_condition_number() { return condition; };
+// TODO(Jay): Make condtions after 0 randomly selected.
+void Conditions::next_condition() { condition = (condition + 1) % 7; };
+Conditions::Conditions(){ condition = 0; }
+
+// Initialize conditions
+Conditions cond;
 
 // FUNCTIONS
 
@@ -67,9 +83,9 @@ static void playSfx(const AssetAudio& sfx) {
 }
 
 static void stopSfx() {
-    for (int i=0; i < 0; i++) {
-      AudioChannel(i).stop();
-    }
+    static int i=0;
+    AudioChannel(i).stop();
+    i = 1 - i;
 }
 
 static Int2 getRestPosition(Side s) {
@@ -108,7 +124,7 @@ static bool showSideBar(CubeID cid, Side s) {
             vbuf[cid].bg0.image(vec(0,0), Backgrounds, 1);
         }
         else {
-            vbuf[cid].bg0.image(vec(0,0), condition, cid - 1);
+            vbuf[cid].bg0.image(vec(0,0), cond.get_condition(), cid - 1);
         }
         return true;
     } else {
@@ -126,7 +142,7 @@ static bool hideSideBar(CubeID cid, Side s) {
             vbuf[cid].bg0.image(vec(0,0), Backgrounds, 0);
         }
         else {
-            vbuf[cid].bg0.image(vec(0,0), condition, cid - 1);
+            vbuf[cid].bg0.image(vec(0,0), cond.get_condition(), cid - 1);
         }
         return true;
     } else {
@@ -136,12 +152,13 @@ static bool hideSideBar(CubeID cid, Side s) {
 
 static void activateCube(CubeID cid) {
     // Mark cube as active and render its canvas
+    //
     activeCubes.mark(cid);
     vbuf[cid].initMode(BG0_SPR_BG1);
     if (cid == 0) {
         vbuf[cid].bg0.image(vec(0,0), Backgrounds, 0);
     } else {
-        vbuf[cid].bg0.image(vec(0,0), condition, cid - 1);
+        vbuf[cid].bg0.image(vec(0,0), cond.get_condition(), cid - 1);
     }
     auto neighbors = vbuf[cid].physicalNeighbors();
     for(int side=0; side<4; ++side) {
@@ -204,9 +221,9 @@ static void onCubeConnect(void* ctxt, unsigned cid) {
     auto& g = vbuf[cid];
     g.attach(cid);
     g.initMode(BG0_ROM);
-    g.bg0rom.fill(vec(0,0), vec(16,16), BG0ROMDrawable::SOLID_BG);
-    g.bg0rom.text(vec(1,1), "Hold on!", BG0ROMDrawable::BLUE);
-    g.bg0rom.text(vec(1,14), "Adding Cube...", BG0ROMDrawable::BLUE);
+    g.bg0rom.fill(vec(0, 0), vec(16, 16), BG0ROMDrawable::SOLID_BG);
+    g.bg0rom.text(vec(1, 1), "Hold on!", BG0ROMDrawable::BLUE);
+    g.bg0rom.text(vec(1, 14), "Adding Cube...", BG0ROMDrawable::BLUE);
 }
 
 static void onCubeDisconnect(void* ctxt, unsigned cid) {
@@ -231,26 +248,53 @@ static bool isActive(NeighborID nid) {
 static void onNeighborAdd(void* ctxt, unsigned cube0, unsigned side0, unsigned cube1, unsigned side1) {
     // Update art on active cubes (not loading cubes or base)
     bool sfx = false;
-    if (isActive(cube0) && cube0 == blicketDetector && blicketCubes.test(cube1)) { sfx |= showSideBar(cube1, Side(side1));  sfx |= showSideBar(cube0, Side(side0));}
-    if (isActive(cube1) && cube1 == blicketDetector && blicketCubes.test(cube0)) { sfx |= showSideBar(cube0, Side(side0));  sfx |= showSideBar(cube1, Side(side1));}
+    if (isActive(cube0) && cube0 == blicketDetector && blicketCubes.test(cube1)) {
+        sfx |= showSideBar(cube1, Side(side1));
+        sfx |= showSideBar(cube0, Side(side0));
+    }
+    if (isActive(cube1) && cube1 == blicketDetector && blicketCubes.test(cube0)) {
+        sfx |= showSideBar(cube0, Side(side0));
+        sfx |= showSideBar(cube1, Side(side1));
+    }
     if (sfx) { playSfx(SfxSong); }
 }
 
 static void onNeighborRemove(void* ctxt, unsigned cube0, unsigned side0, unsigned cube1, unsigned side1) {
     // Update art on active cubes (not loading cubes or base)
     bool sfx = false;
-    if (isActive(cube0)) { sfx |= hideSideBar(cube0, Side(side0)); }
-    if (isActive(cube1)) { sfx |= hideSideBar(cube1, Side(side1)); }
+    if (isActive(cube0) && cube0 == blicketDetector && blicketCubes.test(cube1)) {
+        sfx |= hideSideBar(cube1, Side(side1));
+        sfx |= hideSideBar(cube0, Side(side0));
+    }
+    if (isActive(cube1) && cube1 == blicketDetector && blicketCubes.test(cube0)) {
+       sfx |= hideSideBar(cube1, Side(side1));
+       sfx |= hideSideBar(cube0, Side(side0));
+    }
     if (sfx) { playSfx(SfxDetach); }
     if (sfx) { stopSfx(); }
 }
 
-// Candidate function for interventios
+// Candidate function for interventions
 static void onCubeTouch(void* ctxt, unsigned cid) {
-    LOG("Cube Touched %i\n", cid);
-    CubeID cube(cid);
-    if(cube.isTouching()) {
-        LOG("Touched cube %i\n", cid);
+    cond.next_condition();
+    LOG("Condition %i\n", cond.get_condition_number());
+    for(CubeID cid : CubeSet::connected()) {
+        vbuf[cid].attach(cid);
+        activateCube(cid);
+    }
+}
+
+// When pressed, move to the next condition
+void onTouch(void* ctxt, unsigned id) {
+    CubeID cube(id);
+    // On touchout (similar to mouseout)
+    if (cube.isTouching() == 0) {
+        cond.next_condition();
+            LOG("Condition %i\n", cond.get_condition_number());
+        for(CubeID cid : CubeSet::connected()) {
+            vbuf[cid].attach(cid);
+            activateCube(cid);
+        }
     }
 }
 
@@ -270,7 +314,8 @@ void main() {
     Events::cubeRefresh.set(onCubeRefresh);
     Events::neighborAdd.set(onNeighborAdd);
     Events::neighborRemove.set(onNeighborRemove);
-    Events::cubeTouch.set(onCubeTouch);
+    // Events::cubeTouch.set(onCubeTouch);
+    Events::cubeTouch.set(onTouch);
 
     // Initialize cubes
     for(CubeID cid : CubeSet::connected()) {

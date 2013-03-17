@@ -1,11 +1,191 @@
-head	1.7;
+head	1.43;
 access;
 symbols;
 locks
-	j:1.7; strict;
+	j:1.43; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.43
+date	2013.03.17.02.38.42;	author j;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2013.03.17.02.37.10;	author j;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2013.03.17.02.36.54;	author j;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2013.03.17.02.35.58;	author j;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2013.03.17.02.34.24;	author j;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2013.03.17.02.34.08;	author j;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2013.03.17.02.33.56;	author j;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2013.03.17.02.33.37;	author j;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2013.03.17.02.33.05;	author j;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2013.03.17.02.33.00;	author j;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2013.03.17.02.31.35;	author j;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2013.03.17.02.31.14;	author j;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2013.03.17.02.30.39;	author j;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2013.03.17.02.28.53;	author j;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2013.03.17.02.28.31;	author j;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2013.03.17.02.28.10;	author j;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2013.03.17.02.26.54;	author j;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2013.03.17.02.26.00;	author j;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2013.03.17.02.25.14;	author j;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2013.03.17.02.24.05;	author j;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2013.03.17.02.23.08;	author j;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2013.03.17.02.22.34;	author j;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2013.03.17.02.22.04;	author j;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2013.03.17.02.21.50;	author j;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2013.03.17.02.21.01;	author j;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2013.03.17.02.20.02;	author j;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2013.03.17.02.19.52;	author j;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2013.03.17.02.19.36;	author j;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2013.03.17.02.19.08;	author j;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2013.03.17.02.18.59;	author j;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2013.03.17.02.18.46;	author j;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2013.03.17.02.17.57;	author j;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2013.03.17.02.17.37;	author j;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2013.03.17.02.16.44;	author j;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2013.03.17.02.14.27;	author j;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2013.03.17.02.13.34;	author j;	state Exp;
+branches;
+next	1.7;
 
 1.7
 date	2013.03.17.01.39.14;	author j;	state Exp;
@@ -48,7 +228,7 @@ desc
 @
 
 
-1.7
+1.43
 log
 @vim
 @
@@ -61,6 +241,41 @@ This repo provides materials and detailed instructions for creating Sifteo "blic
 ##What are blickets?
 Describe Gopnik & Sobel (2000) Exp 1
 [Breadboard Blicket Detector](http://depts.washington.edu/idl/light_detail.htm)
+
+###Materials
+####Set 1: Four Identical Objeccts: 
+![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
+
+
+####Set 2: Same Color Different Shape:
+![][green_rect]  ![][green_sq]  ![][green_rounded_rect] ![][green_oval]
+
+####Set 3: Same Shape Different Color:
+![][red_rect]  ![][green_rect]  ![][yellow_rect] ![][blue_rect]
+
+####Set 4: Different Colors Different Shapes:
+![][green_sq]  ![][blue_oval]  ![][red_tri] ![][yellow_rounded_rect]
+
+####Set 5: Same Shape Conflicts Color:
+![][green_rounded_rect]  ![][green_rounded_rect]  ![][red_rounded_rect] ![][red_rounded_rect]
+
+####Set 6: Same Color Conflicts Shape:
+![][green_rounded_rect]  ![][green_rounded_rect]  ![][green_sq] ![][green_sq]
+
+####Set 7: Conflicts Shape and Color:
+![][red_rect]  ![][red_rect]  ![][green_sq] ![][green_sq]
+
+[green_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/green_rect.png?raw=true
+[red_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/red_rect.png?raw=true
+[yellow_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/yellow_rect.png?raw=true
+[green_oval]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/green_oval.png?raw=true
+[green_sq]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/green_sq.png?raw=true
+[green_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/green_rounded_rect.png?raw=true
+[blue_oval]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/blue_oval.png?raw=true
+[blue_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/blue_rect.png?raw=true
+[red_tri]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/red_tri.png?raw=true
+[yellow_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/yellow_rounded_rect.png?raw=true
+[red_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/red_rounded_rect.png?raw=true
 
 ##What are Sifteo Blocks?
 Brief description and links
@@ -82,6 +297,400 @@ Brief description and links
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.42
+log
+@vim
+@
+text
+@d31 1
+a31 1
+![][red_rect]  ![][red_rect]  ![][yellow_sq] ![][yellow_sq]
+a35 1
+[yellow_sq]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/yellow_sq.png?raw=true
+@
+
+
+1.41
+log
+@vim
+@
+text
+@d36 1
+@
+
+
+1.40
+log
+@vim
+@
+text
+@d30 2
+a31 2
+####Set 4: Conflicts Shape and Color:
+![][green_sq]  ![][blue_oval]  ![][red_tri] ![][yellow_rounded_rect]
+@
+
+
+1.39
+log
+@vim
+@
+text
+@d27 2
+a28 2
+####Set 4: Same Color Conflicts Shape:
+![][green_sq]  ![][blue_oval]  ![][red_tri] ![][yellow_rounded_rect]
+@
+
+
+1.38
+log
+@vim
+@
+text
+@d43 1
+@
+
+
+1.37
+log
+@vim
+@
+text
+@d25 1
+a25 1
+![][green_rounded_rect]  ![][green_rounded_rect]  ![][blue_rounded_rect] ![][blue_rounded_rect]
+@
+
+
+1.36
+log
+@vim
+@
+text
+@d25 1
+a25 1
+![][green_rounded_rect]  ![][green_rounded_rect]  ![][yellow_rounded_rect] ![][yellow_rounded_rect]
+@
+
+
+1.35
+log
+@vim
+@
+text
+@d24 2
+a25 2
+####Set 4: Same Shape Conflicts Color:
+![][green_sq]  ![][blue_oval]  ![][red_tri] ![][yellow_rounded_rect]
+@
+
+
+1.34
+log
+@vim
+@
+text
+@a32 5
+
+
+
+
+
+@
+
+
+1.33
+log
+@vim
+@
+text
+@d24 11
+@
+
+
+1.32
+log
+@vim
+@
+text
+@d34 1
+@
+
+
+1.31
+log
+@vim
+@
+text
+@d19 1
+a19 1
+![][green_sq]  ![][blue_oval]  ![][red_tri] ![][yellow_rounded_rect]
+@
+
+
+1.30
+log
+@vim
+@
+text
+@d18 2
+d21 1
+a21 1
+####Set 3: Same Shape Different Color:
+d24 3
+@
+
+
+1.29
+log
+@vim
+@
+text
+@d30 1
+@
+
+
+1.28
+log
+@vim
+@
+text
+@d29 1
+@
+
+
+1.27
+log
+@vim
+@
+text
+@d20 1
+a20 1
+![][green_rect]  ![][green_rect]  ![][green_rounded_rect] ![][green_rect]
+d22 7
+a28 6
+[green_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/green_rect.png?raw=true "Logo Title Text 2"
+[red_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/red_rect.png?raw=true "Logo Title Text 2"
+[yellow_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/yellow_rect.png?raw=true "Logo Title Text 2"
+[green_oval]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/green_oval.png?raw=true "Logo Title Text 2"
+[green_sq]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/green_sq.png?raw=true "Logo Title Text 2"
+[green_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/green_rounded_rect.png?raw=true "Logo Title Text 2"
+@
+
+
+1.26
+log
+@vim
+@
+text
+@d15 1
+a15 1
+####Set 1: Same Color Different Shape:
+d18 2
+@
+
+
+1.25
+log
+@vim
+@
+text
+@d18 1
+a18 1
+![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
+d25 1
+@
+
+
+1.24
+log
+@vim
+@
+text
+@d16 1
+a16 1
+![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
+d23 2
+@
+
+
+1.23
+log
+@vim
+@
+text
+@d14 2
+@
+
+
+1.22
+log
+@vim
+@
+text
+@d10 3
+a12 2
+####Materials
+Set 1: Four Identical Objeccts: ![][green_rect]  ![][green_rect]  ![][green_rect] ![][green_rect]
+@
+
+
+1.21
+log
+@vim
+@
+text
+@d11 2
+@
+
+
+1.20
+log
+@vim
+@
+text
+@d10 1
+a10 1
+###Materials
+@
+
+
+1.19
+log
+@vim
+@
+text
+@d12 1
+@
+
+
+1.18
+log
+@vim
+@
+text
+@d10 2
+@
+
+
+1.17
+log
+@vim
+@
+text
+@d10 1
+a10 1
+![][green_rect]  ![][green_rect]  ![][green_rect]
+@
+
+
+1.16
+log
+@vim
+@
+text
+@d10 1
+a10 1
+![][green_rect]  ![][red_rect]  ![][yellow_rect]
+@
+
+
+1.15
+log
+@vim
+@
+text
+@d10 1
+a10 1
+![green rectangle][green_rect]  ![green rectangle][red_rect]  ![green rectangle][yellow_rect]
+@
+
+
+1.14
+log
+@vim
+@
+text
+@d14 1
+a14 1
+[yellow_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/red_rect.png?raw=true "Logo Title Text 2"
+@
+
+
+1.13
+log
+@vim
+@
+text
+@d14 1
+@
+
+
+1.12
+log
+@vim
+@
+text
+@d10 1
+a10 3
+|--------------------------------|---------------------------------|
+| ![green rectangle][green_rect] | ![green rectangle][red_rect]    |
+|                                |                                 |
+@
+
+
+1.11
+log
+@vim
+@
+text
+@d15 1
+@
+
+
+1.10
+log
+@vim
+@
+text
+@d11 2
+a12 1
+| ![green rectangle][green_rect] | ![green rectangle][red_rect]  |
+@
+
+
+1.9
+log
+@vim
+@
+text
+@d9 3
+a11 1
+![green rectangle][green_rect]
+@
+
+
+1.8
+log
+@vim
+@
+text
+@d11 1
+a11 1
+[green_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/green_rect.png "Logo Title Text 2"
+@
+
+
+1.7
+log
+@vim
+@
+text
+@d9 3
 @
 
 
