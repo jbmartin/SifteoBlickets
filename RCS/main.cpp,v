@@ -1,9 +1,99 @@
-/**
+head	1.14;
+access;
+symbols;
+locks
+	j:1.14; strict;
+comment	@// @;
+expand	@o@;
+
+
+1.14
+date	2013.03.17.01.31.48;	author j;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2013.03.17.01.31.31;	author j;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2013.03.17.01.30.55;	author j;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2013.03.17.01.30.50;	author j;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2013.03.17.01.29.39;	author j;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2013.03.17.01.29.34;	author j;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2013.03.17.01.29.31;	author j;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2013.03.17.01.28.25;	author j;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2013.03.17.01.27.51;	author j;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.03.17.01.27.05;	author j;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.03.17.01.25.45;	author j;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.03.17.01.25.34;	author j;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.03.17.01.25.04;	author j;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.03.17.01.05.28;	author j;	state Exp;
+branches;
+next	;
+
+
+desc
+@vim
+@
+
+
+1.14
+log
+@vim
+@
+text
+@/**
     File: main.cpp
     Purpose: Blicket detector for Sifteo Cubes 
 
-    @author Jay B. Martin
-    @version 0.1 16 Mar 2013
+    @@author Jay B. Martin
+    @@version 0.1 16 Mar 2013
 */
 
 
@@ -283,3 +373,209 @@ void main() {
         paintWrapper();
     }
 }
+@
+
+
+1.13
+log
+@vim
+@
+text
+@d263 1
+a263 1
+    // initialize asset configuration and loader
+d275 1
+d281 1
+a281 1
+    // run loop
+@
+
+
+1.12
+log
+@vim
+@
+text
+@d267 1
+a267 1
+    // subscribe to events
+a270 1
+
+@
+
+
+1.11
+log
+@vim
+@
+text
+@d248 1
+a248 1
+// Candidate function for intervention
+@
+
+
+1.10
+log
+@vim
+@
+text
+@d138 1
+a138 1
+    // mark cube as active and render its canvas
+d157 1
+a157 1
+    // clear the palette
+d163 1
+a163 1
+    // fire events
+d166 1
+a166 1
+    // dynamically load assets just-in-time
+a168 1
+        // playSfx(SfxConnect);
+d177 1
+a177 1
+            // fire events while we wait
+d184 1
+a184 1
+    // repaint cubes
+d189 1
+a189 1
+    // also, handle lost cubes, if you so desire :)
+d193 1
+a193 1
+    // this cube is either new or reconnected
+d195 1
+a195 1
+        // this is a reconnected cube since it was already lost this paint()
+d199 1
+a199 1
+        // this is a brand-spanking new cube
+d202 1
+a202 1
+    // begin showing some loading art (have to use BG0ROM since we don't have assets)
+d213 1
+a213 1
+    // mark as lost and clear from other cube sets
+d222 1
+a222 1
+    // mark this cube for a future repaint
+d232 1
+a232 1
+    // update art on active cubes (not loading cubes or base)
+a235 3
+    // if (isActive(cube1) && causeCubes.test(cube0) && effectCubes.test(cube1)) { sfx |= showSideBar(cube0, Side(side0)); }
+    // if (isActive(cube1)) { sfx |= showSideBar(cube1, Side(side1)); }
+    // if (sfx) { playSfx(SfxAttach); }
+d240 1
+a240 1
+    // update art on active cubes (not loading cubes or base)
+d248 1
+a248 1
+// Candidate for intervention
+@
+
+
+1.9
+log
+@vim
+@
+text
+@d89 1
+a89 1
+    // how many bars are showing on this cube?
+d101 1
+a101 1
+    // if cid is not showing a bar on side s, show it and check if the
+@
+
+
+1.8
+log
+@vim
+@
+text
+@d120 1
+a120 1
+    // if cid is showing a bar on side s, hide it and check if the
+@
+
+
+1.7
+log
+@vim
+@
+text
+@d102 1
+a102 1
+    // smiley should wake up
+d121 1
+a121 1
+    // smiley should go to sleep
+@
+
+
+1.6
+log
+@vim
+@
+text
+@d51 1
+d60 1
+@
+
+
+1.5
+log
+@vim
+@
+text
+@d55 2
+@
+
+
+1.4
+log
+@vim
+@
+text
+@a36 2
+static CubeSet blicketCubes;
+static CubeSet nonBlicketCubes;
+d41 4
+@
+
+
+1.3
+log
+@vim
+@
+text
+@a13 2
+// METADATA
+
+d18 1
+@
+
+
+1.2
+log
+@vim
+@
+text
+@d16 1
+@
+
+
+1.1
+log
+@vim
+@
+text
+@d1 8
+a8 3
+/*
+ * Sifteo SDK Example.
+ */
+@
