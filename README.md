@@ -11,7 +11,7 @@ Alternatively, if researchers were to ask participants to reason about things th
 
 **blicket** (n. *plural* blickets)
 
-1. (_philosophy_) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
+1. (philosophy) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
 
 Blickets have been used extensively for studying how people, mainly children, learn and reason about causality.
 These studies use a blicket detector (shown below) to identify blickets.

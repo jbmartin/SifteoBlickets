@@ -1,11 +1,16 @@
-head	1.252;
+head	1.253;
 access;
 symbols;
 locks
-	j:1.252; strict;
+	j:1.253; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.253
+date	2013.03.17.21.31.25;	author j;	state Exp;
+branches;
+next	1.252;
 
 1.252
 date	2013.03.17.21.28.25;	author j;	state Exp;
@@ -1273,7 +1278,7 @@ desc
 @
 
 
-1.252
+1.253
 log
 @vim
 @
@@ -1291,7 +1296,7 @@ Alternatively, if researchers were to ask participants to reason about things th
 
 **blicket** (n. *plural* blickets)
 
-1. (_philosophy_) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
+1. (philosophy) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
 
 Blickets have been used extensively for studying how people, mainly children, learn and reason about causality.
 These studies use a blicket detector (shown below) to identify blickets.
@@ -1434,6 +1439,17 @@ Discuss
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.252
+log
+@vim
+@
+text
+@d14 1
+a14 1
+1. (_philosophy_) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
 @
 
 
