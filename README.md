@@ -2,26 +2,25 @@
 
 ##Introduction
 This repo provides materials and detailed instructions for creating Sifteo "blickets" to accompany our [blog post](http://).
-Normal constructions [Blicket Detector](http://depts.washington.edu/idl/light_detail.htm)
 
 ##What are blickets?
 Describe Gopnik & Sobel (2000) Exp 1
+[Breadboard Blicket Detector](http://depts.washington.edu/idl/light_detail.htm)
 
 ##What are Sifteo Blocks?
-Brief description 
+Brief description and links
 
 ##Basics
 0. Preinstallation (check on dependencies e.g., clang, c++, etc.)
 1. Install the SDK from Sifteo
   - [SDK](https://developers.sifteo.com/docs/SifteoSDK/0.9.8/getting_started.html)
 3. Clone this repo
-4. Run simulator
+4. Run Siftulator (simulator)
 5. ...
 
 ##Advanced
-1. Making sprites (animations)
-2. Neighborhoods
-3. Shake and tilt
+1. Interventions (touch screen + neighborhoods)
+2. Continuous causal power (tilt)
 
 ##Additional resources
 * [Getting Oriented with the Sifteo SDK](http://tech.sifteo.com/2013/01/08/getting-oriented-with-the-sifteo-sdk/)

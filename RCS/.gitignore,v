@@ -1,0 +1,59 @@
+head	1.2;
+access;
+symbols;
+locks
+	j:1.2; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.2
+date	2013.03.17.01.34.59;	author j;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.03.17.01.16.17;	author j;	state Exp;
+branches;
+next	;
+
+
+desc
+@vim
+@
+
+
+1.2
+log
+@vim
+@
+text
+@# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Sifteo
+*.elf
+
+# Lua
+*.gen
+@
+
+
+1.1
+log
+@vim
+@
+text
+@d17 3
+@

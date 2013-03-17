@@ -14,3 +14,6 @@
 
 # Sifteo
 *.elf
+
+# Lua
+*.gen

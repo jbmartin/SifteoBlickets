@@ -1,0 +1,155 @@
+head	1.7;
+access;
+symbols;
+locks
+	j:1.7; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.7
+date	2013.03.17.01.39.14;	author j;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2013.03.17.01.38.18;	author j;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.03.17.01.37.59;	author j;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.03.17.01.37.51;	author j;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.03.17.01.37.18;	author j;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.03.17.01.36.55;	author j;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.03.16.05.43.40;	author j;	state Exp;
+branches;
+next	;
+
+
+desc
+@vim
+@
+
+
+1.7
+log
+@vim
+@
+text
+@#Sifteo Blickets
+
+##Introduction
+This repo provides materials and detailed instructions for creating Sifteo "blickets" to accompany our [blog post](http://).
+
+##What are blickets?
+Describe Gopnik & Sobel (2000) Exp 1
+[Breadboard Blicket Detector](http://depts.washington.edu/idl/light_detail.htm)
+
+##What are Sifteo Blocks?
+Brief description and links
+
+##Basics
+0. Preinstallation (check on dependencies e.g., clang, c++, etc.)
+1. Install the SDK from Sifteo
+  - [SDK](https://developers.sifteo.com/docs/SifteoSDK/0.9.8/getting_started.html)
+3. Clone this repo
+4. Run Siftulator (simulator)
+5. ...
+
+##Advanced
+1. Interventions (touch screen + neighborhoods)
+2. Continuous causal power (tilt)
+
+##Additional resources
+* [Getting Oriented with the Sifteo SDK](http://tech.sifteo.com/2013/01/08/getting-oriented-with-the-sifteo-sdk/)
+* [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
+* [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
+* [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.6
+log
+@vim
+@
+text
+@d23 1
+a23 3
+1. Making sprites (animations)
+2. Neighborhoods
+3. Shake and tilt
+@
+
+
+1.5
+log
+@vim
+@
+text
+@d22 1
+a22 1
+1. Interventions (Touch screen)
+@
+
+
+1.4
+log
+@vim
+@
+text
+@d11 1
+a11 1
+Brief description 
+@
+
+
+1.3
+log
+@vim
+@
+text
+@d19 1
+a19 1
+5.
+d22 1
+@
+
+
+1.2
+log
+@vim
+@
+text
+@d18 2
+a19 2
+4. Run simulator
+5. ...
+@
+
+
+1.1
+log
+@vim
+@
+text
+@a4 1
+Normal constructions [Blicket Detector](http://depts.washington.edu/idl/light_detail.htm)
+d8 1
+@
