@@ -42,6 +42,11 @@ Describe Gopnik & Sobel (2000) Exp 1
 [yellow_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/yellow_rounded_rect.png?raw=true
 [red_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/red_rounded_rect.png?raw=true
 
+###Procedure
+![][screen_shot]
+
+[screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true
+
 ##What are Sifteo Blocks?
 Brief description and links
 

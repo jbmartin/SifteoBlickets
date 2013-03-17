@@ -1,11 +1,26 @@
-head	1.43;
+head	1.46;
 access;
 symbols;
 locks
-	j:1.43; strict;
+	j:1.46; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.46
+date	2013.03.17.05.31.38;	author j;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2013.03.17.05.31.01;	author j;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2013.03.17.05.30.20;	author j;	state Exp;
+branches;
+next	1.43;
 
 1.43
 date	2013.03.17.02.38.42;	author j;	state Exp;
@@ -228,7 +243,7 @@ desc
 @
 
 
-1.43
+1.46
 log
 @vim
 @
@@ -277,6 +292,11 @@ Describe Gopnik & Sobel (2000) Exp 1
 [yellow_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/yellow_rounded_rect.png?raw=true
 [red_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/red_rounded_rect.png?raw=true
 
+###Procedure
+![][screen_shot]
+
+[screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true
+
 ##What are Sifteo Blocks?
 Brief description and links
 
@@ -297,6 +317,36 @@ Brief description and links
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.45
+log
+@vim
+@
+text
+@d48 1
+a48 1
+[screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screenshot.png?raw=true
+@
+
+
+1.44
+log
+@vim
+@
+text
+@d46 1
+d48 1
+@
+
+
+1.43
+log
+@vim
+@
+text
+@d45 3
 @
 
 
