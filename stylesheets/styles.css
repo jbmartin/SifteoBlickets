@@ -98,7 +98,7 @@ img {
 header {
   width:270px;
   float:left;
-  margin-left:-150px;
+  margin-left:-100px;
   position:fixed;
 }
 
@@ -179,6 +179,7 @@ hr {
 
 footer {
   width:270px;
+  margin-left:-100px;
   float:left;
   position:fixed;
   bottom:50px;
