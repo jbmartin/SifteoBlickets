@@ -1,4 +1,4 @@
-APP = connection
+APP = SifteoBlickets
 
 include $(SDK_DIR)/Makefile.defs
 
