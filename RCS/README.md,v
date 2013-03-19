@@ -1,11 +1,786 @@
-head	1.254;
+head	1.409;
 access;
 symbols;
 locks
-	j:1.254; strict;
+	j:1.409; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.409
+date	2013.03.19.22.19.02;	author j;	state Exp;
+branches;
+next	1.408;
+
+1.408
+date	2013.03.19.22.18.51;	author j;	state Exp;
+branches;
+next	1.407;
+
+1.407
+date	2013.03.19.22.18.22;	author j;	state Exp;
+branches;
+next	1.406;
+
+1.406
+date	2013.03.19.22.17.23;	author j;	state Exp;
+branches;
+next	1.405;
+
+1.405
+date	2013.03.19.22.15.55;	author j;	state Exp;
+branches;
+next	1.404;
+
+1.404
+date	2013.03.19.22.11.34;	author j;	state Exp;
+branches;
+next	1.403;
+
+1.403
+date	2013.03.19.22.11.04;	author j;	state Exp;
+branches;
+next	1.402;
+
+1.402
+date	2013.03.19.22.06.57;	author j;	state Exp;
+branches;
+next	1.401;
+
+1.401
+date	2013.03.19.22.04.31;	author j;	state Exp;
+branches;
+next	1.400;
+
+1.400
+date	2013.03.19.22.04.24;	author j;	state Exp;
+branches;
+next	1.399;
+
+1.399
+date	2013.03.19.22.03.45;	author j;	state Exp;
+branches;
+next	1.398;
+
+1.398
+date	2013.03.19.22.02.55;	author j;	state Exp;
+branches;
+next	1.397;
+
+1.397
+date	2013.03.19.22.01.26;	author j;	state Exp;
+branches;
+next	1.396;
+
+1.396
+date	2013.03.19.21.54.43;	author j;	state Exp;
+branches;
+next	1.395;
+
+1.395
+date	2013.03.19.21.52.32;	author j;	state Exp;
+branches;
+next	1.394;
+
+1.394
+date	2013.03.19.21.49.26;	author j;	state Exp;
+branches;
+next	1.393;
+
+1.393
+date	2013.03.19.21.48.50;	author j;	state Exp;
+branches;
+next	1.392;
+
+1.392
+date	2013.03.19.21.48.34;	author j;	state Exp;
+branches;
+next	1.391;
+
+1.391
+date	2013.03.19.21.48.20;	author j;	state Exp;
+branches;
+next	1.390;
+
+1.390
+date	2013.03.19.21.47.57;	author j;	state Exp;
+branches;
+next	1.389;
+
+1.389
+date	2013.03.19.21.42.39;	author j;	state Exp;
+branches;
+next	1.388;
+
+1.388
+date	2013.03.19.21.37.33;	author j;	state Exp;
+branches;
+next	1.387;
+
+1.387
+date	2013.03.19.21.37.24;	author j;	state Exp;
+branches;
+next	1.386;
+
+1.386
+date	2013.03.19.21.36.52;	author j;	state Exp;
+branches;
+next	1.385;
+
+1.385
+date	2013.03.19.21.36.33;	author j;	state Exp;
+branches;
+next	1.384;
+
+1.384
+date	2013.03.19.21.34.39;	author j;	state Exp;
+branches;
+next	1.383;
+
+1.383
+date	2013.03.19.21.32.29;	author j;	state Exp;
+branches;
+next	1.382;
+
+1.382
+date	2013.03.19.21.31.38;	author j;	state Exp;
+branches;
+next	1.381;
+
+1.381
+date	2013.03.19.21.29.28;	author j;	state Exp;
+branches;
+next	1.380;
+
+1.380
+date	2013.03.19.21.29.01;	author j;	state Exp;
+branches;
+next	1.379;
+
+1.379
+date	2013.03.19.21.26.50;	author j;	state Exp;
+branches;
+next	1.378;
+
+1.378
+date	2013.03.19.21.26.32;	author j;	state Exp;
+branches;
+next	1.377;
+
+1.377
+date	2013.03.19.21.26.23;	author j;	state Exp;
+branches;
+next	1.376;
+
+1.376
+date	2013.03.19.21.25.26;	author j;	state Exp;
+branches;
+next	1.375;
+
+1.375
+date	2013.03.19.21.25.14;	author j;	state Exp;
+branches;
+next	1.374;
+
+1.374
+date	2013.03.19.21.24.41;	author j;	state Exp;
+branches;
+next	1.373;
+
+1.373
+date	2013.03.19.21.23.39;	author j;	state Exp;
+branches;
+next	1.372;
+
+1.372
+date	2013.03.19.21.22.35;	author j;	state Exp;
+branches;
+next	1.371;
+
+1.371
+date	2013.03.19.21.22.18;	author j;	state Exp;
+branches;
+next	1.370;
+
+1.370
+date	2013.03.19.21.21.44;	author j;	state Exp;
+branches;
+next	1.369;
+
+1.369
+date	2013.03.19.21.21.28;	author j;	state Exp;
+branches;
+next	1.368;
+
+1.368
+date	2013.03.19.21.20.53;	author j;	state Exp;
+branches;
+next	1.367;
+
+1.367
+date	2013.03.19.21.20.28;	author j;	state Exp;
+branches;
+next	1.366;
+
+1.366
+date	2013.03.19.21.19.33;	author j;	state Exp;
+branches;
+next	1.365;
+
+1.365
+date	2013.03.19.21.19.01;	author j;	state Exp;
+branches;
+next	1.364;
+
+1.364
+date	2013.03.19.21.18.21;	author j;	state Exp;
+branches;
+next	1.363;
+
+1.363
+date	2013.03.19.21.17.41;	author j;	state Exp;
+branches;
+next	1.362;
+
+1.362
+date	2013.03.19.21.17.12;	author j;	state Exp;
+branches;
+next	1.361;
+
+1.361
+date	2013.03.19.21.16.50;	author j;	state Exp;
+branches;
+next	1.360;
+
+1.360
+date	2013.03.19.21.16.03;	author j;	state Exp;
+branches;
+next	1.359;
+
+1.359
+date	2013.03.19.21.15.36;	author j;	state Exp;
+branches;
+next	1.358;
+
+1.358
+date	2013.03.19.21.15.15;	author j;	state Exp;
+branches;
+next	1.357;
+
+1.357
+date	2013.03.19.21.14.45;	author j;	state Exp;
+branches;
+next	1.356;
+
+1.356
+date	2013.03.19.21.14.06;	author j;	state Exp;
+branches;
+next	1.355;
+
+1.355
+date	2013.03.19.21.13.48;	author j;	state Exp;
+branches;
+next	1.354;
+
+1.354
+date	2013.03.19.21.12.14;	author j;	state Exp;
+branches;
+next	1.353;
+
+1.353
+date	2013.03.19.21.11.44;	author j;	state Exp;
+branches;
+next	1.352;
+
+1.352
+date	2013.03.19.21.11.15;	author j;	state Exp;
+branches;
+next	1.351;
+
+1.351
+date	2013.03.19.21.08.43;	author j;	state Exp;
+branches;
+next	1.350;
+
+1.350
+date	2013.03.19.21.08.17;	author j;	state Exp;
+branches;
+next	1.349;
+
+1.349
+date	2013.03.19.21.05.54;	author j;	state Exp;
+branches;
+next	1.348;
+
+1.348
+date	2013.03.19.21.05.17;	author j;	state Exp;
+branches;
+next	1.347;
+
+1.347
+date	2013.03.19.21.00.41;	author j;	state Exp;
+branches;
+next	1.346;
+
+1.346
+date	2013.03.19.21.00.29;	author j;	state Exp;
+branches;
+next	1.345;
+
+1.345
+date	2013.03.19.20.57.54;	author j;	state Exp;
+branches;
+next	1.344;
+
+1.344
+date	2013.03.19.20.57.26;	author j;	state Exp;
+branches;
+next	1.343;
+
+1.343
+date	2013.03.19.20.56.41;	author j;	state Exp;
+branches;
+next	1.342;
+
+1.342
+date	2013.03.19.20.56.13;	author j;	state Exp;
+branches;
+next	1.341;
+
+1.341
+date	2013.03.19.20.55.51;	author j;	state Exp;
+branches;
+next	1.340;
+
+1.340
+date	2013.03.19.20.54.47;	author j;	state Exp;
+branches;
+next	1.339;
+
+1.339
+date	2013.03.19.20.54.15;	author j;	state Exp;
+branches;
+next	1.338;
+
+1.338
+date	2013.03.19.20.53.48;	author j;	state Exp;
+branches;
+next	1.337;
+
+1.337
+date	2013.03.19.20.53.04;	author j;	state Exp;
+branches;
+next	1.336;
+
+1.336
+date	2013.03.19.20.52.35;	author j;	state Exp;
+branches;
+next	1.335;
+
+1.335
+date	2013.03.19.20.51.10;	author j;	state Exp;
+branches;
+next	1.334;
+
+1.334
+date	2013.03.19.20.34.53;	author j;	state Exp;
+branches;
+next	1.333;
+
+1.333
+date	2013.03.19.20.34.18;	author j;	state Exp;
+branches;
+next	1.332;
+
+1.332
+date	2013.03.19.20.33.53;	author j;	state Exp;
+branches;
+next	1.331;
+
+1.331
+date	2013.03.19.20.32.01;	author j;	state Exp;
+branches;
+next	1.330;
+
+1.330
+date	2013.03.19.20.31.49;	author j;	state Exp;
+branches;
+next	1.329;
+
+1.329
+date	2013.03.19.20.25.49;	author j;	state Exp;
+branches;
+next	1.328;
+
+1.328
+date	2013.03.19.20.25.15;	author j;	state Exp;
+branches;
+next	1.327;
+
+1.327
+date	2013.03.19.20.25.05;	author j;	state Exp;
+branches;
+next	1.326;
+
+1.326
+date	2013.03.19.20.24.40;	author j;	state Exp;
+branches;
+next	1.325;
+
+1.325
+date	2013.03.19.20.23.09;	author j;	state Exp;
+branches;
+next	1.324;
+
+1.324
+date	2013.03.19.20.22.39;	author j;	state Exp;
+branches;
+next	1.323;
+
+1.323
+date	2013.03.19.20.22.23;	author j;	state Exp;
+branches;
+next	1.322;
+
+1.322
+date	2013.03.19.20.21.55;	author j;	state Exp;
+branches;
+next	1.321;
+
+1.321
+date	2013.03.19.20.18.15;	author j;	state Exp;
+branches;
+next	1.320;
+
+1.320
+date	2013.03.19.20.17.59;	author j;	state Exp;
+branches;
+next	1.319;
+
+1.319
+date	2013.03.19.20.16.46;	author j;	state Exp;
+branches;
+next	1.318;
+
+1.318
+date	2013.03.19.20.16.08;	author j;	state Exp;
+branches;
+next	1.317;
+
+1.317
+date	2013.03.19.20.15.10;	author j;	state Exp;
+branches;
+next	1.316;
+
+1.316
+date	2013.03.19.20.14.30;	author j;	state Exp;
+branches;
+next	1.315;
+
+1.315
+date	2013.03.19.20.13.00;	author j;	state Exp;
+branches;
+next	1.314;
+
+1.314
+date	2013.03.19.20.10.51;	author j;	state Exp;
+branches;
+next	1.313;
+
+1.313
+date	2013.03.19.20.06.12;	author j;	state Exp;
+branches;
+next	1.312;
+
+1.312
+date	2013.03.19.20.04.01;	author j;	state Exp;
+branches;
+next	1.311;
+
+1.311
+date	2013.03.19.20.03.44;	author j;	state Exp;
+branches;
+next	1.310;
+
+1.310
+date	2013.03.19.20.02.33;	author j;	state Exp;
+branches;
+next	1.309;
+
+1.309
+date	2013.03.19.20.01.08;	author j;	state Exp;
+branches;
+next	1.308;
+
+1.308
+date	2013.03.19.20.00.58;	author j;	state Exp;
+branches;
+next	1.307;
+
+1.307
+date	2013.03.19.20.00.44;	author j;	state Exp;
+branches;
+next	1.306;
+
+1.306
+date	2013.03.19.20.00.12;	author j;	state Exp;
+branches;
+next	1.305;
+
+1.305
+date	2013.03.19.20.00.02;	author j;	state Exp;
+branches;
+next	1.304;
+
+1.304
+date	2013.03.19.19.58.51;	author j;	state Exp;
+branches;
+next	1.303;
+
+1.303
+date	2013.03.19.19.57.38;	author j;	state Exp;
+branches;
+next	1.302;
+
+1.302
+date	2013.03.19.19.56.59;	author j;	state Exp;
+branches;
+next	1.301;
+
+1.301
+date	2013.03.19.19.56.06;	author j;	state Exp;
+branches;
+next	1.300;
+
+1.300
+date	2013.03.19.19.55.54;	author j;	state Exp;
+branches;
+next	1.299;
+
+1.299
+date	2013.03.19.19.53.23;	author j;	state Exp;
+branches;
+next	1.298;
+
+1.298
+date	2013.03.19.19.50.27;	author j;	state Exp;
+branches;
+next	1.297;
+
+1.297
+date	2013.03.19.19.49.22;	author j;	state Exp;
+branches;
+next	1.296;
+
+1.296
+date	2013.03.19.19.47.18;	author j;	state Exp;
+branches;
+next	1.295;
+
+1.295
+date	2013.03.19.19.46.51;	author j;	state Exp;
+branches;
+next	1.294;
+
+1.294
+date	2013.03.19.19.45.36;	author j;	state Exp;
+branches;
+next	1.293;
+
+1.293
+date	2013.03.19.19.44.10;	author j;	state Exp;
+branches;
+next	1.292;
+
+1.292
+date	2013.03.19.19.41.17;	author j;	state Exp;
+branches;
+next	1.291;
+
+1.291
+date	2013.03.19.19.37.04;	author j;	state Exp;
+branches;
+next	1.290;
+
+1.290
+date	2013.03.19.19.36.27;	author j;	state Exp;
+branches;
+next	1.289;
+
+1.289
+date	2013.03.19.19.35.14;	author j;	state Exp;
+branches;
+next	1.288;
+
+1.288
+date	2013.03.19.19.31.23;	author j;	state Exp;
+branches;
+next	1.287;
+
+1.287
+date	2013.03.19.19.30.56;	author j;	state Exp;
+branches;
+next	1.286;
+
+1.286
+date	2013.03.19.19.30.07;	author j;	state Exp;
+branches;
+next	1.285;
+
+1.285
+date	2013.03.19.19.26.23;	author j;	state Exp;
+branches;
+next	1.284;
+
+1.284
+date	2013.03.19.19.25.19;	author j;	state Exp;
+branches;
+next	1.283;
+
+1.283
+date	2013.03.19.19.24.55;	author j;	state Exp;
+branches;
+next	1.282;
+
+1.282
+date	2013.03.19.19.24.30;	author j;	state Exp;
+branches;
+next	1.281;
+
+1.281
+date	2013.03.19.19.22.30;	author j;	state Exp;
+branches;
+next	1.280;
+
+1.280
+date	2013.03.19.19.18.32;	author j;	state Exp;
+branches;
+next	1.279;
+
+1.279
+date	2013.03.19.19.15.11;	author j;	state Exp;
+branches;
+next	1.278;
+
+1.278
+date	2013.03.19.19.15.00;	author j;	state Exp;
+branches;
+next	1.277;
+
+1.277
+date	2013.03.19.19.14.53;	author j;	state Exp;
+branches;
+next	1.276;
+
+1.276
+date	2013.03.19.19.13.37;	author j;	state Exp;
+branches;
+next	1.275;
+
+1.275
+date	2013.03.19.19.12.59;	author j;	state Exp;
+branches;
+next	1.274;
+
+1.274
+date	2013.03.19.19.11.50;	author j;	state Exp;
+branches;
+next	1.273;
+
+1.273
+date	2013.03.19.19.11.03;	author j;	state Exp;
+branches;
+next	1.272;
+
+1.272
+date	2013.03.19.19.10.58;	author j;	state Exp;
+branches;
+next	1.271;
+
+1.271
+date	2013.03.19.19.10.25;	author j;	state Exp;
+branches;
+next	1.270;
+
+1.270
+date	2013.03.19.19.10.09;	author j;	state Exp;
+branches;
+next	1.269;
+
+1.269
+date	2013.03.19.19.09.49;	author j;	state Exp;
+branches;
+next	1.268;
+
+1.268
+date	2013.03.19.19.07.59;	author j;	state Exp;
+branches;
+next	1.267;
+
+1.267
+date	2013.03.19.19.07.29;	author j;	state Exp;
+branches;
+next	1.266;
+
+1.266
+date	2013.03.19.19.02.22;	author j;	state Exp;
+branches;
+next	1.265;
+
+1.265
+date	2013.03.19.18.54.23;	author j;	state Exp;
+branches;
+next	1.264;
+
+1.264
+date	2013.03.19.18.48.59;	author j;	state Exp;
+branches;
+next	1.263;
+
+1.263
+date	2013.03.19.18.48.44;	author j;	state Exp;
+branches;
+next	1.262;
+
+1.262
+date	2013.03.19.18.48.23;	author j;	state Exp;
+branches;
+next	1.261;
+
+1.261
+date	2013.03.19.18.48.04;	author j;	state Exp;
+branches;
+next	1.260;
+
+1.260
+date	2013.03.19.18.37.57;	author j;	state Exp;
+branches;
+next	1.259;
+
+1.259
+date	2013.03.18.00.16.12;	author j;	state Exp;
+branches;
+next	1.258;
+
+1.258
+date	2013.03.18.00.09.56;	author j;	state Exp;
+branches;
+next	1.257;
+
+1.257
+date	2013.03.18.00.09.53;	author j;	state Exp;
+branches;
+next	1.256;
+
+1.256
+date	2013.03.18.00.08.37;	author j;	state Exp;
+branches;
+next	1.255;
+
+1.255
+date	2013.03.18.00.08.07;	author j;	state Exp;
+branches;
+next	1.254;
 
 1.254
 date	2013.03.17.23.44.30;	author j;	state Exp;
@@ -1283,16 +2058,43 @@ desc
 @
 
 
-1.254
+1.409
 log
 @vim
 @
 text
 @#Sifteo Blickets
+This repository provides instructions, materials, and code for creating Sifteo "blickets" to accompany our [blog post]().
 
- This repository provides instructions, materials, and code for creating Sifteo "blickets." Sifteo provides a free simulator, so following this tutorial does not require purchasing any Sifteo blocks.
+#Quick start
+Sifteo provides a _free simulator_, so you can follow this tutorial without purchasing any Sifteo cubes.
 
-##What are blickets?
+Install the SDK from Sifteo ([SDK download](https://developers.sifteo.com/docs/SifteoSDK/0.9.8/getting_started.html))
+
+Clone this repo
+
+```bash
+git clone https://github.com/jbmartin/SifteoBlickets.git 
+```
+
+Start "siftulator" (simulator)
+
+* Windows: double click sifteo-sdk-shell.cmd
+* Mac OS X: double click sifteo-sdk-shell.command
+* Linux: run sifteo-sdk-shell.sh
+
+Inside the SDK, navigate to this tutorial, build and run it
+
+```bash
+cd SifteoBlickets
+make
+siftulator -n 5 SifteoBlickets.elf
+```
+
+Congratulations! You just ran your own blicket experiment.
+
+
+#What are blickets?
 
 Exactly!
 There's no such thing as a blicket; it's neologism created by psychologists to avoid people from having preconceived notions about what it is/isn't or what it can/can't do.
@@ -1303,12 +2105,19 @@ Alternatively, if researchers were to ask participants to reason about things th
 
 1. (philosophy) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
 
-Blickets have been used extensively for studying how people, mainly children, learn and reason about causality.
-These studies use a blicket detector (shown below) to identify blickets.
-The experimenter places objects (usually wooden blocks of various shapes and colors) on top of the blicket detector.
-If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune (You can build your own here! [Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
-In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it.
-The detector is set off by a hidden switch toggled by the experimenter's foot.
+#What are Sifteo Cubes?
+Sifteo offers a unique gaming platform centered around interactive 1.5 inch cubes each with their own LCD touch screen, motion sensor, accelerometer, and nearby object sensing abilities.
+Basically, they're programmable iPod nanos that can touch and talk to one another!
+These feature packed little cubes present an exciting opportunity for psychologists to study how people reason and learn about physical interactions in an engaging, gamified setting.
+
+![][sifteo_cubes]
+
+[sifteo_cubes]: http://www.ufunk.net/wp-content/uploads/2011/08/Sifteo-Cubes.jpg
+
+Traditionally, psychologist have relied on using blicket detectors to emulate causal relationships.
+For example, an experimenter might show a child several wooden blocks with various perceptual properties (e.g., color, size, shape) and then place them individually on top of a homemade light box (aka blicket detector).
+If an object is a blicket, the experimenter toggles a hidden switch that causes the box to flash and play music.
+The goal is to see how the child generalizes from tested objects to novel ones: Does the child generalize based on perceptual, causal, or a mixture of properties?
 
 ![][blicket_guts]
 ![][blicket_detector]
@@ -1316,13 +2125,37 @@ The detector is set off by a hidden switch toggled by the experimenter's foot.
 [blicket_guts]: http://depts.washington.edu/idl/images/blicket_internal_bottom.jpg
 [blicket_detector]: http://depts.washington.edu/idl/images/Blicket_top.jpg
 
+
+This approach has several practical limitations.
+First, the experimenter has to find all the parts and build a blicket detector using hot glue gun and a soldering iron ([instructions](http://depts.washington.edu/idl/light_detail.htm)).
+This process can be an expensive and challenging, especially if she's not an electrician.
+Second, relying on a confederate to appropriately and accurately toggle the blicket detector introduces experimental design problems.
+An inconsistent temporal delay or advance might cause a participant to question validity of the causal relationship.
+Additionally, the confederate's anticipation of upcoming blickets might signal to the participants that there's something special about them aside from their causal properties.
+Finally, it would be difficult to create more complicated experiments involving causal interventions and/or continuous variables.
+
+Sifteo overcomes each of the aforementioned limitations.
+Each Sifteo Cube has calibrated object detecting sensors, removing any possibility of a confederate botching collision timing.
+Sifteo provides an API (Application Programming Interface) that allows the experimenter to program the logic of the experiment and upload it to the cubes beforehand so that both the participant and the confederate are blind to the condition, avoiding any unintentional signaling.
+Most importantly, Sifteo provides endless possibilities for creating (and recreating) interesting psychological experiments.
+
+To illustrate, we recreate a classic causal learning experiment by Gopnik & Sobel (2000) using Sifteo Cubes.
+
+
+If you'd like to learn more about Sifteo and "intelligent play," watch this TED talk by former MIT Media Lab grad student, [David Merrill](http://alumni.media.mit.edu/~dmerrill/).
+
+<iframe src="http://embed.ted.com/talks/david_merrill_demos_siftables_the_smart_blocks.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+#Experiment
+
 Blickets were first used in a seminal developmental study conducted by Gopnik & Sobel (2000).
 They looked at how the causal properties of objects (e.g., making a blicket detector flash and play music) shape toddlers conceptual knowledge.
 Previously, most developmental research focused on how perceptual features (color, shape, etc.) influence categorization.
 This was motivated by many prominent psychologist, including Piaget, theorizing that young children were unable to understand, and therefore, categorize objects based on causal properties.
 To test this theory, Gopnik and Sobel pitted perceptual features against causal ones in a simple, yet elegant, category learning paradigm.
 
-###Materials
+
+##Materials
 
 To pit various perceptual features, such as color and shape, against causal ones, Gopnik and Sobel constructed seven sets of four objects out of wooden blocks.
 Below is our attempt to recreate those objects using Adobe Illustrator. These materials are freely available in the [asset folder](https://github.com/jbmartin/SifteoBlickets/tree/master/assets) of this git repository.
@@ -1360,7 +2193,7 @@ Below is our attempt to recreate those objects using Adobe Illustrator. These ma
 [yellow_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/yellow_rounded_rect.png?raw=true
 [red_rounded_rect]: https://github.com/jbmartin/SifteoBlickets/blob/master/assets/red_rounded_rect.png?raw=true
 
-###Procedure
+##Procedure
 
 An experimenter presented seven sets of the four objects (shown above) to children.
 Set 1 was always presented first, followed by sets 2 through 7 at random.
@@ -1372,48 +2205,12 @@ In the categorization condition, the experimenter placed each of the 4 objects o
 The experimenter then lifted up one of the blickets and asked the child which of the other blocks was also a blicket.
 In the induction condition, the experimenter described two objects as being blickets and two as not being blickets. She then placed the blicket on the detector and asked the child which of the remaining blocks would also set off the detector.
 
-##How do Sifteo blocks help?
-Add brief description and links
-
-Todo(Jay):
-Discuss
-- [ ] double blind 
-- [ ] no experimenter mistakes toggling baskets
-- [ ] no soldering or hot glue guns
-- [ ] equal if not cheaper to make
-- [ ] allow interventions and other unexplored tactile features
 
 ![][screen_shot]
 
 [screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true
 
-##Basics
-Install the SDK from Sifteo ([SDK download](https://developers.sifteo.com/docs/SifteoSDK/0.9.8/getting_started.html))
-
-Clone this repo
-
-```bash
-git clone https://github.com/jbmartin/SifteoBlickets.git 
-```
-
-Start "siftulator" (simulator)
-
-* Windows: double click sifteo-sdk-shell.cmd
-* Mac OS X: double click sifteo-sdk-shell.command
-* Linux: run sifteo-sdk-shell.sh
-
-Inside siftulator, navigate to this tutorial and build it
-
-```bash
-cd SifteoBlickets
-make
-```
-
-Congratulations! You just ran your own blicket experiment.
-
-
-
-##Under the hood: Into the darkness known as C++
+#Under the hood: Into the darkness known as C++
 Okay, so that was pretty cool, but you probabily want to be able to design your _own_  blicket experiment.
 Sifteo uses a popular programming language called C++.
 I'm not going lie, C++ isn't a great language to learn if you're just starting out.
@@ -1434,17 +2231,1859 @@ Discuss
 - [ ] audio
 
 
-
-
-##Advanced
-1. Interventions (touch screen + neighborhoods)
-2. Continuous causal power (tilt)
+#Advanced
+## Interventions (touch screen + neighborhoods)
+## Continuous causal power (tilt)
 
 ##Additional resources
 * [Getting Oriented with the Sifteo SDK](http://tech.sifteo.com/2013/01/08/getting-oriented-with-the-sifteo-sdk/)
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.408
+log
+@vim
+@
+text
+@d77 1
+a77 1
+To illustrate, we recreate a now-classic causal learning experiment by Gopnik & Sobel (2000) using Sifteo Cubes.
+@
+
+
+1.407
+log
+@vim
+@
+text
+@d75 1
+a75 1
+Most importantly, Sifteo provides endless possibilities for creating interesting psychological experiments.
+@
+
+
+1.406
+log
+@vim
+@
+text
+@d77 1
+a77 1
+To illustrate, we recreate a now classic causal learning experiment by Gopnik & Sobel (2000) using Sifteo Cubes.
+@
+
+
+1.405
+log
+@vim
+@
+text
+@d77 2
+@
+
+
+1.404
+log
+@vim
+@
+text
+@d75 1
+a75 1
+Most importantly, Sifteo provides endless possibilities for creating interesting psychology experiments.
+@
+
+
+1.403
+log
+@vim
+@
+text
+@d75 1
+a75 1
+Finally, Sifteo provides endless possibilities when it comes to experimental design possibilities 
+@
+
+
+1.402
+log
+@vim
+@
+text
+@d73 2
+a74 2
+Sifteo's provides an API (Application Programming Interface) that grants the experimenter access to each cube's object sensors, removing any possibility of the confederate botching collision timing.
+The API allows the experimenter to program the logic of the experiment beforehand so that both the participant and the confederate are blind to the condition, avoiding any unintentional signaling.
+@
+
+
+1.401
+log
+@vim
+@
+text
+@d73 3
+a75 2
+First, Sifteo's provides an API (Application Programming Interface) that grants the experimenter access to each cube's object sensors, removing any possibility of the confederate botching collision timing.
+Second, the API allows the experimenter to program the logic of the experiment beforehand so that both the participant and the confederate are blind to the condition, avoiding any unintentional signaling.
+@
+
+
+1.400
+log
+@vim
+@
+text
+@d73 1
+a73 1
+First, Sifteo's provides an API (Application Programming Interface) that grants the experimenter access to each cube's object sensors, removing the possibility of the confederate botching collision timing.
+@
+
+
+1.399
+log
+@vim
+@
+text
+@d73 1
+a73 1
+First, Sifteo's provides an API (Application Programming Interface) that grants the experimenter access to each cube's object sensors, resolving any issue of a confederate botching collision timing.
+@
+
+
+1.398
+log
+@vim
+@
+text
+@d73 1
+a73 1
+First, Sifteo's provides an API (Application Programming Interface) that grants the experimenter access to each cube's object sensors, resolving any issue of having a confederate mess up collision timing.
+@
+
+
+1.397
+log
+@vim
+@
+text
+@d73 1
+a73 1
+First, Sifteo's provides an API (Application Programming Interface) that allows the experimenter access the object sensors, resolving the issue of having a confederate botch the experiment because he or she messed up the timing. 
+@
+
+
+1.396
+log
+@vim
+@
+text
+@d72 3
+a74 3
+Sifteo overcomes all of the light box's limitations.
+Sifteo's provides an API (Application Programming Interface) that allows the experimenter to program the logic of the experiment beforehand. 
+This resolves the issue of having a confederate botch the experiment because he or she 
+@
+
+
+1.395
+log
+@vim
+@
+text
+@d72 3
+a74 2
+Sifteo overcomes each of the light boxes limitations.
+Sifteo's API (Application Programming Interface) 
+@
+
+
+1.394
+log
+@vim
+@
+text
+@d72 2
+a73 1
+The interactivity and programmer interface of Sifteo Cubes
+@
+
+
+1.393
+log
+@vim
+@
+text
+@d2 1
+a2 1
+This repository provides instructions, materials, and code for creating Sifteo "blickets." 
+@
+
+
+1.392
+log
+@vim
+@
+text
+@d5 1
+a5 1
+**Sifteo provides a free simulator, so you can follow this tutorial without purchasing any Sifteo cubes.**
+@
+
+
+1.391
+log
+@vim
+@
+text
+@d5 1
+a5 1
+Sifteo provides a free simulator, so you can follow this tutorial without purchasing any Sifteo cubes.
+@
+
+
+1.390
+log
+@vim
+@
+text
+@d2 1
+d4 2
+a5 1
+ This repository provides instructions, materials, and code for creating Sifteo "blickets." Sifteo provides a free simulator, so you can follow this tutorial without purchasing any Sifteo cubes.
+a6 1
+#Quick start
+@
+
+
+1.389
+log
+@vim
+@
+text
+@d63 1
+a63 1
+This approach has several methodological limitations.
+@
+
+
+1.388
+log
+@vim
+@
+text
+@d20 1
+a20 1
+Inside the SDK, navigate to this tutorial, build it, and then run it in the siftulator
+@
+
+
+1.387
+log
+@vim
+@
+text
+@d164 2
+a165 2
+1. Interventions (touch screen + neighborhoods)
+2. Continuous causal power (tilt)
+@
+
+
+1.386
+log
+@vim
+@
+text
+@d163 1
+a163 1
+##Advanced
+@
+
+
+1.385
+log
+@vim
+@
+text
+@d31 1
+a31 1
+##What are blickets?
+d42 1
+a42 1
+##What are Sifteo Cubes?
+@
+
+
+1.384
+log
+@vim
+@
+text
+@d5 26
+a137 26
+
+#Quick start
+Install the SDK from Sifteo ([SDK download](https://developers.sifteo.com/docs/SifteoSDK/0.9.8/getting_started.html))
+
+Clone this repo
+
+```bash
+git clone https://github.com/jbmartin/SifteoBlickets.git 
+```
+
+Start "siftulator" (simulator)
+
+* Windows: double click sifteo-sdk-shell.cmd
+* Mac OS X: double click sifteo-sdk-shell.command
+* Linux: run sifteo-sdk-shell.sh
+
+Inside the SDK, navigate to this tutorial, build it, and then run it in the siftulator
+
+```bash
+cd SifteoBlickets
+make
+siftulator -n 5 SifteoBlickets.elf
+```
+
+Congratulations! You just ran your own blicket experiment.
+
+@
+
+
+1.383
+log
+@vim
+@
+text
+@a36 1
+
+a59 6
+They used a blicket detector (shown above) to identify blickets.
+An experimenter placed objects (usually wooden blocks of various shapes and colors) on top of the blicket detector.
+If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune.
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it.
+The detector is set off by a hidden switch toggled by the experimenter's foot.
+
+@
+
+
+1.382
+log
+@vim
+@
+text
+@d61 1
+a61 1
+Gopnik and Sobel used a blicket detector (shown above) to identify blickets.
+@
+
+
+1.381
+log
+@vim
+@
+text
+@a54 7
+Blickets have been used extensively for studying how people, mainly children, learn and reason about causality.
+These studies use a blicket detector (shown above) to identify blickets.
+The experimenter places objects (usually wooden blocks of various shapes and colors) on top of the blicket detector.
+If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune.
+In reality, the "blicketness" of an object is entirely arbitrary, so their's no way to actually detect it.
+The detector is set off by a hidden switch toggled by the experimenter's foot.
+
+d61 7
+@
+
+
+1.380
+log
+@vim
+@
+text
+@d56 1
+a56 1
+These studies use a blicket detector (shown below) to identify blickets.
+@
+
+
+1.379
+log
+@vim
+@
+text
+@d31 1
+d34 2
+a61 4
+![][blicket_detector]
+
+[blicket_detector]: http://depts.washington.edu/idl/images/Blicket_top.jpg
+
+@
+
+
+1.378
+log
+@vim
+@
+text
+@d16 1
+a16 1
+##What is a Sifteo Cube?
+@
+
+
+1.377
+log
+@vim
+@
+text
+@d16 1
+a16 1
+#What is a Sifteo Cube?
+@
+
+
+1.376
+log
+@vim
+@
+text
+@d16 1
+a16 1
+#Psychology and Sifteo
+@
+
+
+1.375
+log
+@vim
+@
+text
+@d15 1
+@
+
+
+1.374
+log
+@vim
+@
+text
+@d15 33
+a117 28
+#Psychology and Sifteo
+Sifteo offers a unique gaming platform centered around interactive 1.5 inch cubes each with their own LCD touch screen, motion sensor, accelerometer, and nearby object sensing abilities.
+Basically, they're programmable iPod nanos that can touch and talk to one another!
+These feature packed little cubes present an exciting opportunity for psychologists to study how people reason and learn about physical interactions in an engaging, gamified setting.
+
+![][sifteo_cubes]
+
+[sifteo_cubes]: http://www.ufunk.net/wp-content/uploads/2011/08/Sifteo-Cubes.jpg
+
+Traditionally, psychologist have relied on using blicket detectors to emulate causal relationships.
+For example, an experimenter might show a child several wooden blocks with various perceptual properties (e.g., color, size, shape) and then place them individually on top of a homemade light box (aka blicket detector).
+If an object is a blicket, the experimenter toggles a hidden switch that causes the box to flash and play music.
+The goal is to see how the child generalizes from tested objects to novel ones: Does the child generalize based on perceptual, causal, or a mixture of properties?
+
+![][blicket_guts]
+
+[blicket_guts]: http://depts.washington.edu/idl/images/blicket_internal_bottom.jpg
+
+
+This approach has several methodological limitations.
+First, the experimenter has to find all the parts and build a blicket detector using hot glue gun and a soldering iron ([instructions](http://depts.washington.edu/idl/light_detail.htm)).
+This process can be an expensive and challenging, especially if she's not an electrician.
+Second, relying on a confederate to appropriately and accurately toggle the blicket detector introduces experimental design problems.
+An inconsistent temporal delay or advance might cause a participant to question validity of the causal relationship.
+Additionally, the confederate's anticipation of upcoming blickets might signal to the participants that there's something special about them aside from their causal properties.
+Finally, it would be difficult to create more complicated experiments involving causal interventions and/or continuous variables.
+
+The interactivity and programmer interface of Sifteo Cubes
+a119 4
+If you'd like to learn more about Sifteo and "intelligent play," watch this TED talk by former MIT Media Lab grad student, [David Merrill](http://alumni.media.mit.edu/~dmerrill/).
+
+<iframe src="http://embed.ted.com/talks/david_merrill_demos_siftables_the_smart_blocks.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+@
+
+
+1.373
+log
+@vim
+@
+text
+@d16 2
+@
+
+
+1.372
+log
+@vim
+@
+text
+@d19 1
+a19 1
+If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune (You can build your own here! .
+@
+
+
+1.371
+log
+@vim
+@
+text
+@d83 1
+a83 1
+##Psychology and Sifteo
+@
+
+
+1.370
+log
+@vim
+@
+text
+@d33 1
+a33 1
+###Materials
+d71 1
+a71 1
+###Procedure
+@
+
+
+1.369
+log
+@vim
+@
+text
+@d146 1
+a146 1
+##Under the hood: Into the darkness known as C++
+@
+
+
+1.368
+log
+@vim
+@
+text
+@d117 1
+a117 1
+##Quick start
+@
+
+
+1.367
+log
+@vim
+@
+text
+@d117 1
+a117 1
+##Basics
+@
+
+
+1.366
+log
+@vim
+@
+text
+@a116 4
+![][screen_shot]
+
+[screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true
+
+d142 1
+d144 1
+@
+
+
+1.365
+log
+@vim
+@
+text
+@d136 1
+a136 1
+Inside siftulator, navigate to this tutorial, build it, and then run it
+@
+
+
+1.364
+log
+@vim
+@
+text
+@d136 1
+a136 1
+Inside siftulator, navigate to this tutorial and build it
+@
+
+
+1.363
+log
+@vim
+@
+text
+@d141 1
+@
+
+
+1.362
+log
+@vim
+@
+text
+@a116 8
+Todo(Jay):
+Discuss
+- [X] double blind 
+- [X] no experimenter mistakes toggling baskets
+- [X] no soldering or hot glue guns
+- [X] equal if not cheaper to make
+- [ ] allow interventions and other unexplored tactile features
+
+@
+
+
+1.361
+log
+@vim
+@
+text
+@d95 1
+a95 1
+The goal is to see how the child generalizes from tested objects to novel ones: Does the child generalize based on perceptual, causal, or a mixture of both properties?
+@
+
+
+1.360
+log
+@vim
+@
+text
+@d95 1
+a95 1
+The goal is to see how the child generalizes from the objects that were tested on the detector to novel ones: Does the child generalize based on perceptual, causal, or a mixture of both properties?
+@
+
+
+1.359
+log
+@vim
+@
+text
+@d83 1
+a83 1
+##Sifteo and psychology
+@
+
+
+1.358
+log
+@vim
+@
+text
+@d83 1
+a83 1
+##How can Sifteo Cubes help psychology?
+@
+
+
+1.357
+log
+@vim
+@
+text
+@d83 1
+a83 1
+##How do Sifteo cubes help?
+@
+
+
+1.356
+log
+@vim
+@
+text
+@d95 1
+a95 1
+The goal is to see how the child generalizes from the objects that were tested on the detector to novel ones: Does the child generalize based on perceptual properties, causal properties, or both?
+@
+
+
+1.355
+log
+@vim
+@
+text
+@d113 1
+a113 1
+If you'd like to learn more about Sifteo and "intelligent play", watch this TED talk by former MIT Media Lab grad student, [David Merrill](http://alumni.media.mit.edu/~dmerrill/).
+@
+
+
+1.354
+log
+@vim
+@
+text
+@d110 1
+a110 1
+Sifteo Cubes offer a controlled 
+@
+
+
+1.353
+log
+@vim
+@
+text
+@d102 1
+a102 1
+This approach has several limitations.
+@
+
+
+1.352
+log
+@vim
+@
+text
+@d95 1
+a95 1
+The goal is to see how the child generalizes from the objects that were tested to novel ones: Does the child generalize based on perceptual properties, causal properties, or both?
+@
+
+
+1.351
+log
+@vim
+@
+text
+@d93 1
+a93 1
+An experimenter, for example, might show a child several wooden blocks with various perceptual properties (e.g., color, size, shape) and then place them individually on top of a homemade light box (aka blicket detector).
+@
+
+
+1.350
+log
+@vim
+@
+text
+@d86 1
+a86 1
+These feature packed little cubes present an exciting opportunity for psychologists to study how people reason and learn about physical interactions in a gamified setting.
+@
+
+
+1.349
+log
+@vim
+@
+text
+@d86 1
+a86 1
+These feature packed cubes present an exciting opportunity for psychologists to study how people reason and learn about physical interactions in a setting that's fun for participants.
+@
+
+
+1.348
+log
+@vim
+@
+text
+@d86 1
+a86 1
+These feature packed little guys present an exciting opportunity for psychologists to study how people reason and learn about physical interactions in a setting that's fun for participants.
+@
+
+
+1.347
+log
+@vim
+@
+text
+@d110 1
+a110 1
+Sifteo Cubes  
+@
+
+
+1.346
+log
+@vim
+@
+text
+@d108 1
+a108 1
+Finally, it would be difficult to create more complicated experiments involving causal interventions or continuous variables.
+@
+
+
+1.345
+log
+@vim
+@
+text
+@d104 1
+a104 1
+This can be an expensive and challenging process, especially if she's not an electrician.
+d110 1
+a110 1
+Sifteo Cubes 
+@
+
+
+1.344
+log
+@vim
+@
+text
+@d104 1
+a104 1
+This can be an expensive and challenging process, especially if you're not an electrician.
+@
+
+
+1.343
+log
+@vim
+@
+text
+@d95 1
+a95 1
+The goal is to see how the child generalizes from the objects they were shown to novel ones: Does the child generalize based on perceptual properties, causal properties, or both?
+@
+
+
+1.342
+log
+@vim
+@
+text
+@d93 1
+a93 1
+For example, an experimenter might show a child several wooden blocks with various perceptual properties (e.g., color, size, shape) and then place them individually on top of a homemade light box (aka blicket detector).
+@
+
+
+1.341
+log
+@vim
+@
+text
+@d108 1
+a108 1
+Finally, it would be difficult to create more complicated experiments involving causal interventions or continuous variables with the traditional blicket detector.
+@
+
+
+1.340
+log
+@vim
+@
+text
+@d108 1
+a108 1
+Finally, it would be difficult to create an experiment involving causal interventions or continuous variables with the traditional blicket detector.
+@
+
+
+1.339
+log
+@vim
+@
+text
+@d86 1
+a86 1
+These feature packed little guys present an exciting opportunity for psychologists to study how people reason and learn about physical interactions between objects in a setting that's fun for participants.
+@
+
+
+1.338
+log
+@vim
+@
+text
+@d113 1
+a113 1
+If you'd like to learn more about Sifteo, watch this TED talk by former MIT Media Lab grad student, [David Merrill](http://alumni.media.mit.edu/~dmerrill/).
+@
+
+
+1.337
+log
+@vim
+@
+text
+@d113 1
+a113 1
+created by former MIT Media Lab grad student, [David Merrill](http://alumni.media.mit.edu/~dmerrill/).
+@
+
+
+1.336
+log
+@vim
+@
+text
+@a114 5
+
+![][sifteoblocks]
+
+[sifteoblocks]: http://media.gdgt.com/img/products/469/a2c6/a2c6-800.jpg
+
+@
+
+
+1.335
+log
+@vim
+@
+text
+@d105 1
+a105 1
+Second, relying on a confederate to appropriately and accurately toggle the blicket detector introduces experimental design problems. 
+d108 1
+a108 1
+Finally, it would be difficult to conduct an experiment involving causal interventions or continuous variables with the traditional blicket detector.
+@
+
+
+1.334
+log
+@vim
+@
+text
+@d86 1
+a86 1
+These feature packed little guys present an exciting opportunity for psychologists interested in studying how people learn and reason to look at complicated physical interactions between objects in a setting that's fun for participants.
+d92 1
+a92 1
+Traditionally, psychologist have relied on using blicket detectors to emulate causal relationships between objects.
+@
+
+
+1.333
+log
+@vim
+@
+text
+@d86 1
+a86 1
+These feature packed little guys present an exciting opportunity for psychologists interested in studying how people learn and reason to look at complicated physical interactions between objects in fun setting.
+@
+
+
+1.332
+log
+@vim
+@
+text
+@d86 1
+a86 1
+These feature packed little guys present an exciting opportunity for psychologists interested in studying how people learn and reason to look at complicated physical interactions between objects.
+@
+
+
+1.331
+log
+@vim
+@
+text
+@d86 1
+a86 1
+These feature packed little guys present an exciting opportunity for psychologists interested in studying how people learn and reason to look at more complicated physical interactions between objects.
+@
+
+
+1.330
+log
+@vim
+@
+text
+@d89 1
+@
+
+
+1.329
+log
+@vim
+@
+text
+@d88 3
+@
+
+
+1.328
+log
+@vim
+@
+text
+@d88 5
+a96 4
+Traditionally, psychologist have relied on using blicket detectors to emulate causal relationships between objects.
+For example, an experimenter might show a child several wooden blocks with various perceptual properties (e.g., color, size, shape) and then place them individually on top of a homemade light box (aka blicket detector).
+If an object is a blicket, the experimenter toggles a hidden switch that causes the box to flash and play music.
+The goal is to see how the child generalizes from the objects they were shown to novel ones: Does the child generalize based on perceptual properties, causal properties, or both?
+@
+
+
+1.327
+log
+@vim
+@
+text
+@d89 1
+@
+
+
+1.326
+log
+@vim
+@
+text
+@a22 1
+![][blicket_guts]
+d88 1
+@
+
+
+1.325
+log
+@vim
+@
+text
+@d102 1
+a102 1
+Finally, conducting experiment that involves causal interventions or continuous variables would be very challenging if not impossible with the traditional blicket detector.
+@
+
+
+1.324
+log
+@vim
+@
+text
+@a25 1
+[blicket_guts]: http://depts.washington.edu/idl/images/blicket_internal_bottom.jpg
+d89 2
+@
+
+
+1.323
+log
+@vim
+@
+text
+@d103 2
+@
+
+
+1.322
+log
+@vim
+@
+text
+@d101 1
+a101 1
+Finally, conducting experiment that involve causal interventions or continuous variables would be very challenging if not impossible with a simple light box and toggle switch.
+@
+
+
+1.321
+log
+@vim
+@
+text
+@d101 2
+d115 2
+a116 2
+- [ ] double blind 
+- [ ] no experimenter mistakes toggling baskets
+@
+
+
+1.320
+log
+@vim
+@
+text
+@d100 1
+a100 1
+Additionally, the confederate's anticipation of blickets might signal to the participants that there's something special about them aside from their causal properties.
+@
+
+
+1.319
+log
+@vim
+@
+text
+@d100 1
+a100 1
+The confederate's anticipation of blickets might signal to the participants that there's something special about them aside from their causal properties.
+@
+
+
+1.318
+log
+@vim
+@
+text
+@d100 1
+a100 1
+Equally problematic is that the confederate's anticipation of blickets might signal to the participants that there's something special about them aside from their causal properties.
+@
+
+
+1.317
+log
+@vim
+@
+text
+@d97 1
+a97 1
+This can be an expensive and challenging process, especially for those of us who are not electricians.
+@
+
+
+1.316
+log
+@vim
+@
+text
+@d100 1
+a100 1
+Equally problematic is that the confederate's anticipation of blickets could signal to the participant that there's something special about them aside from their causal properties.
+@
+
+
+1.315
+log
+@vim
+@
+text
+@d100 1
+a100 1
+Equally problematic is that the confederate's knowledge of which blocks are blickets might signal to the participant
+@
+
+
+1.314
+log
+@vim
+@
+text
+@d99 2
+a100 1
+An inconsistent temporal delay or advance might hurt the believability of the causal relationship.
+@
+
+
+1.313
+log
+@vim
+@
+text
+@d98 2
+a99 1
+Second, 
+@
+
+
+1.312
+log
+@vim
+@
+text
+@d96 1
+a96 1
+First, the experimenter has to find all the parts and build a blicket detector using hot glue guns and a soldering iron ([instructions](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.311
+log
+@vim
+@
+text
+@d97 1
+a97 1
+This can be a expensive and challenging process, especially for those of us who are not electricians.
+@
+
+
+1.310
+log
+@vim
+@
+text
+@d97 3
+a99 1
+This can be a challenging process, especially for those of us who are not electricians.
+d113 2
+a114 2
+- [ ] no soldering or hot glue guns
+- [ ] equal if not cheaper to make
+@
+
+
+1.309
+log
+@vim
+@
+text
+@d97 1
+a97 1
+
+@
+
+
+1.308
+log
+@vim
+@
+text
+@d96 1
+a96 1
+First, the experimenter has to find all the parts and build a blicket detector using hot glue guns and a soldering iron ([diy](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.307
+log
+@vim
+@
+text
+@d96 1
+a96 1
+First, the experimenter has to find all the parts and build a blicket detector using hot glue guns and a soldering iron ([instructions](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.306
+log
+@vim
+@
+text
+@d96 1
+a96 1
+First, the experimenter has to find the parts and build the blicket detector using hot glue guns and a soldering iron ([instructions](http://depts.washington.edu/idl/light_detail.htm)).
+@
+
+
+1.305
+log
+@vim
+@
+text
+@d96 1
+a96 2
+First, the experimenter has to find the parts and build the blicket detector using hot glue guns and a soldering iron ([instructions](http://depts.washington.edu/idl/light_detail.htm)), this can be challenging for someone who has little to no experience 
+
+@
+
+
+1.304
+log
+@vim
+@
+text
+@d95 2
+a96 2
+This approach is limited because the experimenter has to build the blicket detector,   
+While a fun weekend project ([instructions](http://depts.washington.edu/idl/light_detail.htm)), this can be challenging for someone who has little to no experience 
+@
+
+
+1.303
+log
+@vim
+@
+text
+@d95 1
+a95 1
+The downsides to this approach is that the experimenter has to build the blicket detector.
+@
+
+
+1.302
+log
+@vim
+@
+text
+@d87 1
+a87 1
+Basically, they're programmable iPod nanos that can feel and talk to one another!
+a99 1
+Each cubes offer a fresh take on video game design, offering tiny programmable cubes that talk to one another.
+@
+
+
+1.301
+log
+@vim
+@
+text
+@d96 1
+a96 1
+While a fun weekend project ([instructions](http://depts.washington.edu/idl/light_detail.htm)), 
+@
+
+
+1.300
+log
+@vim
+@
+text
+@d96 1
+a96 1
+While a fun weekend project ([traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)), 
+@
+
+
+1.299
+log
+@vim
+@
+text
+@d19 1
+a19 1
+If the object is a blicket, predetermined by the experimenter, the light panel of the blicket detector flashes and an internal mechanism plays a short tune (You can build your own here! [Traditional blicket detector instructions](http://depts.washington.edu/idl/light_detail.htm)).
+d95 3
+@
+
+
+1.298
+log
+@vim
+@
+text
+@d93 1
+a93 7
+The goal is to see how the child generalizes from the objects they were shown to novel ones: Does he or she generalize based on perceptual properties, causal properties, or both?
+
+a popular paradigm for studying how children categorize objects based on causal properties is Blicket detectors have been .
+Building
+a popular paradigm for studying how children categorize objects based on causal properties is Blicket detectors have been .
+Building
+
+@
+
+
+1.297
+log
+@vim
+@
+text
+@d90 1
+a90 1
+Traditionally, developmental psychologist have relied on using blicket detectors to emulate causal relationships between objects.
+@
+
+
+1.296
+log
+@vim
+@
+text
+@d91 1
+a91 1
+For example, an experimenter might show children several wooden blocks with various perceptual properties (e.g., color, size, shape) and then place them individually on top of a homemade light box (aka blicket detector).
+d93 1
+a93 1
+The goal is to see how children generalize from the objects they were shown to novel ones.
+@
+
+
+1.295
+log
+@vim
+@
+text
+@a111 13
+i.e., explain what sifteo blocks are, why they are kind of exciting for psychology, lots of picture of the cubes,
+maybe we can make a quick video clip of the cubes in action during the blicket game, etc...  and then the 
+post could end by saying "to help demonstrate the utility of the cube in research, I developed a simple bit 
+of code that runs the G&S blicket paradigm which is a classic student in causal learning"... then link to your
+more detailed summary which codes into documenting the code.  
+
+posting that on our blog will push traffic to your github page and raise the visibility.  Also nice because there 
+will be this short overview for people who aren't even at the point of recognizing that "sifteo blickets" would 
+be a interesting/useful psychology paradigm rather than simply some kind of game/random github code 
+module/etc...  basically i think your audience is people who don't know what sifteo is, don't know what
+github is, but could benefit from the technology.  thus conveying the main point/sales pitch in one place, 
+then sharing the details/code will help.
+
+@
+
+
+1.294
+log
+@vim
+@
+text
+@d91 1
+a91 1
+For example, an experimenter might show children several wooden blocks with different perceptual properties (e.g., color, size, shape) and then place them individually on top of a homemade light box (aka blicket detector).
+d93 1
+a93 1
+The goal is to learn how children generalize from the objects they were shown to novel ones.
+@
+
+
+1.293
+log
+@vim
+@
+text
+@d93 1
+a93 1
+The goal is to learn how children generalize from the objects that did or did not trigger the blicket detector to novel objects.
+@
+
+
+1.292
+log
+@vim
+@
+text
+@d91 1
+a91 1
+For example, an experimenter might show children several wooden blocks with different perceptual properties (e.g., color, size, shape) and then place them top of a homemade light box (aka blicket detector).
+d93 1
+a93 1
+The idea is to learn how children generalize to novel objects based on perceptual and causal properties that triggered the blicket detector.
+@
+
+
+1.291
+log
+@vim
+@
+text
+@d91 2
+a92 3
+For example, an experimenter might show children several wooden blocks with different perceptual properties (e.g., color, size, shape).
+and then places them top of a homemade light box (the blicket detector).
+If an object is a blicket, the experimenter secretly toggles a switch that flashes the light box and plays music.
+@
+
+
+1.290
+log
+@vim
+@
+text
+@d91 1
+a91 1
+For example, an experimenter shows children several objects with different perceptual properties (e.g., color, size, shape).
+@
+
+
+1.289
+log
+@vim
+@
+text
+@d91 3
+a93 2
+For example, participants are shown objects with different perceptual properties (e.g., color, size, shape).
+An experimenter places the objects on top of a homemade light box (the blicket detector); if an object is a blicket, a confederate of the experiment secretly toggles a switch that flashes the light box and plays music.
+@
+
+
+1.288
+log
+@vim
+@
+text
+@d91 3
+a93 1
+Different objects are placed on top of a homemade light box (the blicket detector); if an object is a blicket, a confederate of the experiment secretly toggles a switch that flashes the light box and plays music.
+@
+
+
+1.287
+log
+@vim
+@
+text
+@d91 1
+a91 1
+Different objects are placed on top of a homemade light box (the blicket detector); if an object is a blicket, a confederate of the experiment secretly toggles a switch that flashes the light box.
+@
+
+
+1.286
+log
+@vim
+@
+text
+@d91 1
+a91 1
+Objects are placed on top of a homemade light box (the blikcet detector); if that object is a blicket, a confederate of the experiment secretly toggles a switch that flashes the light box.
+@
+
+
+1.285
+log
+@vim
+@
+text
+@d90 2
+a91 1
+Traditionally, developmental psychologist have relied on using blicket detectors to emulate causal 
+@
+
+
+1.284
+log
+@vim
+@
+text
+@d89 2
+a90 1
+Traditionally, developmental psychologist have relied on using blicket detectors to emulate causal
+@
+
+
+1.283
+log
+@vim
+@
+text
+@d88 1
+a88 1
+These feature packed little guys present an exciting opportunity for psychologists interested in studying how people learn and reason to look at more complicated physical relationships between objects.
+@
+
+
+1.282
+log
+@vim
+@
+text
+@d88 1
+a88 1
+These feature packed little toys present an exciting opportunity for psychologists interested in studying how people learn and reason to look at more complicated physical relationships between objects.
+@
+
+
+1.281
+log
+@vim
+@
+text
+@d88 1
+a88 1
+These feature packed little toys present exciting new opportunities for psychologists interested in studying learning and reasoning to look at more complicated object interactions.
+@
+
+
+1.280
+log
+@vim
+@
+text
+@d88 2
+a89 1
+These feature packed little toys present exciting new opportunities for psychologists interested in studying learning and reasoning.
+d91 4
+a94 1
+Blicket detectors have been a popular paradigm for studying how children categorize objects based on causal properties.
+@
+
+
+1.279
+log
+@vim
+@
+text
+@d90 3
+@
+
+
+1.278
+log
+@vim
+@
+text
+@d88 1
+a88 1
+These feature packed toys present exciting new opportunities for psychologists interested in studying learning and reasoning.
+@
+
+
+1.277
+log
+@vim
+@
+text
+@d88 1
+a88 1
+These capabilities present exciting new opportunities for psychologists interested in studying learning and reasoning.
+@
+
+
+1.276
+log
+@vim
+@
+text
+@d87 1
+a87 1
+Basically, they're programmable iPod nanos that can feel and talk to one another.
+@
+
+
+1.275
+log
+@vim
+@
+text
+@d88 1
+a88 1
+These capabilities present exciting new opportunities for psychologists interested in studying developmental learning and reasoning.
+@
+
+
+1.274
+log
+@vim
+@
+text
+@d88 2
+a89 1
+These capabilities present exciting new opportunities
+@
+
+
+1.273
+log
+@vim
+@
+text
+@d87 2
+a88 1
+Basically, they're programmable iPod nanos that can talk to and feel one another.
+@
+
+
+1.272
+log
+@vim
+@
+text
+@d87 1
+a87 1
+Basically, they're programmable iPod nanos that can talk to and touch one another.
+@
+
+
+1.271
+log
+@vim
+@
+text
+@d87 1
+a87 1
+Basically, they're programmable iPod nanos that can talk and touch one another.
+@
+
+
+1.270
+log
+@vim
+@
+text
+@d87 1
+a87 1
+Basically, programmable iPod nanos that can talk to one another!
+@
+
+
+1.269
+log
+@vim
+@
+text
+@d86 1
+a86 1
+Sifteo offers a unique gaming platform centered around interactive 1.5 inch cubes each with their own LCD touch screens, motion sensors, accelerometers, and nearby object sensing abilities.
+@
+
+
+1.268
+log
+@vim
+@
+text
+@d86 2
+a87 2
+Sifteo offers a unique gaming platform centered around 1.5 inch cubes each with their own LCD touch screens, motion sensors, accelerometers, and nearby object sensing abilities.
+They can talk to each other!
+@
+
+
+1.267
+log
+@vim
+@
+text
+@d87 1
+a87 1
+I.e., they can talk to each other!
+@
+
+
+1.266
+log
+@vim
+@
+text
+@d86 4
+a89 1
+Sifteo Cubes offer a unique interactive gaming platform created by former MIT Media Lab grad student, [David Merrill](http://alumni.media.mit.edu/~dmerrill/).
+@
+
+
+1.265
+log
+@vim
+@
+text
+@d86 2
+a87 1
+Sifteo cubes offer a fresh take on video game design, offering tiny programmable cubes that talk to one another.
+@
+
+
+1.264
+log
+@vim
+@
+text
+@d86 2
+a87 1
+Sifteo cubes are a new "toy" offering  
+@
+
+
+1.263
+log
+@vim
+@
+text
+@d90 1
+a90 1
+[sifteoblocks]: (http://media.gdgt.com/img/products/469/a2c6/a2c6-800.jpg)
+@
+
+
+1.262
+log
+@vim
+@
+text
+@d90 1
+a90 1
+[sifteoblocks](http://media.gdgt.com/img/products/469/a2c6/a2c6-800.jpg)
+@
+
+
+1.261
+log
+@vim
+@
+text
+@d88 2
+a89 1
+![][sifteblocks]
+@
+
+
+1.260
+log
+@vim
+@
+text
+@d3 1
+a3 1
+ This repository provides instructions, materials, and code for creating Sifteo "blickets." Sifteo provides a free simulator, so you can follow this tutorial without purchasing any Sifteo blocks.
+d85 5
+a89 2
+##How do Sifteo blocks help?
+Sifteo cubes are 
+@
+
+
+1.259
+log
+@vim
+@
+text
+@d86 16
+a101 1
+Add brief description and links
+@
+
+
+1.258
+log
+@vim
+@
+text
+@a146 2
+
+
+@
+
+
+1.257
+log
+@vim
+@
+text
+@a4 1
+
+@
+
+
+1.256
+log
+@vim
+@
+text
+@a4 1
+ hi john
+@
+
+
+1.255
+log
+@vim
+@
+text
+@d5 2
+@
+
+
+1.254
+log
+@vim
+@
+text
+@d3 1
+a3 1
+ This repository provides instructions, materials, and code for creating Sifteo "blickets." Sifteo provides a free simulator, so following this tutorial does not require purchasing any Sifteo blocks.
 @
 
 
