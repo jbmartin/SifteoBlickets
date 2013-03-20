@@ -1,8 +1,8 @@
 #Sifteo Blickets
-This repository provides instructions, materials, and code for using Sifteo Cubes to implement a "blicket" type psychology experiment.
+This repository provides instructions, materials, and code for using Sifteo Cubes to implement a "blicket"-type psychology experiment.
 Follow that?  If not, read on to learn what Sifteo Cubes are and what a "blicket" is! See also our recent [blog post]() about this.
 
-#If you're lazy and don't want to read... here's some quick start instruction
+#Quick start instructions
 Sifteo provides a _free simulator_, so you can follow this tutorial without purchasing any Sifteo cubes.
 
 Install the SDK from Sifteo ([SDK download](https://developers.sifteo.com/docs/SifteoSDK/0.9.8/getting_started.html))
@@ -32,19 +32,21 @@ Congratulations! You just ran your own blicket experiment.
 
 #What are blickets?
 
-There's no such thing as a blicket!  Well, that's not exactly true.  The work 'blicket' is a neologism (or made up word) created by psychologists. To a psychologist or philosopher interested in how people reasong and learn about causality, a blicket means:
+The word 'blicket' is a neologism (or made up word) created by psychologists. To a psychologist or philosopher interested in how people reasong and learn about causality, a blicket usually means:
 
 **blicket** (n. *plural* blickets)
 
 1. (philosophy) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
 
 In other words a 'blicket' is basically something that can _cause_ something else (specifically, the 'blicket detector') to do something. Just like an Asprin might cause your headache go away, a "blicket" might make a 
-"blicket detector" go wild (blink and play sounds).  Why call it a blicket?  Meaningless nonesense words are an important tool for studying learning and reasoning because they help to reduce or remove the influence prior knowledge.   You could call it anything but many experiements in causality have been done with the phrase 'blicket.'
+"blicket detector" go wild (blink and play sounds).  Why call it a blicket?  Meaningless nonesense words are an important tool for studying learning and reasoning because they help to reduce or remove the influence prior knowledge.   You could call it anything but many experiements in causality have been done (arbitrarily) with the phrase 'blicket.'
 
-Traditionally, psychologists have relied on using blicket detectors to emulate causal relationships.
-For example, an experimenter might show a child several wooden blocks with various perceptual properties (e.g., color, size, shape) and then place them individually on top of a homemade light box (aka blicket detector).
-If an object is a "blicket", the experimenter toggles a hidden switch that causes the box to flash and play music.
-The goal is to see how the child learns which object _cause_ the blicket detector to activate.  The important questions this simple game lets you explore include how children generalize from certain objects to other, novel ones.  For example, do the child generalize based on perceptual properties, causal properties, or a mixture of these properties?
+Psychologists have relied on using tge blicket detector game as a experimental model of how people learn new causal relationships.
+How does the blicket game work?  Typically in an experiment, the researcher tells the participant that there is a box that is a "blicket
+detector" that will play sounds and light up when a "blicket" is placed on top if it.  In other words, the blicket will _cause_ the
+blicket detector to activate.  Various objects (square blocks) are placed on the blicket detector one a time, and only certain
+ones cause the detector to activate.  Thus, the physical collision between the blicket and the detector causes a change of state
+in the detector.  The goal is to see how children and adults learn which objects _cause_ the blicket detector to activate.  This simple game lets you explore include how children and adults generalize from certain objects to other, novel ones.  For example, do people generalize based on perceptual properties, causal properties, or a mixture of these properties?
 
 #What are Sifteo Cubes?
 Sifteo offers a unique gaming platform centered around interactive 1.5 inch cubes each with their own LCD touch screen, motion sensor, accelerometer, and nearby object sensing abilities.
@@ -62,7 +64,7 @@ If you'd like to learn more about Sifteo and "intelligent play," watch this TED 
 
 #What are Sifteo Blickets?
 
-This project, Sifteo Blickets, is a simple bit of example code that enables Sifteo Cubes to be used in blicket-type experiments.
+This project, Sifteo Blickets, is a mash up of these two ideas.  In particular, we developed a simple bit of code that enables Sifteo Cubes to be used in blicket-type experiments.  This can serve as an example for others interested in using Sifteo cubes in psychological research, or in running blicket-type experiments!
 
 
 ![][blicket_guts]
@@ -71,16 +73,15 @@ This project, Sifteo Blickets, is a simple bit of example code that enables Sift
 [blicket_guts]: http://depts.washington.edu/idl/images/blicket_internal_bottom.jpg
 [blicket_detector]: http://depts.washington.edu/idl/images/Blicket_top.jpg
 
-Why is this useful? Well, the traditional approach to blicket experiments in developmental psychology has a number of practical limitations.
-First, the experimenter has to find all the parts and build a blicket detector using hot glue gun and a soldering iron ([instructions](http://depts.washington.edu/idl/light_detail.htm)).
-This process can be an expensive and challenging, especially if there's not an electronics expert in the lab.
-Second, relying on an experimenter to appropriately and accurately toggle the blicket detector introduces experimental design problems.
-For example, a subtle temporal delay or advance might cause a participant to question validity of the causal relationship.
-Additionally, the confederate's anticipation of upcoming blickets might signal to the participants that there's something special about them aside from their causal properties.  This issue is sometimes known as experimenter expectancy effects and are often addressed in designs where the experimenter is "blind" to which condition they are in.
-Finally, one the specific blicket detector box is build, it is difficult to create more complicated experiments involving other types of causal patterns, interventions, or variable types.
+Why is this approach useful? Well, the traditional approach to blicket experiments in developmental psychology has a number of shortcomings.  First, the experimenter has to find all the parts and build a blicket detector using hot glue gun and a soldering iron ([for example see these notes](http://depts.washington.edu/idl/light_detail.htm)).
+This process can be challenging, especially if there's not an electronics expert in the lab.
+Second, relying on an experimenter to appropriately and accurately toggle the blicket detector when the blicket is placed on top introduces experimental design problems.
+For example, a subtle temporal delay or advance might influence the learning of the causal relationship.
+Additionally, the confederate's anticipation of upcoming blickets might signal to the participants that there's something special about them aside from their basic causal properties.  This issue is sometimes known as [experimenter expectancy](http://en.wikipedia.org/wiki/Observer-expectancy_effect) effects and are often addressed by designs where the experimenter is "blind" to which condition they are in.  Since Sifteo Cubes are coded in software (C++), it is possibly to randomly assign particpants to condition without the experimenter being aware of the condition.
+Finally, once the specific blicket detector box is built, it is difficult to create more complicated experiments involving other types of causal patterns, interventions, or variable types.
 
-Sifteo Cubes overcomes each of the aforementioned limitations.
-Each Sifteo Cube has calibrated object detecting sensors, removing any possibility of a confederate botching collision timing.
+Sifteo Cubes overcome each of the aforementioned limitations.
+Each Sifteo Cube has calibrated object detecting sensors, removing any possibility of the experimenter messing up the timing.
 Sifteo provides an API (Application Programming Interface) that allows the experimenter to program the logic of the experiment and upload it to the cubes beforehand so that both the participant and the confederate are blind to the condition, avoiding any unintentional signaling.  In addition, the software can be loaded onto the cubes and carried (along with a small battery powered base station) to
 a testing site without needing a computer nearby.  The base station can be used to store data files for later analysis (connects using standard USB).  Most importantly, Sifteo provides endless possibilities for creating (and recreating) interesting psychological experiments beyond blickets.  They are particularly well suited for work with young children where using a computer mouse can be a challenge.
 
@@ -146,6 +147,8 @@ In the categorization condition, the experimenter placed each of the 4 objects o
 The experimenter then lifted up one of the blickets and asked the child which of the other blocks was also a blicket.
 In the induction condition, the experimenter described two objects as being blickets and two as not being blickets. She then placed the blicket on the detector and asked the child which of the remaining blocks would also set off the detector.
 
+Jay: I think maybe a paragraph or sentence about what the study found, how this design deconfounds causal learning
+versus traditional categorization, etc... would make sense.
 
 ![][screen_shot]
 
