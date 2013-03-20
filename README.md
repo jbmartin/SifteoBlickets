@@ -39,7 +39,7 @@ The word 'blicket' is a neologism (or made up word) created by psychologists. Ho
 1. (philosophy) An object with certain properties causing it to trigger a "blicket detector" (a device that lights up and plays music), introduced in certain experiments relating to causality and perception ([wikitonary](http://en.wiktionary.org/wiki/blicket)).
 
 In other words a 'blicket' is basically something that can _cause_ something else (specifically, the 'blicket detector') to do something. Just like an Asprin might cause your headache go away, a "blicket" might make a 
-"blicket detector" go wild (blink and play sounds).  Why call it a blicket?  Meaningless nonesense words are an important tool for studying learning and reasoning because they help to reduce or remove the influence prior knowledge.   You could rename a blicket anything ("wuz", "kez", etc...) but many experiements in causality have been done (arbitrarily) with the phrase 'blicket.'
+"blicket detector" go wild (blink and play sounds).  Why call it a blicket?  Meaningless nonesense words are an important tool for studying learning and reasoning because they help to reduce or remove the influence prior knowledge.   You could rename a blicket anything ("wuz", "kez", etc...) but many experiements in causal learning have been done (arbitrarily) with the phrase 'blicket.'
 
 Psychologists have relied on the blicket detector game as a model of how people learn new causal relationships.
 How does the blicket game work?  Typically in an experiment, the researcher tells the participant that there is a box that is a "blicket
@@ -51,7 +51,7 @@ in the detector.  The goal is to see how children and adults learn which objects
 #What are Sifteo Cubes?
 Sifteo offers a unique gaming platform centered around interactive 1.5 inch cubes each with their own LCD touch screen, motion sensor, accelerometer, and the ability to sense nearby cubes.
 Basically, they are programmable iPod nanos that can touch and talk to one another!
-These feature packed phsyical computing devices present an exciting opportunity for psychologists to study how people reason and learn through physical interaction between real objects.
+These feature packed physical computing devices present an exciting opportunity for psychologists to study how people reason and learn through physical interaction between real objects.
 
 ![][sifteo_cubes]
 
@@ -78,7 +78,7 @@ This process can be challenging, error-prone, and messy, especially if there's n
 Second, relying on an experimenter to appropriately and accurately toggle the blicket detector when the blicket is placed on top introduces experimental design problems.
 For example, a subtle temporal delay or advance between placing the block on the devide and flipping the switch to activate
 the blicket might influence the learning of the causal relationship (e.g., Lagnado & Sloman, 2004).
-Additionally, the confederate's anticipation of which block to test next might signal to the participant that there's something special about them aside from their ability to activate the detector.  This issue is sometimes known as [experimenter expectancy](http://en.wikipedia.org/wiki/Observer-expectancy_effect) effects and are often addressed by designs where the experimenter is "blind" to which condition they are in.   A hardward blicket detector is a fixed, unchangable hardware device.  As a result, it is difficult to create more complicated experiments involving other types of causal patterns, interventions, or variable types.
+Additionally, the confederate's anticipation of which block to test next might signal to the participant that there's something special about them aside from their ability to activate the detector.  This issue is sometimes known as [experimenter expectancy](http://en.wikipedia.org/wiki/Observer-expectancy_effect) effects and are often addressed by designs where the experimenter and participant are "blind" to which condition they have been assigned.   Finally, a hardwired blicket detector is a fixed, unchangable device.  As a result, it is difficult to create more complicated experiments involving other types of causal patterns, interventions, or variable types.
 
 Sifteo Cubes overcome each of the aforementioned limitations.  Each Sifteo Cube has calibrated object detecting sensors, removing any possibility of the experimenter messing up the timing when on block physically hits another one.
 Sifteo provides an API (Application Programming Interface) that allows the experimenter to program the logic of the experiment and upload it to the cubes beforehand so that both the participant and the confederate are blind to the condition, avoiding any unintentional signaling.  In addition, the software can be loaded onto the cubes and carried (along with a small battery powered base station) to
@@ -137,7 +137,7 @@ Below is our attempt to recreate those objects using Adobe Illustrator. These ma
 An experimenter presented seven sets of the four objects (shown above) to children.
 Set 1 was always presented first, followed by sets 2 through 7 at random.
 In sets 1 through 4, two objects were randomly assigned to be "blickets" in the sense that they would activate
-the "blicket detector.""
+the "blicket detector."
 In sets 5 and 6, two perceptually conflicting blickets were chosen to be blickets.
 In set 5, for example, one blicket might be the green rounded rectangle and the other blicket might be a red rounded rectangle.
 Each child was placed either in a "induction" or "categorization" condition.
@@ -145,8 +145,7 @@ In the categorization condition, the experimenter placed each of the 4 objects o
 The experimenter then lifted up one of the blickets and asked the child which of the other blocks was also a blicket.
 In the induction condition, the experimenter described two objects as being blickets and two as not being blickets. She then placed the blicket on the detector and asked the child which of the remaining blocks would also set off the detector.
 
-Jay: I think maybe a paragraph or sentence about what the study found, how this design deconfounds causal learning
-versus traditional categorization, etc... would make sense.
+JAY:  I THINK A PARAGRAPH HERE ABOUT WHAT THE STUDY FOUND, HOW IT DECONFOUNDS FEATURE/CAUSAL LEARNING WOULD MAKE SENSE.
 
 ![][screen_shot]
 
