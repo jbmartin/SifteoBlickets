@@ -1,4 +1,34 @@
-IconAssets = group{ quality=10.00 }
+head	1.2;
+access;
+symbols;
+locks
+	j:1.2; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.2
+date	2013.03.22.19.47.36;	author j;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.03.17.19.45.12;	author j;	state Exp;
+branches;
+next	;
+
+
+desc
+@vim
+@
+
+
+1.2
+log
+@vim
+@
+text
+@IconAssets = group{ quality=10.00 }
 Icon = image{ "assets/nyu-logo.png"}
 
 BootstrapAssets = group{ quality=9.0 }
@@ -34,3 +64,14 @@ SfxAttach = sound{ "assets/attach.raw" }
 SfxSong = sound{ "assets/fur_elise_10s_clip.wav"}
 SfxDetach = sound{ "assets/detach.raw" }
 SfxConnect = sound{ "assets/connect.raw" }
+@
+
+
+1.1
+log
+@vim
+@
+text
+@d5 1
+d7 1
+@

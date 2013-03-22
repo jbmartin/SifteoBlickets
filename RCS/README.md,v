@@ -1,11 +1,531 @@
-head	1.505;
+head	1.609;
 access;
 symbols;
 locks
-	j:1.505; strict;
+	j:1.609; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.609
+date	2013.03.22.21.07.52;	author j;	state Exp;
+branches;
+next	1.608;
+
+1.608
+date	2013.03.22.21.07.13;	author j;	state Exp;
+branches;
+next	1.607;
+
+1.607
+date	2013.03.22.21.06.48;	author j;	state Exp;
+branches;
+next	1.606;
+
+1.606
+date	2013.03.22.21.05.45;	author j;	state Exp;
+branches;
+next	1.605;
+
+1.605
+date	2013.03.22.21.04.50;	author j;	state Exp;
+branches;
+next	1.604;
+
+1.604
+date	2013.03.22.21.04.29;	author j;	state Exp;
+branches;
+next	1.603;
+
+1.603
+date	2013.03.22.21.03.55;	author j;	state Exp;
+branches;
+next	1.602;
+
+1.602
+date	2013.03.22.21.03.01;	author j;	state Exp;
+branches;
+next	1.601;
+
+1.601
+date	2013.03.22.21.02.29;	author j;	state Exp;
+branches;
+next	1.600;
+
+1.600
+date	2013.03.22.21.01.41;	author j;	state Exp;
+branches;
+next	1.599;
+
+1.599
+date	2013.03.22.21.01.13;	author j;	state Exp;
+branches;
+next	1.598;
+
+1.598
+date	2013.03.22.21.00.41;	author j;	state Exp;
+branches;
+next	1.597;
+
+1.597
+date	2013.03.22.20.57.11;	author j;	state Exp;
+branches;
+next	1.596;
+
+1.596
+date	2013.03.22.20.54.13;	author j;	state Exp;
+branches;
+next	1.595;
+
+1.595
+date	2013.03.22.20.53.10;	author j;	state Exp;
+branches;
+next	1.594;
+
+1.594
+date	2013.03.22.20.52.23;	author j;	state Exp;
+branches;
+next	1.593;
+
+1.593
+date	2013.03.22.20.51.54;	author j;	state Exp;
+branches;
+next	1.592;
+
+1.592
+date	2013.03.22.20.51.46;	author j;	state Exp;
+branches;
+next	1.591;
+
+1.591
+date	2013.03.22.20.50.06;	author j;	state Exp;
+branches;
+next	1.590;
+
+1.590
+date	2013.03.22.20.49.56;	author j;	state Exp;
+branches;
+next	1.589;
+
+1.589
+date	2013.03.22.20.49.43;	author j;	state Exp;
+branches;
+next	1.588;
+
+1.588
+date	2013.03.22.20.48.53;	author j;	state Exp;
+branches;
+next	1.587;
+
+1.587
+date	2013.03.22.20.47.30;	author j;	state Exp;
+branches;
+next	1.586;
+
+1.586
+date	2013.03.22.20.47.04;	author j;	state Exp;
+branches;
+next	1.585;
+
+1.585
+date	2013.03.22.20.46.06;	author j;	state Exp;
+branches;
+next	1.584;
+
+1.584
+date	2013.03.22.20.43.39;	author j;	state Exp;
+branches;
+next	1.583;
+
+1.583
+date	2013.03.22.20.43.22;	author j;	state Exp;
+branches;
+next	1.582;
+
+1.582
+date	2013.03.22.20.41.21;	author j;	state Exp;
+branches;
+next	1.581;
+
+1.581
+date	2013.03.22.20.40.11;	author j;	state Exp;
+branches;
+next	1.580;
+
+1.580
+date	2013.03.22.20.39.31;	author j;	state Exp;
+branches;
+next	1.579;
+
+1.579
+date	2013.03.22.20.36.43;	author j;	state Exp;
+branches;
+next	1.578;
+
+1.578
+date	2013.03.22.20.36.09;	author j;	state Exp;
+branches;
+next	1.577;
+
+1.577
+date	2013.03.22.20.35.06;	author j;	state Exp;
+branches;
+next	1.576;
+
+1.576
+date	2013.03.22.20.35.00;	author j;	state Exp;
+branches;
+next	1.575;
+
+1.575
+date	2013.03.22.20.34.27;	author j;	state Exp;
+branches;
+next	1.574;
+
+1.574
+date	2013.03.22.20.33.24;	author j;	state Exp;
+branches;
+next	1.573;
+
+1.573
+date	2013.03.22.20.32.08;	author j;	state Exp;
+branches;
+next	1.572;
+
+1.572
+date	2013.03.22.20.32.02;	author j;	state Exp;
+branches;
+next	1.571;
+
+1.571
+date	2013.03.22.20.31.26;	author j;	state Exp;
+branches;
+next	1.570;
+
+1.570
+date	2013.03.22.20.31.02;	author j;	state Exp;
+branches;
+next	1.569;
+
+1.569
+date	2013.03.22.20.29.56;	author j;	state Exp;
+branches;
+next	1.568;
+
+1.568
+date	2013.03.22.20.29.09;	author j;	state Exp;
+branches;
+next	1.567;
+
+1.567
+date	2013.03.22.20.25.11;	author j;	state Exp;
+branches;
+next	1.566;
+
+1.566
+date	2013.03.22.20.24.44;	author j;	state Exp;
+branches;
+next	1.565;
+
+1.565
+date	2013.03.22.20.24.03;	author j;	state Exp;
+branches;
+next	1.564;
+
+1.564
+date	2013.03.22.20.21.29;	author j;	state Exp;
+branches;
+next	1.563;
+
+1.563
+date	2013.03.22.20.20.54;	author j;	state Exp;
+branches;
+next	1.562;
+
+1.562
+date	2013.03.22.20.20.51;	author j;	state Exp;
+branches;
+next	1.561;
+
+1.561
+date	2013.03.22.20.20.05;	author j;	state Exp;
+branches;
+next	1.560;
+
+1.560
+date	2013.03.22.20.19.44;	author j;	state Exp;
+branches;
+next	1.559;
+
+1.559
+date	2013.03.22.20.17.58;	author j;	state Exp;
+branches;
+next	1.558;
+
+1.558
+date	2013.03.22.20.17.46;	author j;	state Exp;
+branches;
+next	1.557;
+
+1.557
+date	2013.03.22.20.15.11;	author j;	state Exp;
+branches;
+next	1.556;
+
+1.556
+date	2013.03.22.20.14.53;	author j;	state Exp;
+branches;
+next	1.555;
+
+1.555
+date	2013.03.22.20.13.20;	author j;	state Exp;
+branches;
+next	1.554;
+
+1.554
+date	2013.03.22.20.10.18;	author j;	state Exp;
+branches;
+next	1.553;
+
+1.553
+date	2013.03.22.20.07.58;	author j;	state Exp;
+branches;
+next	1.552;
+
+1.552
+date	2013.03.22.20.07.20;	author j;	state Exp;
+branches;
+next	1.551;
+
+1.551
+date	2013.03.22.20.06.17;	author j;	state Exp;
+branches;
+next	1.550;
+
+1.550
+date	2013.03.22.20.03.36;	author j;	state Exp;
+branches;
+next	1.549;
+
+1.549
+date	2013.03.22.20.01.42;	author j;	state Exp;
+branches;
+next	1.548;
+
+1.548
+date	2013.03.22.19.59.14;	author j;	state Exp;
+branches;
+next	1.547;
+
+1.547
+date	2013.03.22.19.58.50;	author j;	state Exp;
+branches;
+next	1.546;
+
+1.546
+date	2013.03.22.19.58.16;	author j;	state Exp;
+branches;
+next	1.545;
+
+1.545
+date	2013.03.22.19.56.47;	author j;	state Exp;
+branches;
+next	1.544;
+
+1.544
+date	2013.03.22.19.56.40;	author j;	state Exp;
+branches;
+next	1.543;
+
+1.543
+date	2013.03.22.19.53.51;	author j;	state Exp;
+branches;
+next	1.542;
+
+1.542
+date	2013.03.22.19.52.12;	author j;	state Exp;
+branches;
+next	1.541;
+
+1.541
+date	2013.03.22.19.51.53;	author j;	state Exp;
+branches;
+next	1.540;
+
+1.540
+date	2013.03.22.19.51.16;	author j;	state Exp;
+branches;
+next	1.539;
+
+1.539
+date	2013.03.22.19.50.47;	author j;	state Exp;
+branches;
+next	1.538;
+
+1.538
+date	2013.03.22.19.49.19;	author j;	state Exp;
+branches;
+next	1.537;
+
+1.537
+date	2013.03.22.19.46.50;	author j;	state Exp;
+branches;
+next	1.536;
+
+1.536
+date	2013.03.22.19.45.01;	author j;	state Exp;
+branches;
+next	1.535;
+
+1.535
+date	2013.03.22.19.43.06;	author j;	state Exp;
+branches;
+next	1.534;
+
+1.534
+date	2013.03.22.19.41.00;	author j;	state Exp;
+branches;
+next	1.533;
+
+1.533
+date	2013.03.22.19.40.38;	author j;	state Exp;
+branches;
+next	1.532;
+
+1.532
+date	2013.03.22.19.39.36;	author j;	state Exp;
+branches;
+next	1.531;
+
+1.531
+date	2013.03.22.19.39.10;	author j;	state Exp;
+branches;
+next	1.530;
+
+1.530
+date	2013.03.22.19.33.50;	author j;	state Exp;
+branches;
+next	1.529;
+
+1.529
+date	2013.03.22.19.30.11;	author j;	state Exp;
+branches;
+next	1.528;
+
+1.528
+date	2013.03.22.19.27.53;	author j;	state Exp;
+branches;
+next	1.527;
+
+1.527
+date	2013.03.22.19.25.26;	author j;	state Exp;
+branches;
+next	1.526;
+
+1.526
+date	2013.03.22.19.24.26;	author j;	state Exp;
+branches;
+next	1.525;
+
+1.525
+date	2013.03.22.19.23.55;	author j;	state Exp;
+branches;
+next	1.524;
+
+1.524
+date	2013.03.22.19.23.42;	author j;	state Exp;
+branches;
+next	1.523;
+
+1.523
+date	2013.03.22.19.23.27;	author j;	state Exp;
+branches;
+next	1.522;
+
+1.522
+date	2013.03.22.19.22.41;	author j;	state Exp;
+branches;
+next	1.521;
+
+1.521
+date	2013.03.22.19.22.06;	author j;	state Exp;
+branches;
+next	1.520;
+
+1.520
+date	2013.03.22.19.21.04;	author j;	state Exp;
+branches;
+next	1.519;
+
+1.519
+date	2013.03.22.19.19.05;	author j;	state Exp;
+branches;
+next	1.518;
+
+1.518
+date	2013.03.22.19.18.18;	author j;	state Exp;
+branches;
+next	1.517;
+
+1.517
+date	2013.03.22.19.14.14;	author j;	state Exp;
+branches;
+next	1.516;
+
+1.516
+date	2013.03.22.19.12.41;	author j;	state Exp;
+branches;
+next	1.515;
+
+1.515
+date	2013.03.22.19.12.31;	author j;	state Exp;
+branches;
+next	1.514;
+
+1.514
+date	2013.03.22.19.12.02;	author j;	state Exp;
+branches;
+next	1.513;
+
+1.513
+date	2013.03.22.19.11.50;	author j;	state Exp;
+branches;
+next	1.512;
+
+1.512
+date	2013.03.22.19.10.03;	author j;	state Exp;
+branches;
+next	1.511;
+
+1.511
+date	2013.03.22.19.09.37;	author j;	state Exp;
+branches;
+next	1.510;
+
+1.510
+date	2013.03.22.19.09.18;	author j;	state Exp;
+branches;
+next	1.509;
+
+1.509
+date	2013.03.22.19.08.53;	author j;	state Exp;
+branches;
+next	1.508;
+
+1.508
+date	2013.03.22.19.08.37;	author j;	state Exp;
+branches;
+next	1.507;
+
+1.507
+date	2013.03.22.19.08.30;	author j;	state Exp;
+branches;
+next	1.506;
+
+1.506
+date	2013.03.22.19.05.03;	author j;	state Exp;
+branches;
+next	1.505;
 
 1.505
 date	2013.03.22.16.42.46;	author j;	state Exp;
@@ -2538,7 +3058,7 @@ desc
 @
 
 
-1.505
+1.609
 log
 @vim
 @
@@ -2707,7 +3227,7 @@ In the categorization condition, the experimenter placed each of the 4 objects o
 The experimenter then lifted up one of the blickets and asked the child which of the other blocks was also a blicket.
 In the induction condition, the experimenter described two objects as being blickets and two as not being blickets. She then placed the blicket on the detector and asked the child which of the remaining blocks would also set off the detector.
 
-Todo(Jay): Add a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.
+**Todo(Jay):** Add a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.
 
 ![][screen_shot]
 
@@ -2720,7 +3240,7 @@ Sifteo uses a popular programming language called C++.
 C++ isn't a great language to learn if you're just starting out, mainly because it's very unforgiving of mistakes and requires quite a bit of knowledge to do things that are trivial in scripting languages (Python, Javascript, etc.).
 It shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
 Fortunately, the Sifteo API wraps up most of the scary parts of dealing with C++ directly.
-However, it still rears its ugly head from time to time.
+The difficulty of C++ still rears its ugly head from time to time.
 We'll do our best to help you figure out how to deal with it or where to turn go when you're stuck.
 
 Let's start with some C++ basics.
@@ -2763,7 +3283,7 @@ The trade off between compiled and interpreted (interactive) programming languag
 Compiled languages generally have faster performance rates but slower code development times.
 
 Luckily, the Sifteo API handles all of the compiling issues using a command called make.
-To illustrate, once you have code named my\_experiment.cpp ready to compile, you run
+To illustrate, once you have code named my\_experiment.cpp ready to compile, run
 
 ```bash
 make my_experiment
@@ -2771,9 +3291,72 @@ make my_experiment
 
 in the folder where it's saved. More on this later.
 
-#Loading your materials
+#Loading media
 
-Discuss lua
+Sifteo uses a config file named assets.lua to load and deploy media.
+Assests.lua is written in Lua, a high level programming language similar to Python.
+To understand the Sifteo asset workflow, let's step through [assets.lua](https://github.com/jbmartin/SifteoBlickets/blob/master/assets.lua) located in the main directory.
+The file starts by defining how various resources should be loaded.
+At the top of the file, the app menu icon (the app picture in the start menu) is loaded.
+
+
+```lua
+IconAssets = group{ quality=10.00 }
+Icon = image{ "assets/nyu-logo.png" }
+```
+
+IconAssets defines a group of icons that have an image quality of 10 (out of 10).
+Everything image that follows (until a new group is defined) will be included in the IconAssets group and inherent a quality of 10.
+
+The next asset group is BootstrapAssets, which includes the stimuli for our experiment.
+In addition to groups, Sifteo offers many ways to relate images to one another to deal with backgrounds, overlays, and animations. 
+In the Blicket Game, we use frames to contain the stimuli in a particular set.
+
+```lua
+BootstrapAssets = group{ quality=9.0 }
+BlackTile = image{ "assets/black.png", pinned=true }
+Bars = {
+	image{ "assets/bar_top.png", pinned=true },
+	image{ "assets/bar_left.png", pinned=true },
+	image{ "assets/bar_bottom.png", pinned=true },
+	image{ "assets/bar_right.png", pinned=true }
+}
+
+-- Experimental stimuli
+Set1IdenticalObjects = image{{ "assets/green_rect.png", "assets/green_rect.png",
+                               "assets/green_rect.png", "assets/green_rect.png" }}
+-- Set2, Set3, etc...
+
+Backgrounds = image{{ "assets/bg_sleep_zoom.png", "assets/bg_wake_zoom.png" }}
+
+```
+
+\* -- (two en-dashes) is a comment in Lua similar to \\\ in C++ and Javascript or # in Python and R.
+
+Frames are created by using a single call to image, followed by a list of frames (image locations).
+_backgrounds_ contains two frames: a sleepy face and an awake face.
+Code we'll explain later demonstrates how to use _backgrounds_ to create a simple animation of a face waking up and falling asleep.
+For now, what's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available (in the global namespace) to C++ as an array indexed by frame number (don't worry if this doesn't fully make sense yet).
+
+You may have noticed the "pinned" parameter in the image calls above.
+Basically, it tells Sifteo to load these images sequentially. 
+Doing so is important for sprite animations, and as such our discussion of it will be deferred to the advanced section.
+
+Finally, the assets file tells Sifteo how to load the sound effects.
+The process is very similar to loading images, except that _sound_ is called instead of _image_.
+Below we load sound effects for cubes making contact, breaking contact, and triggering the blicket detector (Fur Elise).
+
+```lua
+SfxAttach = sound{ "assets/attach.raw" }
+SfxSong = sound{ "assets/fur_elise_10s_clip.wav"}
+SfxDetach = sound{ "assets/detach.raw" }
+SfxConnect = sound{ "assets/connect.raw" }
+```
+
+Sifteo is very picky about it's media formats, for example images need to be 128x128 pixels and audio needs to be 16 kHz and mono channelled.
+For a complete list of requirements, check [Sifteo's Asset Workflow Guide](https://developers.sifteo.com/docs/SifteoSDK/0.9.8/asset_workflow.html).
+
+**TODO(Jay):** Add command line resources and instructions for converting audio files and images.
 
 #The heart of your experiment: Main.cpp
 First, lets look at the logic of main.cpp.
@@ -2798,6 +3381,1158 @@ Discuss
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.608
+log
+@vim
+@
+text
+@d274 1
+a274 1
+For now, what's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available (in the global namespace) to C++ as an array indexed by frame number (don't worry if this doesn't full make sense yet).
+@
+
+
+1.607
+log
+@vim
+@
+text
+@d235 1
+a235 1
+At the top of the file, the app menu icon (the app picture in the start menu) is loaded:
+@
+
+
+1.606
+log
+@vim
+@
+text
+@d234 2
+a235 1
+The file starts by defining how various resources should be loaded, including the app menu icon (the app picture in the start menu):
+@
+
+
+1.605
+log
+@vim
+@
+text
+@d290 1
+a290 1
+Sifteo is very picky about it's media formats, for example images need to be 128x128 pixels and audio needs to be 16 kHz mono channel.
+@
+
+
+1.604
+log
+@vim
+@
+text
+@d291 1
+a291 1
+For a complete list of requirements, check [Sifteo's Asset Workflow Guide](https://developers.sifteo.com/docs/SifteoSDK/0.9.8/asset_workflow.html)
+@
+
+
+1.603
+log
+@vim
+@
+text
+@d281 1
+a281 1
+Below we load sounds for cubes making contact, breaking contact, and triggering the blicket detector (Fur Elise).
+@
+
+
+1.602
+log
+@vim
+@
+text
+@d272 1
+a272 1
+Code we'll explain later demonstrates how to create a simple animation using the _backgrounds_ frame to animate a face waking up and falling asleep.
+@
+
+
+1.601
+log
+@vim
+@
+text
+@d273 1
+a273 1
+For now, what's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available (in the global namespace) to C++ as an array indexed by frame number (don't worry if this doesn't make sense yet).
+@
+
+
+1.600
+log
+@vim
+@
+text
+@d272 1
+a272 1
+Code we'll explain later demonstrates how to create a simple animation of a face waking up.
+@
+
+
+1.599
+log
+@vim
+@
+text
+@d271 1
+a271 1
+_backgrounds_ contains two frames: A sleepy face and an awake face.
+@
+
+
+1.598
+log
+@vim
+@
+text
+@d271 1
+a271 1
+Backgrounds contains two frames: A sleepy face and an awake face.
+@
+
+
+1.597
+log
+@vim
+@
+text
+@d271 3
+a273 3
+Frames are typically used for animation (sprites), so they are beyond the scope of this tutorial (see advanced topics below).
+Backgrounds contains two frames: A sleepy face and an awake face. 
+What's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available (in the global namespace) to C++ as an array indexed by frame number (don't worry if this doesn't make sense yet).
+@
+
+
+1.596
+log
+@vim
+@
+text
+@d246 2
+a247 2
+In addition to groups, Sifteo offers many ways to relate images to one another; another importance concept is frames.
+For convenience, each of the stimuli sets below are placed into frames.
+@
+
+
+1.595
+log
+@vim
+@
+text
+@d272 1
+@
+
+
+1.594
+log
+@vim
+@
+text
+@d262 3
+a264 1
+-- and so on...
+@
+
+
+1.593
+log
+@vim
+@
+text
+@d278 1
+a278 1
+Next, we load sounds for cubes making contact, breaking contact, and triggering the blicket detector (Fur Elise).
+@
+
+
+1.592
+log
+@vim
+@
+text
+@d278 1
+a278 1
+Below we load sounds for cubes making contact, breaking contact, and triggering the blicket detector (Fur Elise).
+@
+
+
+1.591
+log
+@vim
+@
+text
+@d278 1
+a278 1
+Below we load sounds for when the cubes make contact, break contact, and the when the blacked detector is triggered (fur elise).
+@
+
+
+1.590
+log
+@vim
+@
+text
+@d290 1
+a290 1
+**TODO(Jay):** Add command line resources for converting audio files and images.
+@
+
+
+1.589
+log
+@vim
+@
+text
+@d290 1
+a290 1
+**TODO(Jay):** Add command line resources for converting audio files.
+@
+
+
+1.588
+log
+@vim
+@
+text
+@d290 2
+@
+
+
+1.587
+log
+@vim
+@
+text
+@d288 1
+@
+
+
+1.586
+log
+@vim
+@
+text
+@d287 1
+a287 1
+Sifteo is very picky about it's media formats, for example images need to be 128x128 pixels and audio needs to be 16 kHZ mono channel.
+@
+
+
+1.585
+log
+@vim
+@
+text
+@d278 1
+a278 1
+Below we load sounds for when the cubes make contact, break contact, and the sound the blacked detector makes when it is triggered.
+@
+
+
+1.584
+log
+@vim
+@
+text
+@d278 1
+d287 2
+@
+
+
+1.583
+log
+@vim
+@
+text
+@d276 1
+a276 1
+Finally, the asset file loads in the sound effects.
+@
+
+
+1.582
+log
+@vim
+@
+text
+@d276 2
+@
+
+
+1.581
+log
+@vim
+@
+text
+@d277 7
+@
+
+
+1.580
+log
+@vim
+@
+text
+@d273 2
+a274 1
+Basically, it tells Sifteo that these images should be loaded sequentially, which is important for sprite animations and as such, our discussion of it will be deferred to the advanced section.
+@
+
+
+1.579
+log
+@vim
+@
+text
+@d273 1
+a273 1
+Basically, the pinned parameter tells Sifteo that these images should be loaded sequentially, which is important for sprite animations and as such, our discussion of it will be deferred to the advanced section.
+@
+
+
+1.578
+log
+@vim
+@
+text
+@d165 1
+a165 1
+Todo(Jay): Add a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.
+@
+
+
+1.577
+log
+@vim
+@
+text
+@d273 1
+a273 1
+Basically, the pinned parameter tells Sifteo that these images should be loaded sequentially, which is important for sprite animations and our discussion of it will be deferred to the advanced section.
+@
+
+
+1.576
+log
+@vim
+@
+text
+@d273 1
+a273 1
+Basically, the pinned parameter tells Sifteo that these images should be loaded sequentially, which is important for sprite animations and our discussion will be deferred to the advanced section.
+@
+
+
+1.575
+log
+@vim
+@
+text
+@d273 1
+a273 1
+Basically, the pinned parameter tells Sifteo that these images should be loaded sequentially, which is important for sprite animations and will be discussed in the advanced section.
+@
+
+
+1.574
+log
+@vim
+@
+text
+@d270 1
+a270 1
+What's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available (global namespace, don't worry if that doesn't make sense yet) to C++ as an array indexed by frame number.
+@
+
+
+1.573
+log
+@vim
+@
+text
+@d245 3
+a247 3
+The next asset group is BootstrapAssets, which includes our experiment's stimuli.
+Sifteo offers many ways to relate images to one another; you've now seen groups, but another importance concept is frames.
+Each of the stimuli sets below are placed into frames.
+@
+
+
+1.572
+log
+@vim
+@
+text
+@a245 1
+This time we have reduced the image quality to 9, as a consequence each image in the BootstrapAssets group will share the same quality.
+@
+
+
+1.571
+log
+@vim
+@
+text
+@d246 1
+a246 1
+This time we have reduced the quality to 9, as a consequence each subsequent image will share this reduced quality.
+@
+
+
+1.570
+log
+@vim
+@
+text
+@d245 1
+a245 1
+The next asset group is BootstrapAssets, which includes the stimuli for our experiment's.
+@
+
+
+1.569
+log
+@vim
+@
+text
+@a272 2
+
+
+@
+
+
+1.568
+log
+@vim
+@
+text
+@a248 4
+Frames are created by using a single call to image, followed by a list of frames (image locations).
+Frames are typically used for animation (sprites), so they are beyond the scope of this tutorial (see advanced topics below).
+What's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available (global namespace, don't worry if that doesn't make sense yet) to C++ as an array indexed by frame number.
+
+d269 6
+@
+
+
+1.567
+log
+@vim
+@
+text
+@d248 1
+a248 1
+We have placed each of the stimuli sets below into frames.
+d250 2
+a251 2
+Frames are mainly used for animation (sprites) and are beyond the scope of this tutorial (see advanced topics below).
+What's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available (global namespace) to C++ as an array indexed by frame number.
+@
+
+
+1.566
+log
+@vim
+@
+text
+@d251 1
+a251 1
+What's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available to C++ as an array indexed by frame number.
+@
+
+
+1.565
+log
+@vim
+@
+text
+@d251 1
+a251 1
+What's important to note is that after loading the asset file, Set1IdenticalObjects will be made available as an array indexed by frame number.
+@
+
+
+1.564
+log
+@vim
+@
+text
+@d251 1
+@
+
+
+1.563
+log
+@vim
+@
+text
+@d221 1
+a221 1
+To illustrate, once you have code named my\_experiment.cpp ready to compile, you run
+@
+
+
+1.562
+log
+@vim
+@
+text
+@d248 1
+a248 1
+We have placed each of the stimuli sets below into frames. 
+@
+
+
+1.561
+log
+@vim
+@
+text
+@d246 1
+a246 1
+This time, we have reduced the quality to 9, as a consequence each subsequent image will share this reduced quality.
+@
+
+
+1.560
+log
+@vim
+@
+text
+@d270 1
+a270 1
+\* -- is a comment in Lua similar to \\\ in C++ and Javascript or # in Python and R.
+@
+
+
+1.559
+log
+@vim
+@
+text
+@d270 1
+a270 1
+\* -- is a comment in Lua similar to \\ in C++ and Javascript or # in Python and R.
+@
+
+
+1.558
+log
+@vim
+@
+text
+@d271 1
+@
+
+
+1.557
+log
+@vim
+@
+text
+@d267 1
+d270 4
+a273 3
+You may have noticed the pinned parameter in the image calls.
+Basically, the pinned parameter tells Sifteo that these images should be loaded sequentially
+This is yet another animation related issue 
+@
+
+
+1.556
+log
+@vim
+@
+text
+@a266 1
+
+@
+
+
+1.555
+log
+@vim
+@
+text
+@d270 3
+a272 1
+You mk
+@
+
+
+1.554
+log
+@vim
+@
+text
+@d267 1
+d270 2
+@
+
+
+1.553
+log
+@vim
+@
+text
+@d263 1
+a263 1
+// Experimental stimuli
+@
+
+
+1.552
+log
+@vim
+@
+text
+@d263 1
+@
+
+
+1.551
+log
+@vim
+@
+text
+@d248 2
+a249 1
+Each of the stimuli sets below are setup as frames indicated by the single call to image, followed by a list of image locations.
+@
+
+
+1.550
+log
+@vim
+@
+text
+@d246 1
+a246 1
+This time, we have reduced the quality to 9, as a consequence each subsequent image in this group will share the same reduced quality.
+d248 1
+a248 1
+Each of the stimuli sets below are setup as frames
+@
+
+
+1.549
+log
+@vim
+@
+text
+@d248 3
+a250 2
+Frames are used for animation (sprites), which is beyond the scope of this tutorial (see advanced topics below),
+but 
+@
+
+
+1.548
+log
+@vim
+@
+text
+@d246 4
+a249 3
+This time, we have reduced the quality to 9, as a consequence each subsequent image in this group will share the reduced quality.
+Sifteo offers many ways to relate images to one another; the two demonstrated here are groups and frames.
+You've already seen groups, but frames 
+@
+
+
+1.547
+log
+@vim
+@
+text
+@d246 1
+a246 1
+This time, we have reduced the quality to 9, as a consequence each subsequent image in the same group will share the same reduced quality.
+@
+
+
+1.546
+log
+@vim
+@
+text
+@d246 1
+a246 1
+This time, we have reduced the quality to 9, as a consequence each subsequent image in the same group will share the same quality.
+@
+
+
+1.545
+log
+@vim
+@
+text
+@d247 2
+@
+
+
+1.544
+log
+@vim
+@
+text
+@d246 1
+a246 1
+This time, we have reduced the quality to 9, as a consequence each subsequent image in the same group will also have the same quality.
+@
+
+
+1.543
+log
+@vim
+@
+text
+@d234 1
+a234 1
+The file starts by defining how various resources should be loaded, including the app menu icon (the app picture in the start menu).
+d245 2
+a246 1
+The next asset group is BootstrapAssets, which includes our experiment's materials.
+@
+
+
+1.542
+log
+@vim
+@
+text
+@d245 1
+a245 1
+The next asset group is BootstrapAssets, which includes the experiment's materials.
+@
+
+
+1.541
+log
+@vim
+@
+text
+@a248 1
+
+a249 1
+
+@
+
+
+1.540
+log
+@vim
+@
+text
+@d245 1
+a245 1
+The next group we come across is BootstrapAssets, which includes the experiment's materials.
+@
+
+
+1.539
+log
+@vim
+@
+text
+@d261 1
+@
+
+
+1.538
+log
+@vim
+@
+text
+@d245 17
+a261 1
+The next group we come across is BootstrapAssets, which is where we have included the experiment's materials.
+@
+
+
+1.537
+log
+@vim
+@
+text
+@d245 1
+@
+
+
+1.536
+log
+@vim
+@
+text
+@d243 1
+a243 1
+Everything image that follows (until a new group is defined) will be included in the IconAssets group and inherent the same quality of 10.
+@
+
+
+1.535
+log
+@vim
+@
+text
+@d242 4
+a245 2
+IconAssets defines a group of icon pictures that have an image quality of 10 (out of 10).
+Everything image that follows will be in the IconAssets group and have a quality of 10.
+@
+
+
+1.534
+log
+@vim
+@
+text
+@d242 2
+a243 1
+IconAssets 
+@
+
+
+1.533
+log
+@vim
+@
+text
+@d234 1
+a234 1
+The file starts by defining how various resources should be loaded, including the app menu icon (the picture of the app in the start menu).
+@
+
+
+1.532
+log
+@vim
+@
+text
+@d234 1
+a234 1
+The file starts by loading resources for the app menu icon (the app picture in the start menu).
+@
+
+
+1.531
+log
+@vim
+@
+text
+@d234 1
+a234 1
+The file starts by loading resources for the app menu icon (the picture in the start menu).
+@
+
+
+1.530
+log
+@vim
+@
+text
+@d234 2
+a235 1
+The file starts by loading the app menu icons.
+@
+
+
+1.529
+log
+@vim
+@
+text
+@d178 1
+a178 1
+However, it still rears its ugly head from time to time.
+@
+
+
+1.528
+log
+@vim
+@
+text
+@d229 1
+a229 1
+#Loading materials
+@
+
+
+1.527
+log
+@vim
+@
+text
+@d232 1
+a232 1
+Assests.lua is written in Lua, a high level programming language that is similar to Python.
+d234 1
+a234 1
+The file starts by loading the menu icons.
+d241 1
+@
+
+
+1.526
+log
+@vim
+@
+text
+@d233 1
+a233 1
+Let's start by taking a look at the Sifteo asset workflow by stepping through [assets.lua](https://github.com/jbmartin/SifteoBlickets/blob/master/assets.lua) located in the main directory.
+@
+
+
+1.525
+log
+@vim
+@
+text
+@d232 1
+a232 1
+Assests.lua is written in Lua, a high level programming language that is very similar to Python.
+@
+
+
+1.524
+log
+@vim
+@
+text
+@d232 1
+a232 1
+Assests.lua is written Lua, a high level programming language that is very similar to Python.
+@
+
+
+1.523
+log
+@vim
+@
+text
+@d232 1
+a232 1
+Assests.lua is written Lua, a high level programming language, which is very similar to Python.
+@
+
+
+1.522
+log
+@vim
+@
+text
+@d231 1
+a231 1
+Sifteo uses a file named assets.lua to load media into its system.
+@
+
+
+1.521
+log
+@vim
+@
+text
+@d233 1
+a233 1
+Let's start by taking a look at how Sifteo Blickets loads and allocates media by stepping through [assets.lua](https://github.com/jbmartin/SifteoBlickets/blob/master/assets.lua) located in the main directory.
+@
+
+
+1.520
+log
+@vim
+@
+text
+@d231 1
+a231 1
+Sifteo uses a file named assets.lua to load media.
+d233 1
+a233 1
+Let's take a look at how Sifteo Blickets loads media by stepping through [assets.lua](https://github.com/jbmartin/SifteoBlickets/blob/master/assets.lua) located in the main directory.
+@
+
+
+1.519
+log
+@vim
+@
+text
+@d231 1
+a231 1
+Sifteo uses the file assets.lua to load media to its cubes.
+@
+
+
+1.518
+log
+@vim
+@
+text
+@d232 1
+a232 1
+Assests.lua is a config file written Lua, a high level programming language, which is very similar to Python.
+@
+
+
+1.517
+log
+@vim
+@
+text
+@d232 1
+a232 2
+Assests.lua is a config file written in high level programming language called Lua, which is very similar to Python.
+
+@
+
+
+1.516
+log
+@vim
+@
+text
+@d233 1
+a234 1
+
+@
+
+
+1.515
+log
+@vim
+@
+text
+@d229 1
+a229 1
+#Loading your materials
+@
+
+
+1.514
+log
+@vim
+@
+text
+@d231 1
+a231 1
+Sifteo uses a file named assets.lua to load media, such as audio and pictures, to its cubes.
+@
+
+
+1.513
+log
+@vim
+@
+text
+@d239 1
+a239 1
+Icon = image{ "assets/nyu-logo.png"}
+@
+
+
+1.512
+log
+@vim
+@
+text
+@d235 1
+d237 4
+@
+
+
+1.511
+log
+@vim
+@
+text
+@d233 1
+a233 1
+Let's take a look at how Sifteo Blickets loads media by reverse engineering [assets.lua](https://github.com/jbmartin/SifteoBlickets/blob/master/assets.lua) located in the main directory.
+@
+
+
+1.510
+log
+@vim
+@
+text
+@d233 1
+a233 1
+Let's take a look at how Sifteo Blickets loads media by reverse engineering [assets.lua](https://github.com/jbmartin/SifteoBlickets/blob/master/assets.lua) in the main directory.
+@
+
+
+1.509
+log
+@vim
+@
+text
+@d233 1
+a233 1
+Let's take a look at how Sifteo Blickets loads its media by opening [assets.lua](https://github.com/jbmartin/SifteoBlickets/blob/master/assets.lua) in the main directory.
+@
+
+
+1.508
+log
+@vim
+@
+text
+@d232 1
+a232 1
+Assests.lua is a config file written in high level programming language called Lua, which is similar to Python.
+@
+
+
+1.507
+log
+@vim
+@
+text
+@d232 1
+a232 1
+Assests.lua is a config file written in high level programming language called Lua, which is similar to python.
+@
+
+
+1.506
+log
+@vim
+@
+text
+@d231 2
+a232 2
+Sifteo uses a file named assets.lua to load media, such as audio and pictures, to the cubes.
+Assests.lua is a config file written in high level programming language similar to python.
+@
+
+
+1.505
+log
+@vim
+@
+text
+@d231 5
+a235 1
+Discuss lua
 @
 
 

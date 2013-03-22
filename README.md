@@ -162,7 +162,7 @@ In the categorization condition, the experimenter placed each of the 4 objects o
 The experimenter then lifted up one of the blickets and asked the child which of the other blocks was also a blicket.
 In the induction condition, the experimenter described two objects as being blickets and two as not being blickets. She then placed the blicket on the detector and asked the child which of the remaining blocks would also set off the detector.
 
-Todo(Jay): Add a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.
+**Todo(Jay):** Add a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.
 
 ![][screen_shot]
 
@@ -175,7 +175,7 @@ Sifteo uses a popular programming language called C++.
 C++ isn't a great language to learn if you're just starting out, mainly because it's very unforgiving of mistakes and requires quite a bit of knowledge to do things that are trivial in scripting languages (Python, Javascript, etc.).
 It shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
 Fortunately, the Sifteo API wraps up most of the scary parts of dealing with C++ directly.
-However, it still rears its ugly head from time to time.
+The difficulty of C++ still rears its ugly head from time to time.
 We'll do our best to help you figure out how to deal with it or where to turn go when you're stuck.
 
 Let's start with some C++ basics.
@@ -218,7 +218,7 @@ The trade off between compiled and interpreted (interactive) programming languag
 Compiled languages generally have faster performance rates but slower code development times.
 
 Luckily, the Sifteo API handles all of the compiling issues using a command called make.
-To illustrate, once you have code named my\_experiment.cpp ready to compile, you run
+To illustrate, once you have code named my\_experiment.cpp ready to compile, run
 
 ```bash
 make my_experiment
@@ -226,9 +226,72 @@ make my_experiment
 
 in the folder where it's saved. More on this later.
 
-#Loading your materials
+#Loading media
 
-Discuss lua
+Sifteo uses a config file named assets.lua to load and deploy media.
+Assests.lua is written in Lua, a high level programming language similar to Python.
+To understand the Sifteo asset workflow, let's step through [assets.lua](https://github.com/jbmartin/SifteoBlickets/blob/master/assets.lua) located in the main directory.
+The file starts by defining how various resources should be loaded.
+At the top of the file, the app menu icon (the app picture in the start menu) is loaded.
+
+
+```lua
+IconAssets = group{ quality=10.00 }
+Icon = image{ "assets/nyu-logo.png" }
+```
+
+IconAssets defines a group of icons that have an image quality of 10 (out of 10).
+Everything image that follows (until a new group is defined) will be included in the IconAssets group and inherent a quality of 10.
+
+The next asset group is BootstrapAssets, which includes the stimuli for our experiment.
+In addition to groups, Sifteo offers many ways to relate images to one another to deal with backgrounds, overlays, and animations. 
+In the Blicket Game, we use frames to contain the stimuli in a particular set.
+
+```lua
+BootstrapAssets = group{ quality=9.0 }
+BlackTile = image{ "assets/black.png", pinned=true }
+Bars = {
+	image{ "assets/bar_top.png", pinned=true },
+	image{ "assets/bar_left.png", pinned=true },
+	image{ "assets/bar_bottom.png", pinned=true },
+	image{ "assets/bar_right.png", pinned=true }
+}
+
+-- Experimental stimuli
+Set1IdenticalObjects = image{{ "assets/green_rect.png", "assets/green_rect.png",
+                               "assets/green_rect.png", "assets/green_rect.png" }}
+-- Set2, Set3, etc...
+
+Backgrounds = image{{ "assets/bg_sleep_zoom.png", "assets/bg_wake_zoom.png" }}
+
+```
+
+\* -- (two en-dashes) is a comment in Lua similar to \\\ in C++ and Javascript or # in Python and R.
+
+Frames are created by using a single call to image, followed by a list of frames (image locations).
+_backgrounds_ contains two frames: a sleepy face and an awake face.
+Code we'll explain later demonstrates how to use _backgrounds_ to create a simple animation of a face waking up and falling asleep.
+For now, what's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available (in the global namespace) to C++ as an array indexed by frame number (don't worry if this doesn't fully make sense yet).
+
+You may have noticed the "pinned" parameter in the image calls above.
+Basically, it tells Sifteo to load these images sequentially. 
+Doing so is important for sprite animations, and as such our discussion of it will be deferred to the advanced section.
+
+Finally, the assets file tells Sifteo how to load the sound effects.
+The process is very similar to loading images, except that _sound_ is called instead of _image_.
+Below we load sound effects for cubes making contact, breaking contact, and triggering the blicket detector (Fur Elise).
+
+```lua
+SfxAttach = sound{ "assets/attach.raw" }
+SfxSong = sound{ "assets/fur_elise_10s_clip.wav"}
+SfxDetach = sound{ "assets/detach.raw" }
+SfxConnect = sound{ "assets/connect.raw" }
+```
+
+Sifteo is very picky about it's media formats, for example images need to be 128x128 pixels and audio needs to be 16 kHz and mono channelled.
+For a complete list of requirements, check [Sifteo's Asset Workflow Guide](https://developers.sifteo.com/docs/SifteoSDK/0.9.8/asset_workflow.html).
+
+**TODO(Jay):** Add command line resources and instructions for converting audio files and images.
 
 #The heart of your experiment: Main.cpp
 First, lets look at the logic of main.cpp.
