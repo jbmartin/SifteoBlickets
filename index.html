@@ -179,7 +179,7 @@ In the categorization condition, the experimenter placed each of the 4 objects o
 The experimenter then lifted up one of the blickets and asked the child which of the other blocks was also a blicket.
 In the induction condition, the experimenter described two objects as being blickets and two as not being blickets. She then placed the blicket on the detector and asked the child which of the remaining blocks would also set off the detector.</p>
 
-<p>Todo(Jay): Add a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.</p>
+<p><strong>Todo(Jay):</strong> Add a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.</p>
 
 <p><img src="https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true" alt=""></p>
 
@@ -190,7 +190,7 @@ Sifteo uses a popular programming language called C++.
 C++ isn't a great language to learn if you're just starting out, mainly because it's very unforgiving of mistakes and requires quite a bit of knowledge to do things that are trivial in scripting languages (Python, Javascript, etc.).
 It shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
 Fortunately, the Sifteo API wraps up most of the scary parts of dealing with C++ directly.
-However, it still rears its ugly head from time to time.
+The difficulty of C++ still rears its ugly head from time to time.
 We'll do our best to help you figure out how to deal with it or where to turn go when you're stuck.</p>
 
 <p>Let's start with some C++ basics.
@@ -231,14 +231,75 @@ The trade off between compiled and interpreted (interactive) programming languag
 Compiled languages generally have faster performance rates but slower code development times.</p>
 
 <p>Luckily, the Sifteo API handles all of the compiling issues using a command called make.
-To illustrate, once you have code named my_experiment.cpp ready to compile, you run</p>
+To illustrate, once you have code named my_experiment.cpp ready to compile, run</p>
 
 <div class="highlight"><pre>make my_experiment
 </pre></div>
 
 <p>in the folder where it's saved. More on this later.</p>
 
-<h1>Loading your materials</h1>
+<h1>Loading media</h1>
+
+<p>Sifteo uses a config file named assets.lua to load and deploy media.
+Assests.lua is written in Lua, a high level programming language similar to Python.
+To understand the Sifteo asset workflow, let's step through <a href="https://github.com/jbmartin/SifteoBlickets/blob/master/assets.lua">assets.lua</a> located in the main directory.
+The file starts by defining how various resources should be loaded.
+At the top of the file, the app menu icon (the app picture in the start menu) is loaded.</p>
+
+<div class="highlight"><pre><span class="n">IconAssets</span> <span class="o">=</span> <span class="n">group</span><span class="p">{</span> <span class="n">quality</span><span class="o">=</span><span class="mf">10.00</span> <span class="p">}</span>
+<span class="n">Icon</span> <span class="o">=</span> <span class="n">image</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/nyu-logo.png"</span> <span class="p">}</span>
+</pre></div>
+
+<p>IconAssets defines a group of icons that have an image quality of 10 (out of 10).
+Everything image that follows (until a new group is defined) will be included in the IconAssets group and inherent a quality of 10.</p>
+
+<p>The next asset group is BootstrapAssets, which includes the stimuli for our experiment.
+In addition to groups, Sifteo offers many ways to relate images to one another to deal with backgrounds, overlays, and animations. 
+In the Blicket Game, we use frames to contain the stimuli in a particular set.</p>
+
+<div class="highlight"><pre><span class="n">BootstrapAssets</span> <span class="o">=</span> <span class="n">group</span><span class="p">{</span> <span class="n">quality</span><span class="o">=</span><span class="mf">9.0</span> <span class="p">}</span>
+<span class="n">BlackTile</span> <span class="o">=</span> <span class="n">image</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/black.png"</span><span class="p">,</span> <span class="n">pinned</span><span class="o">=</span><span class="kc">true</span> <span class="p">}</span>
+<span class="n">Bars</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="n">image</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/bar_top.png"</span><span class="p">,</span> <span class="n">pinned</span><span class="o">=</span><span class="kc">true</span> <span class="p">},</span>
+    <span class="n">image</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/bar_left.png"</span><span class="p">,</span> <span class="n">pinned</span><span class="o">=</span><span class="kc">true</span> <span class="p">},</span>
+    <span class="n">image</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/bar_bottom.png"</span><span class="p">,</span> <span class="n">pinned</span><span class="o">=</span><span class="kc">true</span> <span class="p">},</span>
+    <span class="n">image</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/bar_right.png"</span><span class="p">,</span> <span class="n">pinned</span><span class="o">=</span><span class="kc">true</span> <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">-- Experimental stimuli</span>
+<span class="n">Set1IdenticalObjects</span> <span class="o">=</span> <span class="n">image</span><span class="p">{{</span> <span class="s2">"</span><span class="s">assets/green_rect.png"</span><span class="p">,</span> <span class="s2">"</span><span class="s">assets/green_rect.png"</span><span class="p">,</span>
+                               <span class="s2">"</span><span class="s">assets/green_rect.png"</span><span class="p">,</span> <span class="s2">"</span><span class="s">assets/green_rect.png"</span> <span class="p">}}</span>
+<span class="c1">-- Set2, Set3, etc...</span>
+
+<span class="n">Backgrounds</span> <span class="o">=</span> <span class="n">image</span><span class="p">{{</span> <span class="s2">"</span><span class="s">assets/bg_sleep_zoom.png"</span><span class="p">,</span> <span class="s2">"</span><span class="s">assets/bg_wake_zoom.png"</span> <span class="p">}}</span>
+
+</pre></div>
+
+<p>* -- (two en-dashes) is a comment in Lua similar to \\ in C++ and Javascript or # in Python and R.</p>
+
+<p>Frames are created by using a single call to image, followed by a list of frames (image locations).
+<em>backgrounds</em> contains two frames: a sleepy face and an awake face.
+Code we'll explain later demonstrates how to use <em>backgrounds</em> to create a simple animation of a face waking up and falling asleep.
+For now, what's important to note is that after loading the asset file, each group (e.g., Set1IdenticalObjects) will be made available (in the global namespace) to C++ as an array indexed by frame number (don't worry if this doesn't fully make sense yet).</p>
+
+<p>You may have noticed the "pinned" parameter in the image calls above.
+Basically, it tells Sifteo to load these images sequentially. 
+Doing so is important for sprite animations, and as such our discussion of it will be deferred to the advanced section.</p>
+
+<p>Finally, the assets file tells Sifteo how to load the sound effects.
+The process is very similar to loading images, except that <em>sound</em> is called instead of <em>image</em>.
+Below we load sound effects for cubes making contact, breaking contact, and triggering the blicket detector (Fur Elise).</p>
+
+<div class="highlight"><pre><span class="n">SfxAttach</span> <span class="o">=</span> <span class="n">sound</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/attach.raw"</span> <span class="p">}</span>
+<span class="n">SfxSong</span> <span class="o">=</span> <span class="n">sound</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/fur_elise_10s_clip.wav"</span><span class="p">}</span>
+<span class="n">SfxDetach</span> <span class="o">=</span> <span class="n">sound</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/detach.raw"</span> <span class="p">}</span>
+<span class="n">SfxConnect</span> <span class="o">=</span> <span class="n">sound</span><span class="p">{</span> <span class="s2">"</span><span class="s">assets/connect.raw"</span> <span class="p">}</span>
+</pre></div>
+
+<p>Sifteo is very picky about it's media formats, for example images need to be 128x128 pixels and audio needs to be 16 kHz and mono channelled.
+For a complete list of requirements, check <a href="https://developers.sifteo.com/docs/SifteoSDK/0.9.8/asset_workflow.html">Sifteo's Asset Workflow Guide</a>.</p>
+
+<p><strong>TODO(Jay):</strong> Add command line resources and instructions for converting audio files and images.</p>
 
 <h1>The heart of your experiment: Main.cpp</h1>
 
@@ -274,6 +335,16 @@ Discuss</p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-39536523-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
   </body>
 </html>
