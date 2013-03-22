@@ -1,11 +1,406 @@
-head	1.415;
+head	1.494;
 access;
 symbols;
 locks
-	j:1.415; strict;
+	j:1.494; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.494
+date	2013.03.22.16.05.09;	author j;	state Exp;
+branches;
+next	1.493;
+
+1.493
+date	2013.03.22.16.04.36;	author j;	state Exp;
+branches;
+next	1.492;
+
+1.492
+date	2013.03.22.16.04.22;	author j;	state Exp;
+branches;
+next	1.491;
+
+1.491
+date	2013.03.22.16.01.53;	author j;	state Exp;
+branches;
+next	1.490;
+
+1.490
+date	2013.03.22.16.01.39;	author j;	state Exp;
+branches;
+next	1.489;
+
+1.489
+date	2013.03.22.16.01.13;	author j;	state Exp;
+branches;
+next	1.488;
+
+1.488
+date	2013.03.22.16.00.53;	author j;	state Exp;
+branches;
+next	1.487;
+
+1.487
+date	2013.03.22.16.00.49;	author j;	state Exp;
+branches;
+next	1.486;
+
+1.486
+date	2013.03.22.16.00.02;	author j;	state Exp;
+branches;
+next	1.485;
+
+1.485
+date	2013.03.22.15.59.34;	author j;	state Exp;
+branches;
+next	1.484;
+
+1.484
+date	2013.03.22.15.59.00;	author j;	state Exp;
+branches;
+next	1.483;
+
+1.483
+date	2013.03.22.15.58.44;	author j;	state Exp;
+branches;
+next	1.482;
+
+1.482
+date	2013.03.22.15.57.13;	author j;	state Exp;
+branches;
+next	1.481;
+
+1.481
+date	2013.03.22.15.57.04;	author j;	state Exp;
+branches;
+next	1.480;
+
+1.480
+date	2013.03.22.15.56.26;	author j;	state Exp;
+branches;
+next	1.479;
+
+1.479
+date	2013.03.22.15.55.49;	author j;	state Exp;
+branches;
+next	1.478;
+
+1.478
+date	2013.03.22.15.55.08;	author j;	state Exp;
+branches;
+next	1.477;
+
+1.477
+date	2013.03.22.15.54.24;	author j;	state Exp;
+branches;
+next	1.476;
+
+1.476
+date	2013.03.22.15.53.23;	author j;	state Exp;
+branches;
+next	1.475;
+
+1.475
+date	2013.03.22.15.49.56;	author j;	state Exp;
+branches;
+next	1.474;
+
+1.474
+date	2013.03.22.15.49.25;	author j;	state Exp;
+branches;
+next	1.473;
+
+1.473
+date	2013.03.22.15.45.26;	author j;	state Exp;
+branches;
+next	1.472;
+
+1.472
+date	2013.03.22.15.45.06;	author j;	state Exp;
+branches;
+next	1.471;
+
+1.471
+date	2013.03.22.15.42.21;	author j;	state Exp;
+branches;
+next	1.470;
+
+1.470
+date	2013.03.22.15.40.43;	author j;	state Exp;
+branches;
+next	1.469;
+
+1.469
+date	2013.03.22.15.40.24;	author j;	state Exp;
+branches;
+next	1.468;
+
+1.468
+date	2013.03.22.15.38.29;	author j;	state Exp;
+branches;
+next	1.467;
+
+1.467
+date	2013.03.22.15.38.03;	author j;	state Exp;
+branches;
+next	1.466;
+
+1.466
+date	2013.03.22.15.37.12;	author j;	state Exp;
+branches;
+next	1.465;
+
+1.465
+date	2013.03.22.15.37.07;	author j;	state Exp;
+branches;
+next	1.464;
+
+1.464
+date	2013.03.22.15.36.43;	author j;	state Exp;
+branches;
+next	1.463;
+
+1.463
+date	2013.03.22.15.33.37;	author j;	state Exp;
+branches;
+next	1.462;
+
+1.462
+date	2013.03.22.15.33.23;	author j;	state Exp;
+branches;
+next	1.461;
+
+1.461
+date	2013.03.22.15.32.56;	author j;	state Exp;
+branches;
+next	1.460;
+
+1.460
+date	2013.03.22.15.32.29;	author j;	state Exp;
+branches;
+next	1.459;
+
+1.459
+date	2013.03.22.15.31.56;	author j;	state Exp;
+branches;
+next	1.458;
+
+1.458
+date	2013.03.22.15.30.57;	author j;	state Exp;
+branches;
+next	1.457;
+
+1.457
+date	2013.03.22.15.23.05;	author j;	state Exp;
+branches;
+next	1.456;
+
+1.456
+date	2013.03.22.15.22.07;	author j;	state Exp;
+branches;
+next	1.455;
+
+1.455
+date	2013.03.22.15.21.47;	author j;	state Exp;
+branches;
+next	1.454;
+
+1.454
+date	2013.03.22.15.21.18;	author j;	state Exp;
+branches;
+next	1.453;
+
+1.453
+date	2013.03.22.15.21.04;	author j;	state Exp;
+branches;
+next	1.452;
+
+1.452
+date	2013.03.22.15.19.48;	author j;	state Exp;
+branches;
+next	1.451;
+
+1.451
+date	2013.03.22.15.19.01;	author j;	state Exp;
+branches;
+next	1.450;
+
+1.450
+date	2013.03.22.15.17.36;	author j;	state Exp;
+branches;
+next	1.449;
+
+1.449
+date	2013.03.22.15.17.30;	author j;	state Exp;
+branches;
+next	1.448;
+
+1.448
+date	2013.03.22.15.15.52;	author j;	state Exp;
+branches;
+next	1.447;
+
+1.447
+date	2013.03.22.15.15.20;	author j;	state Exp;
+branches;
+next	1.446;
+
+1.446
+date	2013.03.22.15.14.43;	author j;	state Exp;
+branches;
+next	1.445;
+
+1.445
+date	2013.03.22.15.14.17;	author j;	state Exp;
+branches;
+next	1.444;
+
+1.444
+date	2013.03.22.15.13.05;	author j;	state Exp;
+branches;
+next	1.443;
+
+1.443
+date	2013.03.22.15.09.38;	author j;	state Exp;
+branches;
+next	1.442;
+
+1.442
+date	2013.03.22.15.08.27;	author j;	state Exp;
+branches;
+next	1.441;
+
+1.441
+date	2013.03.22.15.07.56;	author j;	state Exp;
+branches;
+next	1.440;
+
+1.440
+date	2013.03.22.15.07.40;	author j;	state Exp;
+branches;
+next	1.439;
+
+1.439
+date	2013.03.22.15.07.19;	author j;	state Exp;
+branches;
+next	1.438;
+
+1.438
+date	2013.03.22.15.06.56;	author j;	state Exp;
+branches;
+next	1.437;
+
+1.437
+date	2013.03.22.15.05.59;	author j;	state Exp;
+branches;
+next	1.436;
+
+1.436
+date	2013.03.22.15.05.42;	author j;	state Exp;
+branches;
+next	1.435;
+
+1.435
+date	2013.03.22.15.05.01;	author j;	state Exp;
+branches;
+next	1.434;
+
+1.434
+date	2013.03.22.15.04.38;	author j;	state Exp;
+branches;
+next	1.433;
+
+1.433
+date	2013.03.22.15.03.53;	author j;	state Exp;
+branches;
+next	1.432;
+
+1.432
+date	2013.03.22.15.03.07;	author j;	state Exp;
+branches;
+next	1.431;
+
+1.431
+date	2013.03.22.15.02.42;	author j;	state Exp;
+branches;
+next	1.430;
+
+1.430
+date	2013.03.22.15.02.37;	author j;	state Exp;
+branches;
+next	1.429;
+
+1.429
+date	2013.03.22.15.01.46;	author j;	state Exp;
+branches;
+next	1.428;
+
+1.428
+date	2013.03.22.15.00.32;	author j;	state Exp;
+branches;
+next	1.427;
+
+1.427
+date	2013.03.22.14.59.34;	author j;	state Exp;
+branches;
+next	1.426;
+
+1.426
+date	2013.03.22.14.58.11;	author j;	state Exp;
+branches;
+next	1.425;
+
+1.425
+date	2013.03.22.14.57.29;	author j;	state Exp;
+branches;
+next	1.424;
+
+1.424
+date	2013.03.22.14.56.21;	author j;	state Exp;
+branches;
+next	1.423;
+
+1.423
+date	2013.03.22.14.54.33;	author j;	state Exp;
+branches;
+next	1.422;
+
+1.422
+date	2013.03.22.14.48.56;	author j;	state Exp;
+branches;
+next	1.421;
+
+1.421
+date	2013.03.22.14.47.41;	author j;	state Exp;
+branches;
+next	1.420;
+
+1.420
+date	2013.03.22.14.47.14;	author j;	state Exp;
+branches;
+next	1.419;
+
+1.419
+date	2013.03.22.14.46.55;	author j;	state Exp;
+branches;
+next	1.418;
+
+1.418
+date	2013.03.22.14.46.32;	author j;	state Exp;
+branches;
+next	1.417;
+
+1.417
+date	2013.03.22.14.43.41;	author j;	state Exp;
+branches;
+next	1.416;
+
+1.416
+date	2013.03.22.14.42.36;	author j;	state Exp;
+branches;
+next	1.415;
 
 1.415
 date	2013.03.20.17.59.00;	author j;	state Exp;
@@ -2088,7 +2483,7 @@ desc
 @
 
 
-1.415
+1.494
 log
 @vim
 @
@@ -2264,17 +2659,70 @@ JAY:  I THINK A PARAGRAPH HERE ABOUT WHAT THE STUDY FOUND, HOW IT DECONFOUNDS FE
 [screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true
 
 
-#Under the hood: Into the darkness known as C++
-Okay, so that was pretty cool, but you probabily want to be able to design your _own_  blicket experiment.
+#Under the hood: C++ basics
+Okay, so that was pretty cool, but you probabily want to be able to design your _own_ blicket experiment.
 Sifteo uses a popular programming language called C++.
-I'm not going lie, C++ isn't a great language to learn if you're just starting out.
-It's very unforgiving of mistakes and requires quite a bit of knowledge to things that are trivial in scripting languages (Python, Javascript, etc.).
-It's mainly shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
+C++ isn't a great language to learn if you're just starting out, mainly because it's very unforgiving of mistakes and requires quite a bit of knowledge to do things that are trivial in scripting languages (Python, Javascript, etc.).
+It shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
 Fortunately, the Sifteo API wraps up most of the scary parts of dealing with C++ directly.
 However, it still rears its ugly head from time to time.
 We'll do our best to help you figure out how to deal with it or where to turn go when you're stuck.
 
-First, lets look at the basic logic of main.cpp.
+Let's start with some C++ basics.
+C++ is [_strongly typed_](http://en.wikipedia.org/wiki/Strong_typing) and [_compiled_](http://en.wikipedia.org/wiki/Interpreted_language) (i.e., not interactive).
+Strong typing requires that all variables have a type (integer, string, blicket, etc) explicitly assigned to them when they are created.
+Typing is important because it defines the appropriate behavior of a variable (e.g., integers add, ducks quack, and blickets set off blicket detectors, right?).
+If an integer tries to quack, we want an error to prevent our program from exploding.
+Suppose, for example, you want a variable to store the number of cubes (5) we want to use in our experiment.
+The integer (int) data type seems appropriate, so lets give our variable a type and set it to 5.
+
+```cpp
+// Number of cubes
+int n_cubes;
+n_cubes = 5;
+```
+
+Notice that each expression ends in a semicolon (;) and comments (pieces of code ignored by the compiler used for annotation) are prepended with two forward slashes (//).
+Setting n\_cubes equal to 'quack' throws an error because 'quack' is a string, not an integer.
+Int is just one of the dozens of built in data types found in C++, many more can be found [here](http://www.cplusplus.com/doc/tutorial/variables/).
+At some point, you'll want to create your own types that can have their own behaviors.
+We won't go into too much depth here, but this can be done using _typedef_.
+Say you want a type that defines blicket states that can either be true (on) or false (off).
+
+```cpp
+// Type for blicket state
+typedef bool is_blicket_on;
+
+// Turn blicket on
+is_blicket_on blicket_state = true;
+```
+
+Note, the last line of code combines type declaration and variable assignment.
+More on custom data types [here](http://www.cplusplus.com/doc/tutorial/other_data_types/).
+
+Another key aspect of C++ is that it's "compiled."
+Compiling turns human readable code into 1s and 0s that the computer can understand.
+All languages are eventually compiled, but some (i.e., scripting languages) compile your code as you input, allowing you to interact with its output.
+C++ requires that your code be correct (no bugs) and complete before you can use it.
+The trade off between compiled and interpreted (interactive) programming languages is speed versus production.
+Compiled languages generally have faster performance rates but slower code development times.
+
+Luckily, the Sifteo API handles all of the compiling issues using a command called make.
+To illustrate, once you have code ready to compile, you run
+
+```bash
+cd MyExperiment
+make my_experiment
+```
+
+More on this later.
+
+#Loading your materials
+
+#The heart of your experiment: Main.cpp
+First, lets look at the logic of main.cpp.
+
+
 
 Todo(Jay):
 Discuss
@@ -2294,6 +2742,877 @@ Discuss
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.493
+log
+@vim
+@
+text
+@d220 1
+a220 1
+The Sifteo API handles compiling using a command called make.
+@
+
+
+1.492
+log
+@vim
+@
+text
+@d217 1
+a217 1
+The main trade off between compiled and interpreted (interactive) programming languages is speed versus production.
+@
+
+
+1.491
+log
+@vim
+@
+text
+@d215 1
+a215 1
+All languages are eventually compiled, but some (i.e., scripting languages) compile your code as you're inputting it and allow you to interact with the output.
+@
+
+
+1.490
+log
+@vim
+@
+text
+@d233 1
+a233 1
+First, lets look at the basic logic of main.cpp.
+@
+
+
+1.489
+log
+@vim
+@
+text
+@d230 2
+@
+
+
+1.488
+log
+@vim
+@
+text
+@d230 1
+a230 1
+#The program's heart: Main.cpp
+@
+
+
+1.487
+log
+@vim
+@
+text
+@d230 1
+a230 1
+#The programs heart: Main.cpp
+@
+
+
+1.486
+log
+@vim
+@
+text
+@d230 1
+a230 1
+#Main.cpp
+@
+
+
+1.485
+log
+@vim
+@
+text
+@d228 1
+@
+
+
+1.484
+log
+@vim
+@
+text
+@d217 1
+a217 1
+The main trade off between compiled and interpreted (interactive) programming languages is speed versus productivity.
+@
+
+
+1.483
+log
+@vim
+@
+text
+@d210 1
+a210 1
+Note, the first line of code combines type declaration and variable assignment.
+@
+
+
+1.482
+log
+@vim
+@
+text
+@d210 1
+@
+
+
+1.481
+log
+@vim
+@
+text
+@d205 1
+@
+
+
+1.480
+log
+@vim
+@
+text
+@d205 1
+@
+
+
+1.479
+log
+@vim
+@
+text
+@d218 1
+a218 1
+Some of the details will be described later, but to illustrate, once you have code ready you can run
+@
+
+
+1.478
+log
+@vim
+@
+text
+@d218 1
+a218 1
+Some of the details will be described later, but once you finish the code for your experiment you run
+@
+
+
+1.477
+log
+@vim
+@
+text
+@d215 1
+a215 1
+Compiled languages generally have faster performance rates but take slower code development times.
+@
+
+
+1.476
+log
+@vim
+@
+text
+@d217 2
+a218 2
+The Sifteo API handles all of the compiling using a command called make.
+The details will be described later, but once you finish the code for your experiment you'll compiling it using make for example
+@
+
+
+1.475
+log
+@vim
+@
+text
+@d217 9
+@
+
+
+1.474
+log
+@vim
+@
+text
+@d214 1
+a214 1
+The trade off between compiled and interpreted (interactive) programming languages is speed versus productivity.
+@
+
+
+1.473
+log
+@vim
+@
+text
+@d214 2
+a215 2
+
+Strong typing
+@
+
+
+1.472
+log
+@vim
+@
+text
+@d211 1
+a213 1
+Compiling turns human readable code into 1s and 0s that the computer can understand.
+@
+
+
+1.471
+log
+@vim
+@
+text
+@d212 1
+a212 1
+C++ requires that you finish all of your code
+@
+
+
+1.470
+log
+@vim
+@
+text
+@d210 3
+a212 2
+Another key aspect of C++ is that it's a "compiled language."
+All languages are eventually compiled
+@
+
+
+1.469
+log
+@vim
+@
+text
+@d210 1
+a210 1
+Another major aspect of C++ is that it's a "compiled language."
+@
+
+
+1.468
+log
+@vim
+@
+text
+@d210 2
+@
+
+
+1.467
+log
+@vim
+@
+text
+@d199 1
+a199 1
+We won't go into too much depth here, but this can be done with _typedef_.
+@
+
+
+1.466
+log
+@vim
+@
+text
+@d204 2
+a205 2
+typedef bool isBlicketOn;
+isBlicketOn blicket_state = true;
+@
+
+
+1.465
+log
+@vim
+@
+text
+@d205 1
+a205 1
+isOn blicket_state = true;
+@
+
+
+1.464
+log
+@vim
+@
+text
+@d204 1
+a204 1
+typedef bool isOn;
+@
+
+
+1.463
+log
+@vim
+@
+text
+@d204 2
+a205 1
+typedef bool blicket_state;
+@
+
+
+1.462
+log
+@vim
+@
+text
+@d207 1
+a207 1
+More on data types [here](http://www.cplusplus.com/doc/tutorial/other_data_types/).
+@
+
+
+1.461
+log
+@vim
+@
+text
+@d203 1
+a203 1
+// 
+@
+
+
+1.460
+log
+@vim
+@
+text
+@d200 1
+a200 1
+Suppose you want a type that defines blicket states that can either be true (on) or false (off).
+@
+
+
+1.459
+log
+@vim
+@
+text
+@d199 1
+a199 1
+We won't go into too much depth here, but this can be done with typedef.
+@
+
+
+1.458
+log
+@vim
+@
+text
+@d203 1
+d207 2
+@
+
+
+1.457
+log
+@vim
+@
+text
+@d198 7
+@
+
+
+1.456
+log
+@vim
+@
+text
+@d197 1
+a197 1
+Int is just one of the dozens of built in data types found in C++, more can be found [here](http://www.cplusplus.com/doc/tutorial/variables/).
+@
+
+
+1.455
+log
+@vim
+@
+text
+@d184 1
+a184 1
+Typing is important because it defines the appropriate behavior of a variable (e.g., integers added, ducks quack, and blickets set off blicket detectors, right?).
+@
+
+
+1.454
+log
+@vim
+@
+text
+@d184 1
+a184 1
+Typing is important because it defines the appropriate behavior for a variable (e.g., integers added, ducks quack, and blickets set off blicket detectors, right?).
+@
+
+
+1.453
+log
+@vim
+@
+text
+@d203 1
+a203 1
+##Main.cpp
+@
+
+
+1.452
+log
+@vim
+@
+text
+@d196 1
+a196 1
+Setting n\_cubes equal to 'quack' throws an error because 'quack' is a string not an integer.
+d203 1
+@
+
+
+1.451
+log
+@vim
+@
+text
+@d185 1
+a185 1
+If an integer tries to quack, we want an error to prevent our program for exploding.
+@
+
+
+1.450
+log
+@vim
+@
+text
+@d196 1
+a196 1
+As expected, setting n\_cubes equal to 'quick' throws an error.
+@
+
+
+1.449
+log
+@vim
+@
+text
+@d196 1
+a196 1
+Setting n\_cubes equal to 'quick' throws an error.
+@
+
+
+1.448
+log
+@vim
+@
+text
+@d196 1
+@
+
+
+1.447
+log
+@vim
+@
+text
+@d185 1
+a185 1
+If an integer tries to quack, we want an error to occur preventing our program for exploding.
+@
+
+
+1.446
+log
+@vim
+@
+text
+@d185 1
+a185 1
+If an integer tries to quack, we want an error to occur.
+@
+
+
+1.445
+log
+@vim
+@
+text
+@d184 1
+a184 1
+Typing is important because it defines the appropriate behavior for a variable (e.g., integers can be added, ducks quack, and blickets set off blicket detectors, right?).
+@
+
+
+1.444
+log
+@vim
+@
+text
+@d185 1
+@
+
+
+1.443
+log
+@vim
+@
+text
+@d195 1
+@
+
+
+1.442
+log
+@vim
+@
+text
+@d173 1
+a173 1
+Okay, so that was pretty cool, but you probabily want to be able to design your _own_  blicket experiment.
+d184 1
+a184 1
+Typing is important because it defines the appropriate behavior of a variable (e.g., integers can be added, blickets can set off blicket detectors).
+@
+
+
+1.441
+log
+@vim
+@
+text
+@d175 1
+a175 1
+C++ isn't a great language to learn if you're just starting out, mainly because it's very unforgiving of mistakes and requires quite a bit of knowledge to things that are trivial in scripting languages (Python, Javascript, etc.).
+@
+
+
+1.440
+log
+@vim
+@
+text
+@d175 1
+a175 2
+C++ isn't a great language to learn if you're just starting out.
+It's very unforgiving of mistakes and requires quite a bit of knowledge to things that are trivial in scripting languages (Python, Javascript, etc.).
+@
+
+
+1.439
+log
+@vim
+@
+text
+@d175 1
+a175 1
+I'm not going lie, C++ isn't a great language to learn if you're just starting out.
+@
+
+
+1.438
+log
+@vim
+@
+text
+@d172 1
+a172 1
+#Under the hood: Into the darkness known as C++
+@
+
+
+1.437
+log
+@vim
+@
+text
+@d186 1
+a186 1
+Suppose, for example, you want a variable to store the number of cubes we want to use in our experiment.
+@
+
+
+1.436
+log
+@vim
+@
+text
+@d195 1
+a195 1
+Notice that each expression ends in a semicolon (;) and comments (lines of code ignored by the compiler used for annotation) are prepended with two forward slashes (//).
+@
+
+
+1.435
+log
+@vim
+@
+text
+@d195 1
+a195 1
+Notice that each expression ends in a semicolon (;) and comments (lines of code ignored by the compiler) are prepended with two forward slashes (//).
+@
+
+
+1.434
+log
+@vim
+@
+text
+@d195 1
+a195 1
+Notice that each expression ends in a semicolon (;) and comments (lines of code ignored by the compiler) are marked with two forward slashes (//).
+@
+
+
+1.433
+log
+@vim
+@
+text
+@d195 1
+a195 1
+Notice that each expression ends in a semicolon.
+@
+
+
+1.432
+log
+@vim
+@
+text
+@d195 2
+@
+
+
+1.431
+log
+@vim
+@
+text
+@d186 1
+a186 1
+Suppose, for example, you want a variable to store the number of blickets used in your experiment.
+d190 1
+a190 1
+// Number of blickets
+@
+
+
+1.430
+log
+@vim
+@
+text
+@d191 1
+a191 1
+int n_blickets;
+@
+
+
+1.429
+log
+@vim
+@
+text
+@d192 1
+a192 1
+n_blickets = 5;
+@
+
+
+1.428
+log
+@vim
+@
+text
+@d187 1
+a187 1
+The integer (int) data type suits our needs
+d192 1
+@
+
+
+1.427
+log
+@vim
+@
+text
+@d187 1
+a187 1
+The integer (int) data type seems appropriate for our needs, so lets use it
+@
+
+
+1.426
+log
+@vim
+@
+text
+@d185 3
+a187 3
+Typing defines the appropriate behavior of a variable (e.g., integers can be added, blickets can set off blicket detectors, etc).
+For example, suppose you want a variable to store the number of blickets used in your experiment.
+The integer data type seems appropriate for our needs, so lets use it 
+@
+
+
+1.425
+log
+@vim
+@
+text
+@d185 1
+a185 1
+Typing defines the appropriate behavior of a variable (e.g., integers can be added, blickets can set off a blicket detector, etc).
+d187 1
+a187 1
+The integer data type seems appropriate for our needs, and we set it with the following code
+@
+
+
+1.424
+log
+@vim
+@
+text
+@d186 2
+a187 1
+For example, suppose you want a variable that stores the number of blickets used in your experiment.
+@
+
+
+1.423
+log
+@vim
+@
+text
+@d184 1
+a184 1
+Strong typing requires that all variables have a type or class (integer, string, blicket, etc) explicitly assigned to them when they are created.
+d186 1
+a186 1
+For example, suppose you want a variable to store the number of blickets in your experiment.
+d189 1
+@
+
+
+1.422
+log
+@vim
+@
+text
+@d185 1
+a186 1
+one declares a variable, it needs to integer, string, blicket, etc.
+d189 1
+a189 1
+int 
+@
+
+
+1.421
+log
+@vim
+@
+text
+@d183 3
+a185 3
+C++ is [_strongly typed_](http://en.wikipedia.org/wiki/Strong_typing) and [compiled](http://en.wikipedia.org/wiki/Interpreted_language) (i.e., not interactive).
+Strong typing requires that all variables to have a type or class (integer, string, blicket, etc) explicitly assigned to them at the time they are created.
+For example, suppose you want to create a variable for the number of blickets in a game.
+@
+
+
+1.420
+log
+@vim
+@
+text
+@d183 1
+a183 1
+C++ is [_strongly typed_](http://en.wikipedia.org/wiki/Strong_typing) and [compiled](http://en.wikipedia.org/wiki/Interpreted_language) (i.e., not interactive) programming language.
+@
+
+
+1.419
+log
+@vim
+@
+text
+@d177 1
+a177 1
+It's mainly shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
+@
+
+
+1.418
+log
+@vim
+@
+text
+@d183 1
+a183 1
+C++ is [_strongly typed_](http://en.wikipedia.org/wiki/Strong_typing) and [compiled](http://en.wikipedia.org/wiki/Interpreted_language) (i.e., not interactive).
+@
+
+
+1.417
+log
+@vim
+@
+text
+@d183 1
+a183 1
+C++ is _strongly typed_ and _not interactive_.
+@
+
+
+1.416
+log
+@vim
+@
+text
+@d182 2
+a183 2
+Let's start by talking about some basic C++ ideas.
+Unlike scripting languages, C++ is _strongly typed_ and _not interactive_.
+@
+
+
+1.415
+log
+@vim
+@
+text
+@d182 14
+d198 2
 @
 
 

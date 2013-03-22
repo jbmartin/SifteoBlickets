@@ -169,17 +169,70 @@ JAY:  I THINK A PARAGRAPH HERE ABOUT WHAT THE STUDY FOUND, HOW IT DECONFOUNDS FE
 [screen_shot]: https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true
 
 
-#Under the hood: Into the darkness known as C++
-Okay, so that was pretty cool, but you probabily want to be able to design your _own_  blicket experiment.
+#Under the hood: C++ basics
+Okay, so that was pretty cool, but you probabily want to be able to design your _own_ blicket experiment.
 Sifteo uses a popular programming language called C++.
-I'm not going lie, C++ isn't a great language to learn if you're just starting out.
-It's very unforgiving of mistakes and requires quite a bit of knowledge to things that are trivial in scripting languages (Python, Javascript, etc.).
-It's mainly shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
+C++ isn't a great language to learn if you're just starting out, mainly because it's very unforgiving of mistakes and requires quite a bit of knowledge to do things that are trivial in scripting languages (Python, Javascript, etc.).
+It shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
 Fortunately, the Sifteo API wraps up most of the scary parts of dealing with C++ directly.
 However, it still rears its ugly head from time to time.
 We'll do our best to help you figure out how to deal with it or where to turn go when you're stuck.
 
-First, lets look at the basic logic of main.cpp.
+Let's start with some C++ basics.
+C++ is [_strongly typed_](http://en.wikipedia.org/wiki/Strong_typing) and [_compiled_](http://en.wikipedia.org/wiki/Interpreted_language) (i.e., not interactive).
+Strong typing requires that all variables have a type (integer, string, blicket, etc) explicitly assigned to them when they are created.
+Typing is important because it defines the appropriate behavior of a variable (e.g., integers add, ducks quack, and blickets set off blicket detectors, right?).
+If an integer tries to quack, we want an error to prevent our program from exploding.
+Suppose, for example, you want a variable to store the number of cubes (5) we want to use in our experiment.
+The integer (int) data type seems appropriate, so lets give our variable a type and set it to 5.
+
+```cpp
+// Number of cubes
+int n_cubes;
+n_cubes = 5;
+```
+
+Notice that each expression ends in a semicolon (;) and comments (pieces of code ignored by the compiler used for annotation) are prepended with two forward slashes (//).
+Setting n\_cubes equal to 'quack' throws an error because 'quack' is a string, not an integer.
+Int is just one of the dozens of built in data types found in C++, many more can be found [here](http://www.cplusplus.com/doc/tutorial/variables/).
+At some point, you'll want to create your own types that can have their own behaviors.
+We won't go into too much depth here, but this can be done using _typedef_.
+Say you want a type that defines blicket states that can either be true (on) or false (off).
+
+```cpp
+// Type for blicket state
+typedef bool is_blicket_on;
+
+// Turn blicket on
+is_blicket_on blicket_state = true;
+```
+
+Note, the last line of code combines type declaration and variable assignment.
+More on custom data types [here](http://www.cplusplus.com/doc/tutorial/other_data_types/).
+
+Another key aspect of C++ is that it's "compiled."
+Compiling turns human readable code into 1s and 0s that the computer can understand.
+All languages are eventually compiled, but some (i.e., scripting languages) compile your code as you input, allowing you to interact with its output.
+C++ requires that your code be correct (no bugs) and complete before you can use it.
+The trade off between compiled and interpreted (interactive) programming languages is speed versus production.
+Compiled languages generally have faster performance rates but slower code development times.
+
+Luckily, the Sifteo API handles all of the compiling issues using a command called make.
+To illustrate, once you have code ready to compile, you run
+
+```bash
+cd MyExperiment
+make my_experiment
+```
+
+More on this later.
+
+#Loading your materials
+
+#The heart of your experiment: Main.cpp
+First, lets look at the logic of main.cpp.
+
+
 
 Todo(Jay):
 Discuss
