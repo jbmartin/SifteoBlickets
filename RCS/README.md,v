@@ -1,11 +1,61 @@
-head	1.494;
+head	1.504;
 access;
 symbols;
 locks
-	j:1.494; strict;
+	j:1.504; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.504
+date	2013.03.22.16.25.45;	author j;	state Exp;
+branches;
+next	1.503;
+
+1.503
+date	2013.03.22.16.25.11;	author j;	state Exp;
+branches;
+next	1.502;
+
+1.502
+date	2013.03.22.16.22.58;	author j;	state Exp;
+branches;
+next	1.501;
+
+1.501
+date	2013.03.22.16.21.29;	author j;	state Exp;
+branches;
+next	1.500;
+
+1.500
+date	2013.03.22.16.21.16;	author j;	state Exp;
+branches;
+next	1.499;
+
+1.499
+date	2013.03.22.16.21.02;	author j;	state Exp;
+branches;
+next	1.498;
+
+1.498
+date	2013.03.22.16.20.10;	author j;	state Exp;
+branches;
+next	1.497;
+
+1.497
+date	2013.03.22.16.19.36;	author j;	state Exp;
+branches;
+next	1.496;
+
+1.496
+date	2013.03.22.16.18.54;	author j;	state Exp;
+branches;
+next	1.495;
+
+1.495
+date	2013.03.22.16.08.33;	author j;	state Exp;
+branches;
+next	1.494;
 
 1.494
 date	2013.03.22.16.05.09;	author j;	state Exp;
@@ -2483,7 +2533,7 @@ desc
 @
 
 
-1.494
+1.504
 log
 @vim
 @
@@ -2591,11 +2641,11 @@ The base station can be used to store data files for later analysis (connects us
 Most importantly, Sifteo provides endless possibilities for creating (and recreating) interesting psychological experiments beyond the blickets design.
 They are particularly well suited for work with young children where using a computer mouse can be a challenge.
 
-To begin exploring the utility of the Cubes, we implemented a version of the classic causal learning experiment by Gopnik & Sobel (2000) (i.e., the blicket experiment).
+To begin exploring the utility of the Cubes, we implemented a version of the classic causal learning experiment by Gopnik & Sobel (2000; i.e., "the blicket experiment").
 
-#The Experiment
+#The Blicket Experiment
 
-The 'blickets' game was first used in a study conducted by Gopnik & Sobel (2000).
+The 'blickets' game was first used in a study conducted by Gopnik & Sobel (2000; "G&S").
 G&S looked at how the causal properties of objects (e.g., making a blicket detector flash and play music) shape young children's conceptual knowledge.
 Previously, most developmental research focused on how perceptual features (color, shape, etc.) influence categorization.
 This was motivated by many prominent psychologist, including Piaget, who argued that young children were unable to understand, and therefore, categorize objects based on causal properties.
@@ -2652,7 +2702,7 @@ In the categorization condition, the experimenter placed each of the 4 objects o
 The experimenter then lifted up one of the blickets and asked the child which of the other blocks was also a blicket.
 In the induction condition, the experimenter described two objects as being blickets and two as not being blickets. She then placed the blicket on the detector and asked the child which of the remaining blocks would also set off the detector.
 
-JAY:  I THINK A PARAGRAPH HERE ABOUT WHAT THE STUDY FOUND, HOW IT DECONFOUNDS FEATURE/CAUSAL LEARNING WOULD MAKE SENSE.
+Todo(Jay): Add a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.
 
 ![][screen_shot]
 
@@ -2694,7 +2744,7 @@ Say you want a type that defines blicket states that can either be true (on) or 
 typedef bool is_blicket_on;
 
 // Turn blicket on
-is_blicket_on blicket_state = true;
+is_blicket_on is_my_blicket_on = true;
 ```
 
 Note, the last line of code combines type declaration and variable assignment.
@@ -2702,20 +2752,19 @@ More on custom data types [here](http://www.cplusplus.com/doc/tutorial/other_dat
 
 Another key aspect of C++ is that it's "compiled."
 Compiling turns human readable code into 1s and 0s that the computer can understand.
-All languages are eventually compiled, but some (i.e., scripting languages) compile your code as you input, allowing you to interact with its output.
+All languages are eventually compiled, but some (i.e., scripting languages) compile your code as you input it, allowing you to interact with its output.
 C++ requires that your code be correct (no bugs) and complete before you can use it.
-The trade off between compiled and interpreted (interactive) programming languages is speed versus production.
+The trade off between compiled and interpreted (interactive) programming languages is speed versus production rates.
 Compiled languages generally have faster performance rates but slower code development times.
 
 Luckily, the Sifteo API handles all of the compiling issues using a command called make.
-To illustrate, once you have code ready to compile, you run
+To illustrate, once you have code named my\_experiment.cpp ready to compile, you run
 
 ```bash
-cd MyExperiment
 make my_experiment
 ```
 
-More on this later.
+in the folder where it's saved. More on this later.
 
 #Loading your materials
 
@@ -2742,6 +2791,121 @@ Discuss
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.503
+log
+@vim
+@
+text
+@a223 1
+cd MyExperiment
+d227 1
+a227 1
+More on this later.
+@
+
+
+1.502
+log
+@vim
+@
+text
+@d221 1
+a221 1
+To illustrate, once you have code ready to compile, you run
+@
+
+
+1.501
+log
+@vim
+@
+text
+@d217 1
+a217 1
+The trade off between compiled and interpreted (interactive) programming languages is speed versus production.
+@
+
+
+1.500
+log
+@vim
+@
+text
+@d106 1
+a106 1
+#The Experiment
+@
+
+
+1.499
+log
+@vim
+@
+text
+@d104 1
+a104 1
+To begin exploring the utility of the Cubes, we implemented a version of the classic causal learning experiment by Gopnik & Sobel (2000; i.e., the blicket experiment).
+@
+
+
+1.498
+log
+@vim
+@
+text
+@d104 1
+a104 1
+To begin exploring the utility of the Cubes, we implemented a version of the classic causal learning experiment by Gopnik & Sobel (2000) (i.e., the blicket experiment).
+d108 1
+a108 1
+The 'blickets' game was first used in a study conducted by Gopnik & Sobel (2000).
+@
+
+
+1.497
+log
+@vim
+@
+text
+@d165 1
+a165 1
+Todo(Jay): I think a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.
+@
+
+
+1.496
+log
+@vim
+@
+text
+@d165 1
+a165 1
+JAY:  I THINK A PARAGRAPH HERE ABOUT WHAT THE STUDY FOUND, HOW IT DECONFOUNDS FEATURE/CAUSAL LEARNING WOULD MAKE SENSE.
+@
+
+
+1.495
+log
+@vim
+@
+text
+@d207 1
+a207 1
+is_blicket_on blicket_state = true;
+@
+
+
+1.494
+log
+@vim
+@
+text
+@d215 1
+a215 1
+All languages are eventually compiled, but some (i.e., scripting languages) compile your code as you input, allowing you to interact with its output.
 @
 
 
