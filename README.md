@@ -228,6 +228,8 @@ in the folder where it's saved. More on this later.
 
 #Loading your materials
 
+Discuss lua
+
 #The heart of your experiment: Main.cpp
 First, lets look at the logic of main.cpp.
 

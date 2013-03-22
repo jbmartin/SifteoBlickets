@@ -1,11 +1,16 @@
-head	1.504;
+head	1.505;
 access;
 symbols;
 locks
-	j:1.504; strict;
+	j:1.505; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.505
+date	2013.03.22.16.42.46;	author j;	state Exp;
+branches;
+next	1.504;
 
 1.504
 date	2013.03.22.16.25.45;	author j;	state Exp;
@@ -2533,7 +2538,7 @@ desc
 @
 
 
-1.504
+1.505
 log
 @vim
 @
@@ -2768,6 +2773,8 @@ in the folder where it's saved. More on this later.
 
 #Loading your materials
 
+Discuss lua
+
 #The heart of your experiment: Main.cpp
 First, lets look at the logic of main.cpp.
 
@@ -2791,6 +2798,15 @@ Discuss
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.504
+log
+@vim
+@
+text
+@d231 2
 @
 
 
