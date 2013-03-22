@@ -123,11 +123,11 @@ The base station can be used to store data files for later analysis (connects us
 Most importantly, Sifteo provides endless possibilities for creating (and recreating) interesting psychological experiments beyond the blickets design.
 They are particularly well suited for work with young children where using a computer mouse can be a challenge.</p>
 
-<p>To begin exploring the utility of the Cubes, we implemented a version of the classic causal learning experiment by Gopnik &amp; Sobel (2000) (i.e., the blicket experiment).</p>
+<p>To begin exploring the utility of the Cubes, we implemented a version of the classic causal learning experiment by Gopnik &amp; Sobel (2000; i.e., "the blicket experiment").</p>
 
-<h1>The Experiment</h1>
+<h1>The Blicket Experiment</h1>
 
-<p>The 'blickets' game was first used in a study conducted by Gopnik &amp; Sobel (2000).
+<p>The 'blickets' game was first used in a study conducted by Gopnik &amp; Sobel (2000; "G&amp;S").
 G&amp;S looked at how the causal properties of objects (e.g., making a blicket detector flash and play music) shape young children's conceptual knowledge.
 Previously, most developmental research focused on how perceptual features (color, shape, etc.) influence categorization.
 This was motivated by many prominent psychologist, including Piaget, who argued that young children were unable to understand, and therefore, categorize objects based on causal properties.
@@ -179,22 +179,70 @@ In the categorization condition, the experimenter placed each of the 4 objects o
 The experimenter then lifted up one of the blickets and asked the child which of the other blocks was also a blicket.
 In the induction condition, the experimenter described two objects as being blickets and two as not being blickets. She then placed the blicket on the detector and asked the child which of the remaining blocks would also set off the detector.</p>
 
-<p>JAY:  I THINK A PARAGRAPH HERE ABOUT WHAT THE STUDY FOUND, HOW IT DECONFOUNDS FEATURE/CAUSAL LEARNING WOULD MAKE SENSE.</p>
+<p>Todo(Jay): Add a paragraph here about what the study found, how it deconfounds feature/causal learning would make sense.</p>
 
 <p><img src="https://github.com/jbmartin/SifteoBlickets/blob/master/blog_assets/screen_shot.png?raw=true" alt=""></p>
 
-<h1>Under the hood: Into the darkness known as C++</h1>
+<h1>Under the hood: C++ basics</h1>
 
-<p>Okay, so that was pretty cool, but you probabily want to be able to design your <em>own</em>  blicket experiment.
+<p>Okay, so that was pretty cool, but you probabily want to be able to design your <em>own</em> blicket experiment.
 Sifteo uses a popular programming language called C++.
-I'm not going lie, C++ isn't a great language to learn if you're just starting out.
-It's very unforgiving of mistakes and requires quite a bit of knowledge to things that are trivial in scripting languages (Python, Javascript, etc.).
-It's mainly shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
+C++ isn't a great language to learn if you're just starting out, mainly because it's very unforgiving of mistakes and requires quite a bit of knowledge to do things that are trivial in scripting languages (Python, Javascript, etc.).
+It shines in large scale production software suits like operating systems or video games where speed and memory are critical (e.g., tiny game cubes with limited memory and large cpu demands).
 Fortunately, the Sifteo API wraps up most of the scary parts of dealing with C++ directly.
 However, it still rears its ugly head from time to time.
 We'll do our best to help you figure out how to deal with it or where to turn go when you're stuck.</p>
 
-<p>First, lets look at the basic logic of main.cpp.</p>
+<p>Let's start with some C++ basics.
+C++ is <a href="http://en.wikipedia.org/wiki/Strong_typing"><em>strongly typed</em></a> and <a href="http://en.wikipedia.org/wiki/Interpreted_language"><em>compiled</em></a> (i.e., not interactive).
+Strong typing requires that all variables have a type (integer, string, blicket, etc) explicitly assigned to them when they are created.
+Typing is important because it defines the appropriate behavior of a variable (e.g., integers add, ducks quack, and blickets set off blicket detectors, right?).
+If an integer tries to quack, we want an error to prevent our program from exploding.
+Suppose, for example, you want a variable to store the number of cubes (5) we want to use in our experiment.
+The integer (int) data type seems appropriate, so lets give our variable a type and set it to 5.</p>
+
+<div class="highlight"><pre><span class="c1">// Number of cubes</span>
+<span class="kt">int</span> <span class="n">n_cubes</span><span class="p">;</span>
+<span class="n">n_cubes</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+</pre></div>
+
+<p>Notice that each expression ends in a semicolon (;) and comments (pieces of code ignored by the compiler used for annotation) are prepended with two forward slashes (//).
+Setting n_cubes equal to 'quack' throws an error because 'quack' is a string, not an integer.
+Int is just one of the dozens of built in data types found in C++, many more can be found <a href="http://www.cplusplus.com/doc/tutorial/variables/">here</a>.
+At some point, you'll want to create your own types that can have their own behaviors.
+We won't go into too much depth here, but this can be done using <em>typedef</em>.
+Say you want a type that defines blicket states that can either be true (on) or false (off).</p>
+
+<div class="highlight"><pre><span class="c1">// Type for blicket state</span>
+<span class="k">typedef</span> <span class="kt">bool</span> <span class="n">is_blicket_on</span><span class="p">;</span>
+
+<span class="c1">// Turn blicket on</span>
+<span class="n">is_blicket_on</span> <span class="n">is_my_blicket_on</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+</pre></div>
+
+<p>Note, the last line of code combines type declaration and variable assignment.
+More on custom data types <a href="http://www.cplusplus.com/doc/tutorial/other_data_types/">here</a>.</p>
+
+<p>Another key aspect of C++ is that it's "compiled."
+Compiling turns human readable code into 1s and 0s that the computer can understand.
+All languages are eventually compiled, but some (i.e., scripting languages) compile your code as you input it, allowing you to interact with its output.
+C++ requires that your code be correct (no bugs) and complete before you can use it.
+The trade off between compiled and interpreted (interactive) programming languages is speed versus production rates.
+Compiled languages generally have faster performance rates but slower code development times.</p>
+
+<p>Luckily, the Sifteo API handles all of the compiling issues using a command called make.
+To illustrate, once you have code named my_experiment.cpp ready to compile, you run</p>
+
+<div class="highlight"><pre>make my_experiment
+</pre></div>
+
+<p>in the folder where it's saved. More on this later.</p>
+
+<h1>Loading your materials</h1>
+
+<h1>The heart of your experiment: Main.cpp</h1>
+
+<p>First, lets look at the logic of main.cpp.</p>
 
 <p>Todo(Jay):
 Discuss</p>
