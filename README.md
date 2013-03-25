@@ -222,7 +222,6 @@ int add(int a, int b) {
     c = a + b; // perform addition and bind c to the result;
     return(c);
 }
-
 ```
 
 The first int declares that the output (c) of the add function needs to be an integer.

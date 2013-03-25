@@ -1,11 +1,16 @@
-head	1.44;
+head	1.45;
 access;
 symbols;
 locks
-	j:1.44; strict;
+	j:1.45; strict;
 comment	@# @;
 expand	@o@;
 
+
+1.45
+date	2013.03.25.15.40.18;	author j;	state Exp;
+branches;
+next	1.44;
 
 1.44
 date	2013.03.25.15.36.21;	author j;	state Exp;
@@ -233,7 +238,7 @@ desc
 @
 
 
-1.44
+1.45
 log
 @vim
 @
@@ -462,7 +467,6 @@ int add(int a, int b) {
     c = a + b; // perform addition and bind c to the result;
     return(c);
 }
-
 ```
 
 The first int declares that the output (c) of the add function needs to be an integer.
@@ -581,6 +585,16 @@ Discuss
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.44
+log
+@vim
+@
+text
+@a224 1
+
 @
 
 
