@@ -1,4 +1,244 @@
-#Sifteo Blickets
+head	1.44;
+access;
+symbols;
+locks
+	j:1.44; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.44
+date	2013.03.25.15.36.21;	author j;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2013.03.25.15.35.30;	author j;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2013.03.25.15.34.53;	author j;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2013.03.25.15.34.28;	author j;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2013.03.25.15.33.36;	author j;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2013.03.25.15.32.36;	author j;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2013.03.25.15.31.33;	author j;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2013.03.25.15.30.53;	author j;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2013.03.25.15.30.06;	author j;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2013.03.25.15.29.39;	author j;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2013.03.25.15.28.21;	author j;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2013.03.25.15.27.16;	author j;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2013.03.25.15.27.06;	author j;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2013.03.25.15.25.20;	author j;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2013.03.25.15.24.14;	author j;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2013.03.25.15.23.30;	author j;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2013.03.25.15.23.25;	author j;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2013.03.25.15.23.05;	author j;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2013.03.25.15.22.25;	author j;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2013.03.25.15.21.13;	author j;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2013.03.25.15.16.45;	author j;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2013.03.25.15.15.58;	author j;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2013.03.25.15.15.39;	author j;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2013.03.25.15.14.07;	author j;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2013.03.25.15.13.58;	author j;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2013.03.25.15.13.31;	author j;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2013.03.25.15.12.27;	author j;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2013.03.25.15.10.04;	author j;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2013.03.25.15.08.55;	author j;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2013.03.25.15.07.06;	author j;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2013.03.25.15.06.30;	author j;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2013.03.25.15.06.16;	author j;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2013.03.25.15.05.34;	author j;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2013.03.25.15.02.27;	author j;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2013.03.25.14.55.09;	author j;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2013.03.25.14.53.56;	author j;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2013.03.25.14.51.21;	author j;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2013.03.25.14.50.28;	author j;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2013.03.25.14.48.57;	author j;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.03.25.14.48.46;	author j;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.03.25.14.48.24;	author j;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.03.25.14.46.04;	author j;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.03.25.14.43.57;	author j;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.03.22.21.16.51;	author j;	state Exp;
+branches;
+next	;
+
+
+desc
+@vim
+@
+
+
+1.44
+log
+@vim
+@
+text
+@#Sifteo Blickets
 This repository provides instructions, materials, and code for using Sifteo Cubes to implement a "blicket"-type psychology experiment.
 Follow that?  If not, read on to learn what Sifteo Cubes are and what a "blicket" is! See also our recent [blog post]() about this.
 
@@ -341,3 +581,492 @@ Discuss
 * [Getting Started: Basic Animation](http://tech.sifteo.com/2013/01/22/getting-started-basic-animation/)
 * [Neighborhoods and Locality](http://tech.sifteo.com/2013/01/03/neighborhoods-and-locality/)
 * [C++ basics](http://www.cprogramming.com/tutorial.html)
+@
+
+
+1.43
+log
+@vim
+@
+text
+@d236 1
+a236 1
+Before you start your own project, be sure to read a more [comprehensive guide](http://www.cplusplus.com/doc/tutorial/functions/) to writing functions in C++ 
+@
+
+
+1.42
+log
+@vim
+@
+text
+@d235 2
+a236 2
+This brief overview of types and functions provides the reader with enough information to understand most of our blicket code.
+Be sure to read a more [comprehensive guide](http://www.cplusplus.com/doc/tutorial/functions/) to writing functions in C++ before you start your own project.
+@
+
+
+1.41
+log
+@vim
+@
+text
+@d235 1
+a235 1
+This brief overview of types and functions provides you with enough information to understand most of our blicket code.
+@
+
+
+1.40
+log
+@vim
+@
+text
+@d233 1
+a233 1
+Suppose you didn't want the add function above to return anything, you'd replace the first int on line 2 with void.
+@
+
+
+1.39
+log
+@vim
+@
+text
+@d233 1
+a233 1
+If you didn't want the add function above to return the sum of a and b, you'd replace the first int on line 2 with void.
+@
+
+
+1.38
+log
+@vim
+@
+text
+@d231 1
+a231 1
+There will be times when you don't want to have an explicit input or output for your functions, for example when you want an object (blicket) to change states (play music).
+@
+
+
+1.37
+log
+@vim
+@
+text
+@d228 1
+a228 1
+On line 2, the first int declares that the output (c) of the add function needs to be an integer.
+@
+
+
+1.36
+log
+@vim
+@
+text
+@d196 1
+@
+
+
+1.35
+log
+@vim
+@
+text
+@d237 1
+a237 1
+Another key aspect of C++ is that it's "compiled."
+@
+
+
+1.34
+log
+@vim
+@
+text
+@d230 1
+a230 1
+There will be times when you don't want to have an input or output to your function, for example when you want an object (blicket) to change states (play music).
+@
+
+
+1.33
+log
+@vim
+@
+text
+@d232 1
+a232 1
+If you didn't want it to return the sum of a and b, in the example above, you'd change the first int on line 2 to void.
+@
+
+
+1.32
+log
+@vim
+@
+text
+@d213 1
+a213 1
+In addition to variables, you also need to declare the types of a function's input and output.
+@
+
+
+1.31
+log
+@vim
+@
+text
+@d213 1
+a213 1
+In addition to variables, you also need to declare the types for functions' inputs and outputs.
+@
+
+
+1.30
+log
+@vim
+@
+text
+@d231 2
+a232 2
+These situations are handled by **void**.
+In the add example above, for example, if you didn't want it to return the sum, you'd change the first int on line 2 to void.
+@
+
+
+1.29
+log
+@vim
+@
+text
+@d235 1
+a235 1
+Before you start your own project, be sure to read a more [comprehensive guide](http://www.cplusplus.com/doc/tutorial/functions/) to writing functions in C++.
+@
+
+
+1.28
+log
+@vim
+@
+text
+@d235 1
+a235 1
+Before you start your own projects, be sure to read a more [comprehensive guide](http://www.cplusplus.com/doc/tutorial/functions/) to writing functions in C++.
+@
+
+
+1.27
+log
+@vim
+@
+text
+@d235 1
+a235 1
+Once you start your own projects, be sure to read a more [comprehensive guide](http://www.cplusplus.com/doc/tutorial/functions/) to writing functions in C++.
+@
+
+
+1.26
+log
+@vim
+@
+text
+@d235 1
+a235 1
+Once you start your own projects, you should read a more [comprehensive guide](http://www.cplusplus.com/doc/tutorial/functions/) to writing functions in C++.
+@
+
+
+1.25
+log
+@vim
+@
+text
+@d234 2
+a235 2
+This brief overview of types and functions should provide you with enough information to understand most of our blicket code.
+Once you start your own projects, you'll want to be sure to read a more [comprehensive guide](http://www.cplusplus.com/doc/tutorial/functions/) to writing functions.
+@
+
+
+1.24
+log
+@vim
+@
+text
+@d234 2
+@
+
+
+1.23
+log
+@vim
+@
+text
+@d231 2
+a232 2
+These situations are handled by the **void** data type.
+In the add example above, if you didn't want it to return the sum, you'd change the first int on line 2 to void.
+@
+
+
+1.22
+log
+@vim
+@
+text
+@d231 1
+a231 1
+These situations are handled by the _void_ data type.
+@
+
+
+1.21
+log
+@vim
+@
+text
+@d230 1
+a230 1
+There will be times when you don't want to have an input or output to your function, for example when you want a blicket to play music.
+@
+
+
+1.20
+log
+@vim
+@
+text
+@d230 1
+a230 1
+There will be times with C++ when you don't want to have an input or output to your function, for example when you want a blicket to play music.
+@
+
+
+1.19
+log
+@vim
+@
+text
+@d228 1
+a228 1
+Similarly, the second and third int's declare that the inputs of add (a and b) also need to be integers.
+@
+
+
+1.18
+log
+@vim
+@
+text
+@d232 1
+@
+
+
+1.17
+log
+@vim
+@
+text
+@d230 3
+a232 1
+An interesting data type that you'll often come across is _void_.
+@
+
+
+1.16
+log
+@vim
+@
+text
+@d230 2
+@
+
+
+1.15
+log
+@vim
+@
+text
+@d213 1
+a213 1
+In addition to variables, you also need to declare the types of functions' inputs and outputs.
+d227 2
+a228 2
+On line 2, the first int declares the output (c) of the add function to be an integer.
+The second and third int's declare that the inputs of add (a and b) also need to be integers.
+@
+
+
+1.14
+log
+@vim
+@
+text
+@d228 1
+a228 1
+The second and third int's declare the inputs a and b to be integers.
+@
+
+
+1.13
+log
+@vim
+@
+text
+@d228 1
+a228 1
+The second and third _int_s declare the inputs a and b to be integers.
+@
+
+
+1.12
+log
+@vim
+@
+text
+@d213 1
+a213 1
+You also need to declare the types of functions' inputs and outputs.
+d228 1
+a228 1
+The second and third ints declare the inputs a and b to be integers.
+@
+
+
+1.11
+log
+@vim
+@
+text
+@d213 1
+a213 1
+Type declaration also needs to be applied to the inputs and outputs of functions.
+d227 2
+a228 2
+On line 2, int declares the output (c) of the add function to be an integer.
+and int a and int b declare the types of the inputs a and b.
+@
+
+
+1.10
+log
+@vim
+@
+text
+@d214 1
+a214 1
+For instance, imagine you want to create a function that adds any two integers, a and b, together and returns their sum, c (also an integer).
+d227 2
+a228 1
+The first int declares the type of the output (c) to be an integer, "add" names the function, and int a and int b declare the types of the inputs a and b.
+@
+
+
+1.9
+log
+@vim
+@
+text
+@d227 1
+a227 1
+On line 2, the first int declares the type of the output, add names the function, and int a and int b declare the types of the inputs a and b.
+@
+
+
+1.8
+log
+@vim
+@
+text
+@d213 1
+a213 1
+Type declaration is also applied to the inputs and outputs of functions.
+d227 1
+a227 1
+
+@
+
+
+1.7
+log
+@vim
+@
+text
+@d218 1
+a218 1
+// a + b = c
+@
+
+
+1.6
+log
+@vim
+@
+text
+@d221 1
+a221 1
+    c = a + b; // perform addition and bind c;
+@
+
+
+1.5
+log
+@vim
+@
+text
+@d214 1
+a214 1
+For instance, imagine you want to create a function that adds any two integers, a and b, together and returns their sum, c.
+@
+
+
+1.4
+log
+@vim
+@
+text
+@d214 1
+a214 1
+For instance, imagine you want to create a function that adds any two integers, a and b, together and returns c, their sum.
+@
+
+
+1.3
+log
+@vim
+@
+text
+@d214 1
+a214 1
+For instance, imagine you want to create a function that adds any two integers, a and b, together.
+d219 1
+a219 1
+int add (int a, int b) {
+d227 2
+@
+
+
+1.2
+log
+@vim
+@
+text
+@d218 6
+a223 1
+int addition (int a, int b)
+@
+
+
+1.1
+log
+@vim
+@
+text
+@d213 9
+@
