@@ -31,6 +31,6 @@ Set7ConflictsOnShapeAndColor = image{{ "assets/blue_rect.png", "assets/blue_rect
 Backgrounds = image{{ "assets/bg_sleep_zoom.png", "assets/bg_wake_zoom.png" }}
 
 SfxAttach = sound{ "assets/attach.raw" }
-SfxSong = sound{ "assets/fur_elise_10s_clip.wav"}
+SfxSong = sound{ "assets/fur_elise_3s_clip.wav"}
 SfxDetach = sound{ "assets/detach.raw" }
 SfxConnect = sound{ "assets/connect.raw" }

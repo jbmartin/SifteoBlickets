@@ -83,9 +83,9 @@ static void playSfx(const AssetAudio& sfx) {
 }
 
 static void stopSfx() {
-    static int i=0;
-    AudioChannel(i).stop();
-    i = 1 - i;
+    for (int i=0; i < 8; i++) {
+        AudioChannel(i).stop();
+    }
 }
 
 static Int2 getRestPosition(Side s) {
